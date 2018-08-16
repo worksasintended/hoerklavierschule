@@ -1,9 +1,14 @@
 package com.superpowered.hoerklavierschule;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Handler;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -11,6 +16,8 @@ import android.media.AudioManager;
 import android.content.Context;
 import android.content.res.AssetFileDescriptor;
 import android.content.pm.PackageManager;
+
+import java.io.File;
 import java.io.IOException;
 import android.os.Build;
 import android.support.annotation.NonNull;
@@ -39,9 +46,29 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
         }
-
         // Got all permissions, initialize.
         initialize();
+
+    }
+
+    //open file selector
+    //TODO does not work in KitKat?
+    public void performFileSearch(View button) {
+        Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+        intent.addCategory(Intent.CATEGORY_OPENABLE);
+        intent.setType("audio/*");
+        startActivityForResult(intent, 42);
+    }
+    @Override
+    public void onActivityResult(int requestCode, int resultCode,
+                                 Intent resultData) {
+        if (requestCode == 42 && resultCode == Activity.RESULT_OK) {
+            Uri uri = null;
+            if (resultData != null) {
+                uri = resultData.getData();
+                //TODO handle file
+            }
+        }
     }
 
     @Override
@@ -79,10 +106,12 @@ public class MainActivity extends AppCompatActivity {
         String apkPath = getPackageResourcePath();
         AssetFileDescriptor fd0 = getResources().openRawResourceFd(R.raw.links);
 		AssetFileDescriptor fd1 = getResources().openRawResourceFd(R.raw.rechts);
+
         int fileAoffset = (int)fd0.getStartOffset();
 		int fileAlength = (int)fd0.getLength();
 		int fileBoffset = (int)fd1.getStartOffset();
 		int fileBlength = (int)fd1.getLength();
+
         try {
             fd0.getParcelFileDescriptor().close();
             fd1.getParcelFileDescriptor().close();
@@ -147,9 +176,25 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    //stop audio playback when app is in background
+    @Override
+    protected void onPause() {
+        super.onPause();
+        playing=false;
+        onPlayPause(playing);
+        Button b = findViewById(R.id.playPause);
+        if (b != null) b.setText("Play");
+    }
+ /*
+    //resume audio when app is in foreground
+    @Override
+    protected void onResume() {
+        super.onResume();
+        onPlayPause(true);
+    }
+*/
     // Functions implemented in the native library.
     private native void SyncPlay(int samplerate, int buffersize, String apkPath, int fileAoffset, int fileAlength, int fileBoffset, int fileBlength);
     private native void onPlayPause(boolean play);
     private native void onCrossfader(int value);
-
 }

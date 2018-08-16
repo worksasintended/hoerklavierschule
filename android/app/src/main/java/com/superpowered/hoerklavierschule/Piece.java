@@ -13,7 +13,7 @@ public class Piece {
     private File singleFile;
     private int type; // 1=left right; 2= external file
 
-    public Piece(String name, String authoror, int type){
+    public Piece(String name, String author, int type){
         this.name=name;
         this.author=author;
         this.type=type;

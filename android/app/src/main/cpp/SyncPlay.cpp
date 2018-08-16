@@ -2,12 +2,15 @@
 #include <SuperpoweredSimple.h>
 #include <SuperpoweredCPU.h>
 #include <jni.h>
+#include <AndroidIO/SuperpoweredAndroidAudioIO.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <SLES/OpenSLES.h>
 #include <SLES/OpenSLES_AndroidConfiguration.h>
 
 #define log_print __android_log_print
+
+static SuperpoweredAndroidAudioIO *audioSystem;
 
 // This is called by player A upon successful load.
 static void playerEventCallbackA (
@@ -116,7 +119,6 @@ void SyncPlay::onCrossfader(int value) {
 }
 
 
-
 #define MINFREQ 60.0f
 #define MAXFREQ 20000.0f
 
@@ -204,4 +206,32 @@ Java_com_superpowered_hoerklavierschule_MainActivity_onCrossfader (
 	piano->onCrossfader(value);
 }
 
+//saving battery power, only relevant if app is opened long without playback (implement?)
+// onBackground - Put audio processing to sleep.
+extern "C" JNIEXPORT void
+Java_com_superpowered_playerexample_MainActivity_onBackground (
+        JNIEnv * __unused env,
+        jobject __unused obj
+) {
+    audioSystem->onBackground();
+}
+// onForeground - Resume audio processing.
+extern "C" JNIEXPORT void
+Java_com_superpowered_playerexample_MainActivity_onForeground (
+        JNIEnv * __unused env,
+        jobject __unused obj
+) {
+    audioSystem->onForeground();
+}
+
+//call in MainActivity!!
+// Cleanup - Free resources.
+extern "C" JNIEXPORT void
+Java_com_superpowered_playerexample_MainActivity_Cleanup (
+        JNIEnv * __unused env,
+        jobject __unused obj
+) {
+    delete piano;
+    delete audioSystem;
+}
 
