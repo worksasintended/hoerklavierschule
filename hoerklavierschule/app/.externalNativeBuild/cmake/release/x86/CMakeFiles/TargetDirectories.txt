@@ -1,3 +1,3 @@
-/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
-/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
-/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/SyncPlay.dir
+/home/mb144122/hoerklavierschule/hoerklavierschule/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
+/home/mb144122/hoerklavierschule/hoerklavierschule/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
+/home/mb144122/hoerklavierschule/hoerklavierschule/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/SyncPlay.dir

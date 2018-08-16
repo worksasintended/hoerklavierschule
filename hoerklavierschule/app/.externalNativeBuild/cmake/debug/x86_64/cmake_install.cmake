@@ -1,4 +1,4 @@
-# Install script for directory: /home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app
+# Install script for directory: /home/mb144122/hoerklavierschule/hoerklavierschule/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/.externalNativeBuild/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mb144122/hoerklavierschule/hoerklavierschule/app/.externalNativeBuild/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -2,11 +2,11 @@
 {
 	"buildFiles" : 
 	[
-		"/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/CMakeLists.txt"
+		"/home/mb144122/hoerklavierschule/hoerklavierschule/app/CMakeLists.txt"
 	],
 	"cleanCommands" : 
 	[
-		"/home/mb144122/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+		"/home/mb144122/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/mb144122/hoerklavierschule/hoerklavierschule/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -15,24 +15,24 @@
 		{
 			"abi" : "arm64-v8a",
 			"artifactName" : "SyncPlay",
-			"buildCommand" : "/home/mb144122/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/.externalNativeBuild/cmake/debug/arm64-v8a --target SyncPlay",
+			"buildCommand" : "/home/mb144122/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/mb144122/hoerklavierschule/hoerklavierschule/app/.externalNativeBuild/cmake/debug/arm64-v8a --target SyncPlay",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/mb144122/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/mb144122/Android/Sdk/ndk-bundle/sysroot  -DSyncPlay_EXPORTS -I../../../../src/main/cpp -I../../../../../../../Superpowered -isystem /home/mb144122/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/mb144122/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/mb144122/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/mb144122/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/../../../Superpowered -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/src/main/cpp/SyncPlay.cpp",
-					"workingDirectory" : "/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/mb144122/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/mb144122/Android/Sdk/ndk-bundle/sysroot  -DSyncPlay_EXPORTS -I../../../../src/main/cpp -I../../../../../../Superpowered -isystem /home/mb144122/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/mb144122/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/mb144122/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/mb144122/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/home/mb144122/hoerklavierschule/hoerklavierschule/app/../../Superpowered -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/mb144122/hoerklavierschule/hoerklavierschule/app/src/main/cpp/SyncPlay.cpp",
+					"workingDirectory" : "/home/mb144122/hoerklavierschule/hoerklavierschule/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/mb144122/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/mb144122/Android/Sdk/ndk-bundle/sysroot  -DSyncPlay_EXPORTS -I../../../../src/main/cpp -I../../../../../../../Superpowered -isystem /home/mb144122/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/mb144122/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/mb144122/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/mb144122/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/../../../Superpowered -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/home/mb144122/Downloads/SuperpoweredSDK/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp",
-					"workingDirectory" : "/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/mb144122/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/mb144122/Android/Sdk/ndk-bundle/sysroot  -DSyncPlay_EXPORTS -I../../../../src/main/cpp -I../../../../../../Superpowered -isystem /home/mb144122/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/mb144122/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/mb144122/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/mb144122/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/home/mb144122/hoerklavierschule/hoerklavierschule/app/../../Superpowered -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/mb144122/hoerklavierschule/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp",
+					"workingDirectory" : "/home/mb144122/hoerklavierschule/hoerklavierschule/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				}
 			],
-			"output" : "/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/build/intermediates/cmake/debug/obj/arm64-v8a/libSyncPlay.so",
+			"output" : "/home/mb144122/hoerklavierschule/hoerklavierschule/app/build/intermediates/cmake/debug/obj/arm64-v8a/libSyncPlay.so",
 			"toolchain" : "861861242839361913"
 		}
 	},

@@ -18,24 +18,16 @@ static void playerEventCallbackA (
     if (event == SuperpoweredAdvancedAudioPlayerEvent_LoadSuccess) {
         // The pointer to the player is passed to the event callback via the custom clientData pointer.
     	SuperpoweredAdvancedAudioPlayer *playerA = *((SuperpoweredAdvancedAudioPlayer **)clientData);
-        //playerA->setBpm(126.0f);
-        //playerA->setFirstBeatMs(353);
-        //playerA->setPosition(0, false, false);
     };
 }
 
-// This is called by player B upon successful load.
 static void playerEventCallbackB(
 	void *clientData,   // &playerB
 	SuperpoweredAdvancedAudioPlayerEvent event,
 	void * __unused value
 ) {
     if (event == SuperpoweredAdvancedAudioPlayerEvent_LoadSuccess) {
-        // The pointer to the player is passed to the event callback via the custom clientData pointer.
-    	SuperpoweredAdvancedAudioPlayer *playerB = *((SuperpoweredAdvancedAudioPlayer **)clientData);
-        //playerB->setBpm(123.0f);
-        //playerB->setFirstBeatMs(40);
-        //playerB->setPosition(0, false, false);
+       	SuperpoweredAdvancedAudioPlayer *playerB = *((SuperpoweredAdvancedAudioPlayer **)clientData);
     };
 }
 
@@ -49,7 +41,7 @@ static bool audioProcessing (
 	return ((SyncPlay *)clientdata)->process(audioIO, (unsigned int)numFrames);
 }
 
-// Crossfader klavier - Initialize players and audio engine
+//Initialize players and audio engine
 SyncPlay::SyncPlay (
 		unsigned int samplerate,    // sampling rate
 		unsigned int buffersize,    // buffer size
