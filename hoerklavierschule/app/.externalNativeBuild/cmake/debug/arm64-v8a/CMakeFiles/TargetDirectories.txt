@@ -1,0 +1,3 @@
+/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/SyncPlay.dir

@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/mb144122/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+  ],
+  "libraries": {
+    "SyncPlay-Debug-x86_64": {
+      "artifactName": "SyncPlay",
+      "buildCommand": "/home/mb144122/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/.externalNativeBuild/cmake/debug/x86_64 --target SyncPlay",
+      "abi": "x86_64",
+      "output": "/home/mb144122/Downloads/SuperpoweredSDK/Examples_Android/SuperpoweredCrossExample/app/build/intermediates/cmake/debug/obj/x86_64/libSyncPlay.so"
+    }
+  }
+}

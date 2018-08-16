@@ -1,0 +1,6 @@
+# ninja log v5
+0	56	0	CMakeFiles/SyncPlay.dir/home/mb144122/Downloads/SuperpoweredSDK/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp.o	9596dcf0a6c221d1
+0	61	0	CMakeFiles/SyncPlay.dir/src/main/cpp/SyncPlay.cpp.o	ff330ab305e73d09
+61	133	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libSyncPlay.so	9de3693650d3506
+1	86	0	CMakeFiles/SyncPlay.dir/src/main/cpp/SyncPlay.cpp.o	ff330ab305e73d09
+86	184	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libSyncPlay.so	9de3693650d3506
