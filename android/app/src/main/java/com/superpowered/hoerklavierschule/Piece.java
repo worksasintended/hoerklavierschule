@@ -10,21 +10,14 @@ public class Piece {
     private String author;
     private String shoplink;
     private ArrayList<Audio> audios;
-    private File singleFile;
-    private int type; // 1=left right; 2= external file
 
-    public Piece(String name, String author, int type){
+    public Piece(String name, String author){
         this.name=name;
         this.author=author;
-        this.type=type;
     }
 
     public void addShoplink(String shoplink){
         this.shoplink=shoplink;
-    }
-
-    public void addSingleFile(File file){
-        this.singleFile=file;
     }
 
     public void addAudio(Audio audio){

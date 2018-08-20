@@ -21,6 +21,8 @@ public:
 	bool process(short int *output, unsigned int numberOfSamples);
 	void onPlayPause(bool play);
 	void onCrossfader(int value);
+	void pitchCents(int pitch);
+    void setTempo(int tempo);
 
 
 private:

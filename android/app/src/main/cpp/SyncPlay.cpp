@@ -5,12 +5,19 @@
 #include <AndroidIO/SuperpoweredAndroidAudioIO.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <vector>
 #include <SLES/OpenSLES.h>
 #include <SLES/OpenSLES_AndroidConfiguration.h>
 
-#define log_print __android_log_print
 
+#define log_print __android_log_print
 static SuperpoweredAndroidAudioIO *audioSystem;
+std::vector<SuperpoweredAdvancedAudioPlayer*> players;
+
+//global vars for pitching (setPitch() and setPitchCents() not cumulative)
+int cents=0;
+int halfs=0;
+
 
 // This is called by player A upon successful load.
 static void playerEventCallbackA (
@@ -58,14 +65,23 @@ SyncPlay::SyncPlay (
     // Allocate aligned memory for floating point buffer.
     stereoBuffer = (float *)memalign(16, buffersize * sizeof(float) * 2);
 
+
     // Initialize players and open audio files.
     playerA = new SuperpoweredAdvancedAudioPlayer(&playerA, playerEventCallbackA, samplerate, 0);
-    playerA->open(path, fileAoffset, fileAlength);
     playerB = new SuperpoweredAdvancedAudioPlayer(&playerB, playerEventCallbackB, samplerate, 0);
+    playerA->syncMode = playerB->syncMode = SuperpoweredAdvancedAudioPlayerSyncMode_Tempo;
+
     playerB->open(path, fileBoffset, fileBlength);
+    playerA->open(path, fileAoffset, fileAlength);
 
-    playerA->syncMode = playerB->syncMode = SuperpoweredAdvancedAudioPlayerSyncMode_TempoAndBeat;
+    players.push_back(playerA);
+    players.push_back(playerB);
 
+
+    for(auto player: players){
+        player->maxTimeStretchingTempo=2;
+        player->minTimeStretchingTempo=0.3;
+    }
 
     // Initialize audio engine and pass callback function.
     audioSystem = new SuperpoweredAndroidAudioIO (
@@ -93,13 +109,14 @@ SyncPlay::~SyncPlay() {
 // onPlayPause - Toggle playback state of players.
 void SyncPlay::onPlayPause(bool play) {
     if (!play) {
-        playerA->pause();
-        playerB->pause();
-    } else {
-        bool masterIsA = (crossValue <= 0.5f);
-        playerA->play(!masterIsA);
-        playerB->play(masterIsA);
-    };
+        for(auto player:players){
+            player->pause();
+        }
+    }else{
+        for(auto player: players){
+            player->play(true);
+        }
+    }
     SuperpoweredCPU::setSustainedPerformanceMode(play); // <-- Important to prevent audio dropouts.
 }
 
@@ -118,6 +135,19 @@ void SyncPlay::onCrossfader(int value) {
     };
 }
 
+void SyncPlay::pitchCents(int pitch) {
+    for(auto player:players){
+        player->setPitchShiftCents(int(pitch));
+    }
+}
+
+
+void SyncPlay::setTempo(int tempo){
+    for(auto player:players){
+        player->setTempo(float(1./3.+(float)tempo/100.*5./3.), true); //min 1/3 max 2
+    }
+//TODO clear() buffer for new settings?
+}
 
 #define MINFREQ 60.0f
 #define MAXFREQ 20000.0f
@@ -233,5 +263,36 @@ Java_com_superpowered_playerexample_MainActivity_Cleanup (
 ) {
     delete piano;
     delete audioSystem;
+}
+//pitch in Cents
+extern "C" JNIEXPORT void
+Java_com_superpowered_hoerklavierschule_MainActivity_pitchCents (
+        JNIEnv * __unused env,
+        jobject __unused obj,
+        jint value
+) {
+    cents=value/2-25;
+    piano->pitchCents(int(cents+halfs));
+}
+
+//set pitch (-12:12)
+extern "C" JNIEXPORT void
+Java_com_superpowered_hoerklavierschule_MainActivity_pitch (
+        JNIEnv * __unused env,
+        jobject __unused obj,
+        jint value
+) {
+    halfs=100*value;
+    piano->pitchCents(int(cents+halfs));
+}
+
+//change tempo
+extern "C" JNIEXPORT void
+Java_com_superpowered_hoerklavierschule_MainActivity_setTempo (
+        JNIEnv * __unused env,
+        jobject __unused obj,
+        jint value1
+) {
+    piano->setTempo(value1);
 }
 
