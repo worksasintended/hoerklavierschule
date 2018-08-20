@@ -16,15 +16,45 @@ public class Piece {
         this.author=author;
     }
 
-    public void addShoplink(String shoplink){
-        this.shoplink=shoplink;
+    public Piece(){
+
     }
 
-    public void addAudio(Audio audio){
-        this.audios.add(audio);
-    }
-
+    //sort audios by level (you want them displayed in numerical order)
     public void sortLevels(){
         Collections.sort(audios);
+    }
+
+    //getters and setters
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public String getShoplink() {
+        return shoplink;
+    }
+
+    public void setShoplink(String shoplink) {
+        this.shoplink = shoplink;
+    }
+
+    public ArrayList<Audio> getAudios() {
+        return audios;
+    }
+
+    public void setAudios(ArrayList<Audio> audios) {
+        this.audios = audios;
     }
 }
