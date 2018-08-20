@@ -48,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
         }
-        // Got all permissions, initialize.
+
+        // Got all permissions, initialize
         initialize();
         play(new Audio());
 
@@ -144,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
 
         //setup tempo events
         final SeekBar tempo = findViewById(R.id.tempo);
-        tempo.setProgress(50);
+        tempo.setProgress(40);
         if (tempo != null) tempo.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 setTempo(progress);

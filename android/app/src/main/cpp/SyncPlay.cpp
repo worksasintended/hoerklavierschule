@@ -149,6 +149,7 @@ void SyncPlay::pitchCents(int pitch) {
 void SyncPlay::setTempo(int tempo){
     for(auto player:players){
         player->setTempo(float(1./3.+(float)tempo/100.*5./3.), true); //min 1/3 max 2
+        //tempo=40 -> original tempo
     }
 //TODO clear() buffer for new settings?
 }
