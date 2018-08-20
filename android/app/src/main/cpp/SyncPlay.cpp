@@ -12,6 +12,7 @@
 
 #define log_print __android_log_print
 static SuperpoweredAndroidAudioIO *audioSystem;
+static SyncPlay *piano = NULL;
 std::vector<SuperpoweredAdvancedAudioPlayer*> players;
 
 //global vars for pitching (setPitch() and setPitchCents() not cumulative)
@@ -60,7 +61,7 @@ SyncPlay::SyncPlay (
 		int fileAlength,            // length of file A
 		int fileBoffset,            // offset of file B in APK
 		int fileBlength             // length of file B
-) : crossValue(0.0f), volB(.5f *headroom), volA(.5f * headroom)
+) : crossValue(0.0f), volB(1.f *headroom), volA(1.f * headroom)
 {
     // Allocate aligned memory for floating point buffer.
     stereoBuffer = (float *)memalign(16, buffersize * sizeof(float) * 2);
@@ -100,9 +101,9 @@ SyncPlay::SyncPlay (
 // Destructor. Free resources.
 SyncPlay::~SyncPlay() {
     delete audioSystem;
-    delete playerA;
-    delete playerB;
-
+    for(auto player:players){
+        delete player;
+    }
     free(stereoBuffer);
 }
 
@@ -129,10 +130,13 @@ void SyncPlay::onCrossfader(int value) {
     } else if (crossValue > 0.99f) {
         volA = 0.0f;
         volB = 1.0f * headroom;
-    } else { // constant power curve
-        volA = cosf(float(M_PI_2) * crossValue) * headroom;
-        volB = cosf(float(M_PI_2) * (1.0f - crossValue)) * headroom;
-    };
+    } else if (crossValue <=0.5f) {
+        volA = 1.0f * headroom;
+        volB = sinf( (float)M_PI_2 * 2.0f * crossValue ) * headroom;
+    } else{
+        volA = sinf( (float)M_PI_2 * (2.0f-2.0f*crossValue) ) * headroom;
+        volB = 1.0f*headroom;
+    }
 }
 
 void SyncPlay::pitchCents(int pitch) {
@@ -196,7 +200,6 @@ bool SyncPlay::process (
     return !silence;
 }
 
-static SyncPlay *piano = NULL;
 
 extern "C" JNIEXPORT void
 Java_com_superpowered_hoerklavierschule_MainActivity_SyncPlay (

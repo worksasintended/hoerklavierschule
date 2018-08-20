@@ -39,8 +39,7 @@ public class MainActivity extends AppCompatActivity {
         // Checking permissions.
         String[] permissions = {
                 Manifest.permission.MODIFY_AUDIO_SETTINGS,
-                Manifest.permission.READ_EXTERNAL_STORAGE,
-                //Manifest.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS //TODO activate for KitKat and Newer
+                Manifest.permission.READ_EXTERNAL_STORAGE
         };
         for (String s:permissions) {
             if (ContextCompat.checkSelfPermission(this, s) != PackageManager.PERMISSION_GRANTED) {
