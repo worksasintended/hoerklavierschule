@@ -4,7 +4,7 @@ def superpowered_sdk_path = new File(projectDir, '../../Superpowered')
 
 android { // main settings for your application
     compileSdkVersion = 27
-    buildToolsVersion = '27.0.3'
+    buildToolsVersion = '28.0.2'
 
     defaultConfig {
         applicationId "com.superpowered.hoerklavierschule"
@@ -21,7 +21,7 @@ android { // main settings for your application
             cmake {
                 arguments '-DANDROID_PLATFORM=android-16', '-DANDROID_TOOLCHAIN=clang', '-DANDROID_ARM_NEON=TRUE', '-DANDROID_STL=gnustl_static', "-DPATH_TO_SUPERPOWERED:STRING=${superpowered_sdk_path}"
                 cFlags '-O3', '-fsigned-char' // full optimization, char data type is signed
-                cppFlags '-fsigned-char', "-I${superpowered_sdk_path}", "-std=c++1y"
+                cppFlags '-fsigned-char', "-I${superpowered_sdk_path}"
             }
         }
     }
@@ -34,6 +34,20 @@ android { // main settings for your application
 }
 
 dependencies {
+    //* Room dependency
+    def room_version = "1.1.1"
+
+    implementation "android.arch.persistence.room:runtime:$room_version"
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    annotationProcessor "android.arch.persistence.room:compiler:$room_version"
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:27.1.1'
+
+    // constraint layout dependency
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+
+    // navigation view dependency
+    implementation 'com.android.support:design:27.1.1'
 }

@@ -22,14 +22,14 @@ public:
 	void onPlayPause(bool play);
 	void onCrossfader(int value);
 	void pitchCents(int pitch);
-    void setTempo(int tempo);
+	void setTempo(int tempo);
 
 
 private:
-    SuperpoweredAndroidAudioIO *audioSystem;
-    SuperpoweredAdvancedAudioPlayer *playerA, *playerB;
-    float *stereoBuffer;
-    float crossValue, volA, volB;
+	SuperpoweredAndroidAudioIO *audioSystem;
+	SuperpoweredAdvancedAudioPlayer *playerA, *playerB;
+	float *stereoBuffer;
+	float crossValue, volA, volB;
 };
 
 #endif

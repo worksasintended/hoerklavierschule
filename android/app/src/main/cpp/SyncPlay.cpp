@@ -22,45 +22,45 @@ int halfs=0;
 
 // This is called by player A upon successful load.
 static void playerEventCallbackA (
-	void *clientData,   // &playerA
-	SuperpoweredAdvancedAudioPlayerEvent event,
-	void * __unused value
+        void *clientData,   // &playerA
+        SuperpoweredAdvancedAudioPlayerEvent event,
+        void * __unused value
 ) {
     if (event == SuperpoweredAdvancedAudioPlayerEvent_LoadSuccess) {
         // The pointer to the player is passed to the event callback via the custom clientData pointer.
-    	SuperpoweredAdvancedAudioPlayer *playerA = *((SuperpoweredAdvancedAudioPlayer **)clientData);
+        SuperpoweredAdvancedAudioPlayer *playerA = *((SuperpoweredAdvancedAudioPlayer **)clientData);
     };
 }
 
 static void playerEventCallbackB(
-	void *clientData,   // &playerB
-	SuperpoweredAdvancedAudioPlayerEvent event,
-	void * __unused value
+        void *clientData,   // &playerB
+        SuperpoweredAdvancedAudioPlayerEvent event,
+        void * __unused value
 ) {
     if (event == SuperpoweredAdvancedAudioPlayerEvent_LoadSuccess) {
-       	SuperpoweredAdvancedAudioPlayer *playerB = *((SuperpoweredAdvancedAudioPlayer **)clientData);
+        SuperpoweredAdvancedAudioPlayer *playerB = *((SuperpoweredAdvancedAudioPlayer **)clientData);
     };
 }
 
 // Audio callback function. Called by the audio engine.
 static bool audioProcessing (
-	void *clientdata,		    // A custom pointer your callback receives.
-	short int *audioIO,		    // 16-bit stereo interleaved audio input and/or output.
-	int numFrames,			    // The number of frames received and/or requested.
-	int __unused samplerate	    // The current sample rate in Hz.
+        void *clientdata,		    // A custom pointer your callback receives.
+        short int *audioIO,		    // 16-bit stereo interleaved audio input and/or output.
+        int numFrames,			    // The number of frames received and/or requested.
+        int __unused samplerate	    // The current sample rate in Hz.
 ) {
-	return ((SyncPlay *)clientdata)->process(audioIO, (unsigned int)numFrames);
+    return ((SyncPlay *)clientdata)->process(audioIO, (unsigned int)numFrames);
 }
 
 //Initialize players and audio engine
 SyncPlay::SyncPlay (
-		unsigned int samplerate,    // sampling rate
-		unsigned int buffersize,    // buffer size
+        unsigned int samplerate,    // sampling rate
+        unsigned int buffersize,    // buffer size
         const char *path,           // path to APK package
-		int fileAoffset,            // offset of file A in APK
-		int fileAlength,            // length of file A
-		int fileBoffset,            // offset of file B in APK
-		int fileBlength             // length of file B
+        int fileAoffset,            // offset of file A in APK
+        int fileAlength,            // length of file A
+        int fileBoffset,            // offset of file B in APK
+        int fileBlength             // length of file B
 ) : crossValue(0.0f), volB(1.f *headroom), volA(1.f * headroom)
 {
     // Allocate aligned memory for floating point buffer.
@@ -86,16 +86,16 @@ SyncPlay::SyncPlay (
 
     // Initialize audio engine and pass callback function.
     audioSystem = new SuperpoweredAndroidAudioIO (
-			samplerate,                     // sampling rate
-			buffersize,                     // buffer size
-			false,                          // enableInput
-			true,                           // enableOutput
-			audioProcessing,                // audio callback function
-			this,                           // clientData
-			-1,                             // inputStreamType (-1 = default)
-			SL_ANDROID_STREAM_MEDIA,        // outputStreamType (-1 = default)
-			buffersize * 2                  // latency (frames)
-	);
+            samplerate,                     // sampling rate
+            buffersize,                     // buffer size
+            false,                          // enableInput
+            true,                           // enableOutput
+            audioProcessing,                // audio callback function
+            this,                           // clientData
+            -1,                             // inputStreamType (-1 = default)
+            SL_ANDROID_STREAM_MEDIA,        // outputStreamType (-1 = default)
+            buffersize * 2                  // latency (frames)
+    );
 }
 
 // Destructor. Free resources.
@@ -204,46 +204,46 @@ bool SyncPlay::process (
 
 extern "C" JNIEXPORT void
 Java_com_superpowered_hoerklavierschule_MainActivity_SyncPlay (
-		JNIEnv *env,
-		jobject __unused obj,
-		jint samplerate,        // sampling rate
-		jint buffersize,        // buffer size
-		jstring apkPath,        // path to APK package
-		jint fileAoffset,       // offset of file A in APK
-		jint fileAlength,       // length of file A
-		jint fileBoffset,       // offset of file B in APK
-		jint fileBlength        // length of file B
+        JNIEnv *env,
+        jobject __unused obj,
+        jint samplerate,        // sampling rate
+        jint buffersize,        // buffer size
+        jstring apkPath,        // path to APK package
+        jint fileAoffset,       // offset of file A in APK
+        jint fileAlength,       // length of file A
+        jint fileBoffset,       // offset of file B in APK
+        jint fileBlength        // length of file B
 ) {
     const char *path = env->GetStringUTFChars(apkPath, JNI_FALSE);
     piano = new SyncPlay((unsigned int)samplerate, (unsigned int)buffersize,
-			path, fileAoffset, fileAlength, fileBoffset, fileBlength);
+                         path, fileAoffset, fileAlength, fileBoffset, fileBlength);
     env->ReleaseStringUTFChars(apkPath, path);
 }
 
 // onPlayPause - Toggle playback state of player.
 extern "C" JNIEXPORT void
-Java_com_superpowered_hoerklavierschule_MainActivity_onPlayPause (
+Java_com_superpowered_hoerklavierschule_AudioPlayFragment_onPlayPause (
         JNIEnv * __unused env,
         jobject __unused obj,
         jboolean play
 ) {
-	piano->onPlayPause(play);
+    piano->onPlayPause(play);
 }
 
 // onCrossfader - Handle crossfader events.
 extern "C" JNIEXPORT void
-Java_com_superpowered_hoerklavierschule_MainActivity_onCrossfader (
+Java_com_superpowered_hoerklavierschule_AudioPlayFragment_onCrossfader (
         JNIEnv * __unused env,
         jobject __unused obj,
         jint value
 ) {
-	piano->onCrossfader(value);
+    piano->onCrossfader(value);
 }
 
 //saving battery power, only relevant if app is opened long without playback (implement?)
 // onBackground - Put audio processing to sleep.
 extern "C" JNIEXPORT void
-Java_com_superpowered_playerexample_MainActivity_onBackground (
+Java_com_superpowered_playerexample_AudioPlayFragment_onBackground (
         JNIEnv * __unused env,
         jobject __unused obj
 ) {
@@ -251,17 +251,17 @@ Java_com_superpowered_playerexample_MainActivity_onBackground (
 }
 // onForeground - Resume audio processing.
 extern "C" JNIEXPORT void
-Java_com_superpowered_playerexample_MainActivity_onForeground (
+Java_com_superpowered_playerexample_AudioPlayFragment_onForeground (
         JNIEnv * __unused env,
         jobject __unused obj
 ) {
     audioSystem->onForeground();
 }
 
-//call in MainActivity!!
+//call in AudioPlayFragment!!
 // Cleanup - Free resources.
 extern "C" JNIEXPORT void
-Java_com_superpowered_playerexample_MainActivity_Cleanup (
+Java_com_superpowered_playerexample_AudioPlayFragment_Cleanup (
         JNIEnv * __unused env,
         jobject __unused obj
 ) {
@@ -270,7 +270,7 @@ Java_com_superpowered_playerexample_MainActivity_Cleanup (
 }
 //pitch in Cents
 extern "C" JNIEXPORT void
-Java_com_superpowered_hoerklavierschule_MainActivity_pitchCents (
+Java_com_superpowered_hoerklavierschule_AudioPlayFragment_pitchCents (
         JNIEnv * __unused env,
         jobject __unused obj,
         jint value
@@ -281,7 +281,7 @@ Java_com_superpowered_hoerklavierschule_MainActivity_pitchCents (
 
 //set pitch (-12:12)
 extern "C" JNIEXPORT void
-Java_com_superpowered_hoerklavierschule_MainActivity_pitch (
+Java_com_superpowered_hoerklavierschule_AudioPlayFragment_pitch (
         JNIEnv * __unused env,
         jobject __unused obj,
         jint value
@@ -292,7 +292,7 @@ Java_com_superpowered_hoerklavierschule_MainActivity_pitch (
 
 //change tempo
 extern "C" JNIEXPORT void
-Java_com_superpowered_hoerklavierschule_MainActivity_setTempo (
+Java_com_superpowered_hoerklavierschule_AudioPlayFragment_setTempo (
         JNIEnv * __unused env,
         jobject __unused obj,
         jint value1
