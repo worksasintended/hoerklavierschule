@@ -1,0 +1,4 @@
+# ninja log v5
+0	88	0	CMakeFiles/SyncPlay.dir/home/ghostgate/AndroidStudioProjects/hoerklavierschule/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp.o	64dce6418731941b
+0	178	0	CMakeFiles/SyncPlay.dir/src/main/cpp/SyncPlay.cpp.o	6d59f0924426cae8
+178	228	0	../../../../build/intermediates/cmake/debug/obj/x86/libSyncPlay.so	4c12c9bf393230cb

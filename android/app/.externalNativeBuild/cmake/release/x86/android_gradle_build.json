@@ -1,0 +1,47 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/ghostgate/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"SyncPlay-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "SyncPlay",
+			"buildCommand" : "/home/ghostgate/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/x86 --target SyncPlay",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/ghostgate/Android/Sdk/android-ndk-r17c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/ghostgate/Android/Sdk/android-ndk-r17c/sysroot  -DSyncPlay_EXPORTS -I../../../../src/main/cpp -I../../../../../../Superpowered -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/../../Superpowered -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/cpp/SyncPlay.cpp",
+					"workingDirectory" : "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/ghostgate/Android/Sdk/android-ndk-r17c/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/ghostgate/Android/Sdk/android-ndk-r17c/sysroot  -DSyncPlay_EXPORTS -I../../../../src/main/cpp -I../../../../../../Superpowered -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/../../Superpowered -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp",
+					"workingDirectory" : "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/cmake/release/obj/x86/libSyncPlay.so",
+			"toolchain" : "6649343472725824502"
+		}
+	},
+	"toolchains" : 
+	{
+		"6649343472725824502" : 
+		{
+			"cCompilerExecutable" : "/home/ghostgate/Android/Sdk/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/ghostgate/Android/Sdk/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

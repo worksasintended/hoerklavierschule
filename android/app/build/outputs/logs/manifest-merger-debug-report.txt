@@ -1,0 +1,135 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7c29d12718c5f5e65375fb819fc06761/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f9ec97ef1ddd52081e52f93179fe203e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/ee8e857c01ca719d4b262c3c39b82e79/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/23259d5872b461b8eb3865ebf527a72f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ca0d28b7ff064adc44077947a041237a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ba86b56eb65e0366098ff5ecb42b5428/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/7821c4409c2d9639207f51dfdc869f91/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/94c91bc54b01f7f0852ad0c76382ef8d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d6efc7225cfe7e6a2b8954a82e8bc24f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c111abbf8bc8b0b4c250077ddeb0ed44/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2fbdbbd17d7b7834e6a29a9c989c3952/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/51fe76821f56d41720f306d5f3f57d2a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/bec74ba7c85dcaac41174007cb2d395b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e1e9e4edfd697758f43f3a8a904a9554/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f13c8fccdbd4d4a9fd137574b44318db/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5e85aec6f3faee74daecfb21a99431a3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/f764cfb83a7776f199d7380f90a2b8ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c7825b67d9e676371aeb9a6e3dfa5340/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c349f1909869f06acd436fca118fcdc7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/021cf5b877ceefb5c66c27413b5b3fdc/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:5:22-77
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:6:22-77
+application
+ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:8:5-23:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ba86b56eb65e0366098ff5ecb42b5428/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ba86b56eb65e0366098ff5ecb42b5428/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:10:9-45
+	android:allowBackup
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:12:9-49
+activity#com.superpowered.hoerklavierschule.MainActivity
+ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:13:9-22:20
+	android:label
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:15:13-45
+	android:configChanges
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:16:13-59
+	android:name
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:14:13-75
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7c29d12718c5f5e65375fb819fc06761/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7c29d12718c5f5e65375fb819fc06761/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f9ec97ef1ddd52081e52f93179fe203e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f9ec97ef1ddd52081e52f93179fe203e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/ee8e857c01ca719d4b262c3c39b82e79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/ee8e857c01ca719d4b262c3c39b82e79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/23259d5872b461b8eb3865ebf527a72f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/23259d5872b461b8eb3865ebf527a72f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ca0d28b7ff064adc44077947a041237a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ca0d28b7ff064adc44077947a041237a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ba86b56eb65e0366098ff5ecb42b5428/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ba86b56eb65e0366098ff5ecb42b5428/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.persistence:db-framework:1.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/7821c4409c2d9639207f51dfdc869f91/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/7821c4409c2d9639207f51dfdc869f91/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/94c91bc54b01f7f0852ad0c76382ef8d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/94c91bc54b01f7f0852ad0c76382ef8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d6efc7225cfe7e6a2b8954a82e8bc24f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d6efc7225cfe7e6a2b8954a82e8bc24f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c111abbf8bc8b0b4c250077ddeb0ed44/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c111abbf8bc8b0b4c250077ddeb0ed44/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2fbdbbd17d7b7834e6a29a9c989c3952/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2fbdbbd17d7b7834e6a29a9c989c3952/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/51fe76821f56d41720f306d5f3f57d2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/51fe76821f56d41720f306d5f3f57d2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/bec74ba7c85dcaac41174007cb2d395b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/bec74ba7c85dcaac41174007cb2d395b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e1e9e4edfd697758f43f3a8a904a9554/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e1e9e4edfd697758f43f3a8a904a9554/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f13c8fccdbd4d4a9fd137574b44318db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f13c8fccdbd4d4a9fd137574b44318db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5e85aec6f3faee74daecfb21a99431a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5e85aec6f3faee74daecfb21a99431a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/f764cfb83a7776f199d7380f90a2b8ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/f764cfb83a7776f199d7380f90a2b8ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c7825b67d9e676371aeb9a6e3dfa5340/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c7825b67d9e676371aeb9a6e3dfa5340/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c349f1909869f06acd436fca118fcdc7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c349f1909869f06acd436fca118fcdc7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/021cf5b877ceefb5c66c27413b5b3fdc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/ghostgate/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/021cf5b877ceefb5c66c27413b5b3fdc/AndroidManifest.xml:20:5-44
+INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/AndroidManifest.xml
