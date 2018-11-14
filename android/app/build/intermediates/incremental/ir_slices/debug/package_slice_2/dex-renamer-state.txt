@@ -1,4 +1,4 @@
-#Fri Oct 12 08:51:46 CEST 2018
+#Mon Oct 15 11:31:52 CEST 2018
 base.0=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/dexMerger/debug/2
 path.0=classes.dex
 renamed.0=classes.dex

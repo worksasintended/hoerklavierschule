@@ -1,14 +1,14 @@
 #Internal package file, do not edit.
-#Fri Oct 12 08:51:47 CEST 2018
+#Fri Oct 12 09:21:03 CEST 2018
 4.path=lib/arm64-v8a/libSyncPlay.so
 13.baseType=DIRECTORY
-8.set=DEX
+8.set=NATIVE_RESOURCE
 6.path=classes.dex
 0.baseType=DIRECTORY
 10.path=classes.dex
 5.baseType=DIRECTORY
 1.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/dexMerger/debug/19
-8.path=classes.dex
+8.path=lib/x86/libSyncPlay.so
 12.path=classes.dex
 3.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 14.path=classes.dex
@@ -16,7 +16,7 @@
 5.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 7.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/dexMerger/debug/11
 11.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/dexMerger/debug/12
-9.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+9.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/dexMerger/debug/21
 13.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/dexMerger/debug/14
 1.baseType=DIRECTORY
 11.set=DEX
@@ -36,7 +36,7 @@
 0.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/dexMerger/debug/16
 7.path=classes.dex
 11.path=classes.dex
-9.path=lib/x86/libSyncPlay.so
+9.path=classes.dex
 6.set=DEX
 2.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/dexMerger/debug/18
 13.path=classes.dex
@@ -46,12 +46,12 @@
 6.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/dexMerger/debug/20
 10.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/dexMerger/debug/13
 13.set=DEX
-8.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/dexMerger/debug/21
+8.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 2.set=DEX
 8.baseType=DIRECTORY
 12.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/dexMerger/debug/15
 14.base=/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/transforms/dexMerger/debug/17
-9.set=NATIVE_RESOURCE
+9.set=DEX
 count=15
 12.baseType=DIRECTORY
 4.baseType=DIRECTORY

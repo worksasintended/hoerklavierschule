@@ -26,6 +26,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.superpowered.hoerklavierschule.sql.Piece;
+import com.superpowered.hoerklavierschule.sql.Settings;
 
 import java.io.IOException;
 
@@ -34,12 +35,19 @@ public class MainActivity extends AppCompatActivity implements AudioPlayFragment
     public NavigationView navigationView;
     public Toolbar toolbar;
 
+    public Context context;
+    public Settings settings;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         restoreTheme();
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
+        context = getApplicationContext();
+        settings = new Settings(context);
+
+        setView();
+        restoreSettings();
         checkPermissions();
         initView();
         setToolbar();
@@ -87,6 +95,24 @@ public class MainActivity extends AppCompatActivity implements AudioPlayFragment
         //* close navigation drawer
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    /**
+     * onStart call, get settings like saved instance
+     */
+    public void restoreSettings () {
+        settings.clearSavedFragment();
+    }
+
+    private void setView() {
+        setContentView(R.layout.activity_main);
+
+        if(settings.onStart_showAudio()) {
+            show_AudioPlay_Fragment(true);
+        }
+        else if (settings.onStart_showList()) {
+            show_AudioItem_Fragment(true);
+        }
     }
 
     /**
@@ -205,13 +231,13 @@ public class MainActivity extends AppCompatActivity implements AudioPlayFragment
         FragmentManager manager = getSupportFragmentManager();
         FragmentTransaction transaction = manager.beginTransaction();
 
-        Fragment fragment = new AudioPlayFragment();
+        AudioPlayFragment fragment = new AudioPlayFragment();
 
         if (firstTime) {
-            transaction.add(R.id.activity_main, fragment, "");
+            transaction.add(R.id.activity_main, fragment, "AUDIO_PLAY_FRAGMENT");
         }
         else {
-            transaction.replace(R.id.activity_main, fragment, "");
+            transaction.replace(R.id.activity_main, fragment, "AUDIO_PLAY_FRAGMENT");
         }
 
         transaction.addToBackStack(null);
@@ -244,6 +270,29 @@ public class MainActivity extends AppCompatActivity implements AudioPlayFragment
     @Override
     public void onFragmentInteraction(Uri uri) {
 
+    }
+
+    @Override
+    public void onPause() {
+        AudioPlayFragment audioPlayFragment = (AudioPlayFragment)getSupportFragmentManager().findFragmentByTag("AUDIO_PLAY_FRAGMENT");
+        AudioItemFragment audioItemFragment = (AudioItemFragment)getSupportFragmentManager().findFragmentByTag("AUDIO_ITEM_FRAGMENT");
+
+        Log.d("onPause", "saving current state...");
+
+        if (audioPlayFragment != null && audioPlayFragment.isVisible()) {
+            Log.d("Fragment", "AudioPlayFragment is visible: true");n
+
+            settings.set_onStart_showAudio(true);
+        }
+        else if (audioItemFragment != null && audioItemFragment.isVisible()) {
+            Log.d("Fragment", "AudioItemFragment is visible: true");
+
+            settings.set_onStart_showList(true);
+        }
+
+        Log.d("onPause", "saving current state... [OK]");
+
+        super.onPause();
     }
 
     private native void SyncPlay(int samplerate, int buffersize, String apkPath, int fileAoffset, int fileAlength, int fileBoffset, int fileBlength);
