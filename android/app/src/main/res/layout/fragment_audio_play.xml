@@ -142,12 +142,13 @@
                         android:layout_marginRight="8dp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/seekBar_tempo" />
+			app:layout_constraintTop_toBottomOf="@+id/seekBar_tempo"
+			android:max="23"
+                        android:progress="1" />
+
 
                     <SeekBar
                         android:id="@+id/seekBar_pitchCents"
-                        android:max="23"
-                        android:progress="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
