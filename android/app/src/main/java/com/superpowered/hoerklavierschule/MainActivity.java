@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements AudioPlayFragment
     public Context context;
     public Settings settings;
 
+    private boolean firstTimeFrgm = true;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         restoreTheme();
@@ -47,13 +49,12 @@ public class MainActivity extends AppCompatActivity implements AudioPlayFragment
         settings = new Settings(context);
 
         setView();
-        restoreSettings();
         checkPermissions();
         initView();
         setToolbar();
         setListener();
 
-        initialize();
+        // initialize();
     }
 
     @Override
@@ -84,12 +85,14 @@ public class MainActivity extends AppCompatActivity implements AudioPlayFragment
         switch (id) {
 
             case R.id.nav_pieces:
-                show_AudioItem_Fragment(true);
+                show_AudioItem_Fragment(firstTimeFrgm);
+                firstTimeFrgm = false;
                 break;
 
              case R.id.nav_piece:
-                show_AudioPlay_Fragment(true);
-                    break;
+                show_AudioPlay_Fragment(firstTimeFrgm);
+                 firstTimeFrgm = false;
+                 break;
         }
 
         //* close navigation drawer
@@ -98,20 +101,31 @@ public class MainActivity extends AppCompatActivity implements AudioPlayFragment
     }
 
     /**
-     * onStart call, get settings like saved instance
+     * get the last called fragment and show it
      */
-    public void restoreSettings () {
-        settings.clearSavedFragment();
-    }
-
     private void setView() {
         setContentView(R.layout.activity_main);
 
-        if(settings.onStart_showAudio()) {
-            show_AudioPlay_Fragment(true);
-        }
-        else if (settings.onStart_showList()) {
-            show_AudioItem_Fragment(true);
+        String fragmentToShow = settings.onStart_getFragment();
+
+        Log.d("MainActivity", "got " + fragmentToShow + " to display");
+
+        switch (fragmentToShow) {
+            case Settings.AUDIO_ITEM_FRAGMENT:
+                show_AudioItem_Fragment(firstTimeFrgm);
+                firstTimeFrgm = false;
+
+                break;
+
+            case Settings.AUDIO_PLAY_FRAGMENT:
+                show_AudioPlay_Fragment(firstTimeFrgm);
+                firstTimeFrgm = false;
+
+                break;
+
+             default:
+
+                 break;
         }
     }
 
@@ -251,10 +265,10 @@ public class MainActivity extends AppCompatActivity implements AudioPlayFragment
         Fragment fragment = new AudioItemFragment();
 
         if (firstTime) {
-            transaction.add(R.id.activity_main, fragment, "");
+            transaction.add(R.id.activity_main, fragment, "AUDIO_ITEM_FRAGMENT");
         }
         else {
-            transaction.replace(R.id.activity_main, fragment, "");
+            transaction.replace(R.id.activity_main, fragment, "AUDIO_ITEM_FRAGMENT");
         }
 
         transaction.addToBackStack(null);
@@ -274,21 +288,7 @@ public class MainActivity extends AppCompatActivity implements AudioPlayFragment
 
     @Override
     public void onPause() {
-        AudioPlayFragment audioPlayFragment = (AudioPlayFragment)getSupportFragmentManager().findFragmentByTag("AUDIO_PLAY_FRAGMENT");
-        AudioItemFragment audioItemFragment = (AudioItemFragment)getSupportFragmentManager().findFragmentByTag("AUDIO_ITEM_FRAGMENT");
-
         Log.d("onPause", "saving current state...");
-
-        if (audioPlayFragment != null && audioPlayFragment.isVisible()) {
-            Log.d("Fragment", "AudioPlayFragment is visible: true");n
-
-            settings.set_onStart_showAudio(true);
-        }
-        else if (audioItemFragment != null && audioItemFragment.isVisible()) {
-            Log.d("Fragment", "AudioItemFragment is visible: true");
-
-            settings.set_onStart_showList(true);
-        }
 
         Log.d("onPause", "saving current state... [OK]");
 

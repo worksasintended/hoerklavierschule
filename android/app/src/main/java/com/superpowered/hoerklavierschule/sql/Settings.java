@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 /**
  * settings
@@ -12,42 +13,40 @@ public class Settings {
     private Context context;
     SharedPreferences sharedPref;
 
-    public static final String ONSTART_SHOW_AUDIO = "ONSTART_SHOW_AUDIO";
-    public static final String ONSTART_SHOW_LIST = "ONSTART_SHOW_LIST";
+    public static final String ONSTART_SHOW_FRAGMENT = "ONSTART_SHOW_FRAGMENT";
+    public static final String AUDIO_PLAY_FRAGMENT = "AUDIO_PLAY_FRAGMENT";
+    public static final String AUDIO_ITEM_FRAGMENT = "AUDIO_ITEM_FRAGMENT";
 
     public Settings(Context context) {
         this.context = context;
         sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
     }
 
-    public boolean onStart_showAudio() {
-        boolean showAudio = sharedPref.getBoolean(ONSTART_SHOW_AUDIO, false);
+    /**
+     * get the string representation of last called fragment
+     * @return
+     */
+    public String onStart_getFragment() {
+        String fragmentToShow = sharedPref.getString(ONSTART_SHOW_FRAGMENT, "NONE");
 
-        return showAudio;
+        return fragmentToShow;
     }
 
-    public boolean onStart_showList() {
-        boolean showList = sharedPref.getBoolean(ONSTART_SHOW_LIST, false);
+    public void set_onStart_showAudioPlayFragment() {
+        Log.d("Settings", "setting AudioPlayFragment as last called fragment");
 
-        return showList;
-    }
-
-    public void set_onStart_showAudio(boolean val) {
         SharedPreferences.Editor editor = sharedPref.edit();
-        editor.putBoolean(ONSTART_SHOW_AUDIO, val);
+        editor.putString(ONSTART_SHOW_FRAGMENT, AUDIO_PLAY_FRAGMENT);
 
-        editor.commit();
+        editor.apply();
     }
 
-    public void set_onStart_showList(boolean val) {
+    public void set_onStart_showAudioItemFragment() {
+        Log.d("Settings", "setting AudioItemFragment as last called fragment");
+
         SharedPreferences.Editor editor = sharedPref.edit();
-        editor.putBoolean(ONSTART_SHOW_LIST, val);
+        editor.putString(ONSTART_SHOW_FRAGMENT, AUDIO_ITEM_FRAGMENT);
 
-        editor.commit();
-    }
-
-    public void clearSavedFragment() {
-        set_onStart_showAudio(false);
-        set_onStart_showList(false);
+        editor.apply();
     }
 }

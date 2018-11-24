@@ -17,6 +17,8 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.SeekBar;
 
+import com.superpowered.hoerklavierschule.sql.Settings;
+
 public class AudioPlayFragment extends Fragment {
 
     public DrawerLayout drawerLayout;
@@ -42,6 +44,8 @@ public class AudioPlayFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        saveCall();
     }
 
     @Override
@@ -93,6 +97,11 @@ public class AudioPlayFragment extends Fragment {
         setupTempo(view);
         setupPitch(view);
         setupPitchCents(view);
+    }
+
+    private void saveCall() {
+        Settings settings = new Settings(getContext());
+        settings.set_onStart_showAudioPlayFragment();
     }
 
     /**setup the View for the crossfader
