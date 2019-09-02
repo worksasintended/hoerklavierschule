@@ -1,16 +1,16 @@
 {
   "buildFiles": [
-    "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/CMakeLists.txt"
+    "/home/marc/hoerklavierschule/android/app/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/home/ghostgate/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+    "/opt/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/marc/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
   ],
   "libraries": {
     "SyncPlay-Release-armeabi-v7a": {
       "artifactName": "SyncPlay",
-      "buildCommand": "/home/ghostgate/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/armeabi-v7a --target SyncPlay",
+      "buildCommand": "/opt/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/marc/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/armeabi-v7a --target SyncPlay",
       "abi": "armeabi-v7a",
-      "output": "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/cmake/release/obj/armeabi-v7a/libSyncPlay.so"
+      "output": "/home/marc/hoerklavierschule/android/app/build/intermediates/cmake/release/obj/armeabi-v7a/libSyncPlay.so"
     }
   }
 }

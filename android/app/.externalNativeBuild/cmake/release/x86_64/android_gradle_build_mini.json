@@ -1,16 +1,16 @@
 {
   "buildFiles": [
-    "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/CMakeLists.txt"
+    "/home/marc/hoerklavierschule/android/app/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/home/ghostgate/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+    "/opt/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/marc/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
   ],
   "libraries": {
     "SyncPlay-Release-x86_64": {
       "artifactName": "SyncPlay",
-      "buildCommand": "/home/ghostgate/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/x86_64 --target SyncPlay",
+      "buildCommand": "/opt/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/marc/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/x86_64 --target SyncPlay",
       "abi": "x86_64",
-      "output": "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/cmake/release/obj/x86_64/libSyncPlay.so"
+      "output": "/home/marc/hoerklavierschule/android/app/build/intermediates/cmake/release/obj/x86_64/libSyncPlay.so"
     }
   }
 }

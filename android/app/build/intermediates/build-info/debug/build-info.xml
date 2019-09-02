@@ -1,42 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="22"
-    build-mode="COLD"
-    density="tvdpi"
+    abi="x86"
+    api-level="24"
+    build-mode="FULL"
+    density="560dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.2.0"
-    timestamp="1539770231443"
+    timestamp="1555334391288"
     token="1567531513293272112"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1528" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="121" />
+        duration="0" />
     <task
         name="verifier"
-        duration="6" />
+        duration="0" />
 
+    <artifact
+        location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
     <artifact
         location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/marc/hoerklavierschule/android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1539769318198"
+        timestamp="1555334391288"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -45,52 +137,34 @@
             location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
+            location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/home/marc/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1539769851755"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1539770231443"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            location="/home/marc/hoerklavierschule/android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 

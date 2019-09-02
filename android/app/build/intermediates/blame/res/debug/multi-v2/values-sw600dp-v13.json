@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/home/marc/hoerklavierschule/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/ghostgate/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ca0d28b7ff064adc44077947a041237a/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/marc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/533d7f6561e8a23dd4b37f534706a14f/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/ghostgate/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f9ec97ef1ddd52081e52f93179fe203e/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/marc/.gradle/caches/transforms-1/files-1.1/design-24.2.1.aar/fed8df357f6597e9307fa3ee002135ac/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

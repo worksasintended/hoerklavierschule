@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/home/marc/hoerklavierschule/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/ghostgate/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/f9ec97ef1ddd52081e52f93179fe203e/res/values-land/values-land.xml",
+                    "source": "/home/marc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/533d7f6561e8a23dd4b37f534706a14f/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "/home/marc/.gradle/caches/transforms-1/files-1.1/design-24.2.1.aar/fed8df357f6597e9307fa3ee002135ac/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "9",
                         "endColumns": "12",
                         "endOffsets": "505"
-                    }
-                },
-                {
-                    "source": "/home/ghostgate/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ca0d28b7ff064adc44077947a041237a/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
                     }
                 }
             ]

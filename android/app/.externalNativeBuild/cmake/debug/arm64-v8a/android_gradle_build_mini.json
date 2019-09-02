@@ -1,16 +1,16 @@
 {
   "buildFiles": [
-    "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/CMakeLists.txt"
+    "/home/marc/hoerklavierschule/android/app/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/home/ghostgate/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+    "/opt/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/marc/hoerklavierschule/android/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
   ],
   "libraries": {
     "SyncPlay-Debug-arm64-v8a": {
       "artifactName": "SyncPlay",
-      "buildCommand": "/home/ghostgate/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/debug/arm64-v8a --target SyncPlay",
+      "buildCommand": "/opt/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/marc/hoerklavierschule/android/app/.externalNativeBuild/cmake/debug/arm64-v8a --target SyncPlay",
       "abi": "arm64-v8a",
-      "output": "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libSyncPlay.so"
+      "output": "/home/marc/hoerklavierschule/android/app/build/intermediates/cmake/debug/obj/arm64-v8a/libSyncPlay.so"
     }
   }
 }

@@ -1,12 +1,9 @@
 
 {
-	"buildFiles" : 
-	[
-		"/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/CMakeLists.txt"
-	],
+	"buildFiles" : [ "/home/marc/hoerklavierschule/android/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"/home/ghostgate/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+		"/opt/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/marc/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -15,33 +12,33 @@
 		{
 			"abi" : "armeabi-v7a",
 			"artifactName" : "SyncPlay",
-			"buildCommand" : "/home/ghostgate/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/armeabi-v7a --target SyncPlay",
+			"buildCommand" : "/opt/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/marc/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/armeabi-v7a --target SyncPlay",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/ghostgate/Android/Sdk/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/ghostgate/Android/Sdk/android-ndk-r17c/sysroot  -DSyncPlay_EXPORTS -I../../../../src/main/cpp -I../../../../../../Superpowered -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/../../Superpowered -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/src/main/cpp/SyncPlay.cpp",
-					"workingDirectory" : "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/opt/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk-bundle/sysroot  -DSyncPlay_EXPORTS -I../../../../src/main/cpp -I../../../../../../Superpowered -isystem /opt/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /opt/android-sdk/ndk-bundle/sources/android/support/include -isystem /opt/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /opt/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fsigned-char -I/home/marc/hoerklavierschule/android/app/../../Superpowered -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/marc/hoerklavierschule/android/app/src/main/cpp/SyncPlay.cpp",
+					"workingDirectory" : "/home/marc/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/ghostgate/Android/Sdk/android-ndk-r17c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/ghostgate/Android/Sdk/android-ndk-r17c/sysroot  -DSyncPlay_EXPORTS -I../../../../src/main/cpp -I../../../../../../Superpowered -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/ghostgate/Android/Sdk/android-ndk-r17c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/../../Superpowered -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp",
-					"workingDirectory" : "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/opt/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk-bundle/sysroot  -DSyncPlay_EXPORTS -I../../../../src/main/cpp -I../../../../../../Superpowered -isystem /opt/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /opt/android-sdk/ndk-bundle/sources/android/support/include -isystem /opt/android-sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /opt/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fsigned-char -I/home/marc/hoerklavierschule/android/app/../../Superpowered -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/marc/hoerklavierschule/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp",
+					"workingDirectory" : "/home/marc/hoerklavierschule/android/app/.externalNativeBuild/cmake/release/armeabi-v7a"
 				}
 			],
-			"output" : "/home/ghostgate/AndroidStudioProjects/hoerklavierschule/android/app/build/intermediates/cmake/release/obj/armeabi-v7a/libSyncPlay.so",
-			"toolchain" : "6649343472725824502"
+			"output" : "/home/marc/hoerklavierschule/android/app/build/intermediates/cmake/release/obj/armeabi-v7a/libSyncPlay.so",
+			"toolchain" : "6283050715996131352"
 		}
 	},
 	"toolchains" : 
 	{
-		"6649343472725824502" : 
+		"6283050715996131352" : 
 		{
-			"cCompilerExecutable" : "/home/ghostgate/Android/Sdk/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/home/ghostgate/Android/Sdk/android-ndk-r17c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+			"cCompilerExecutable" : "/opt/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/opt/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
 		}
 	}
 }

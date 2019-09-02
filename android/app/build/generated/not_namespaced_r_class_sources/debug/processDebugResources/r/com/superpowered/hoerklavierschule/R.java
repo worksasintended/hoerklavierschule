@@ -19,15 +19,13 @@ public final class R {
     public static final int abc_slide_in_top=0x7f010007;
     public static final int abc_slide_out_bottom=0x7f010008;
     public static final int abc_slide_out_top=0x7f010009;
-    public static final int abc_tooltip_enter=0x7f01000a;
-    public static final int abc_tooltip_exit=0x7f01000b;
-    public static final int design_bottom_sheet_slide_in=0x7f01000c;
-    public static final int design_bottom_sheet_slide_out=0x7f01000d;
-    public static final int design_snackbar_in=0x7f01000e;
-    public static final int design_snackbar_out=0x7f01000f;
-  }
-  public static final class animator {
-    public static final int design_appbar_state_list_animator=0x7f020000;
+    public static final int design_appbar_state_list_animator=0x7f01000a;
+    public static final int design_bottom_sheet_slide_in=0x7f01000b;
+    public static final int design_bottom_sheet_slide_out=0x7f01000c;
+    public static final int design_fab_in=0x7f01000d;
+    public static final int design_fab_out=0x7f01000e;
+    public static final int design_snackbar_in=0x7f01000f;
+    public static final int design_snackbar_out=0x7f010010;
   }
   public static final class attr {
     /**
@@ -36,21 +34,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionBarDivider=0x7f030000;
+    public static final int actionBarDivider=0x7f020000;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionBarItemBackground=0x7f030001;
+    public static final int actionBarItemBackground=0x7f020001;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionBarPopupTheme=0x7f030002;
+    public static final int actionBarPopupTheme=0x7f020002;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -66,84 +64,84 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int actionBarSize=0x7f030003;
+    public static final int actionBarSize=0x7f020003;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionBarSplitStyle=0x7f030004;
+    public static final int actionBarSplitStyle=0x7f020004;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionBarStyle=0x7f030005;
+    public static final int actionBarStyle=0x7f020005;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionBarTabBarStyle=0x7f030006;
+    public static final int actionBarTabBarStyle=0x7f020006;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionBarTabStyle=0x7f030007;
+    public static final int actionBarTabStyle=0x7f020007;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionBarTabTextStyle=0x7f030008;
+    public static final int actionBarTabTextStyle=0x7f020008;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionBarTheme=0x7f030009;
+    public static final int actionBarTheme=0x7f020009;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionBarWidgetTheme=0x7f03000a;
+    public static final int actionBarWidgetTheme=0x7f02000a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionButtonStyle=0x7f03000b;
+    public static final int actionButtonStyle=0x7f02000b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionDropDownStyle=0x7f03000c;
+    public static final int actionDropDownStyle=0x7f02000c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionLayout=0x7f03000d;
+    public static final int actionLayout=0x7f02000d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionMenuTextAppearance=0x7f03000e;
+    public static final int actionMenuTextAppearance=0x7f02000e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -153,180 +151,164 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int actionMenuTextColor=0x7f03000f;
+    public static final int actionMenuTextColor=0x7f02000f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionModeBackground=0x7f030010;
+    public static final int actionModeBackground=0x7f020010;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionModeCloseButtonStyle=0x7f030011;
+    public static final int actionModeCloseButtonStyle=0x7f020011;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionModeCloseDrawable=0x7f030012;
+    public static final int actionModeCloseDrawable=0x7f020012;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionModeCopyDrawable=0x7f030013;
+    public static final int actionModeCopyDrawable=0x7f020013;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionModeCutDrawable=0x7f030014;
+    public static final int actionModeCutDrawable=0x7f020014;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionModeFindDrawable=0x7f030015;
+    public static final int actionModeFindDrawable=0x7f020015;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionModePasteDrawable=0x7f030016;
+    public static final int actionModePasteDrawable=0x7f020016;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionModePopupWindowStyle=0x7f030017;
+    public static final int actionModePopupWindowStyle=0x7f020017;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionModeSelectAllDrawable=0x7f030018;
+    public static final int actionModeSelectAllDrawable=0x7f020018;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionModeShareDrawable=0x7f030019;
+    public static final int actionModeShareDrawable=0x7f020019;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionModeSplitBackground=0x7f03001a;
+    public static final int actionModeSplitBackground=0x7f02001a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionModeStyle=0x7f03001b;
+    public static final int actionModeStyle=0x7f02001b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionModeWebSearchDrawable=0x7f03001c;
+    public static final int actionModeWebSearchDrawable=0x7f02001c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionOverflowButtonStyle=0x7f03001d;
+    public static final int actionOverflowButtonStyle=0x7f02001d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int actionOverflowMenuStyle=0x7f03001e;
+    public static final int actionOverflowMenuStyle=0x7f02001e;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int actionProviderClass=0x7f03001f;
+    public static final int actionProviderClass=0x7f02001f;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int actionViewClass=0x7f030020;
+    public static final int actionViewClass=0x7f020020;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int activityChooserViewStyle=0x7f030021;
+    public static final int activityChooserViewStyle=0x7f020021;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int alertDialogButtonGroupStyle=0x7f030022;
+    public static final int alertDialogButtonGroupStyle=0x7f020022;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int alertDialogCenterButtons=0x7f030023;
+    public static final int alertDialogCenterButtons=0x7f020023;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int alertDialogStyle=0x7f030024;
+    public static final int alertDialogStyle=0x7f020024;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int alertDialogTheme=0x7f030025;
+    public static final int alertDialogTheme=0x7f020025;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int allowStacking=0x7f030026;
+    public static final int allowStacking=0x7f020026;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int alpha=0x7f030027;
-    /**
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>ALT</td><td>2</td><td></td></tr>
-     * <tr><td>CTRL</td><td>1000</td><td></td></tr>
-     * <tr><td>FUNCTION</td><td>8</td><td></td></tr>
-     * <tr><td>META</td><td>10000</td><td></td></tr>
-     * <tr><td>SHIFT</td><td>1</td><td></td></tr>
-     * <tr><td>SYM</td><td>4</td><td></td></tr>
-     * </table>
-     */
-    public static final int alphabeticModifiers=0x7f030028;
+    public static final int alpha=0x7f020027;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -334,7 +316,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int arrowHeadLength=0x7f030029;
+    public static final int arrowHeadLength=0x7f020028;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -342,45 +324,47 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int arrowShaftLength=0x7f03002a;
+    public static final int arrowShaftLength=0x7f020029;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int autoCompleteTextViewStyle=0x7f03002b;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int autoSizeMaxTextSize=0x7f03002c;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int autoSizeMinTextSize=0x7f03002d;
+    public static final int autoCompleteTextViewStyle=0x7f02002a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int autoSizePresetSizes=0x7f03002e;
+    public static final int background=0x7f02002b;
     /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int autoSizeStepGranularity=0x7f03002f;
+    public static final int backgroundSplit=0x7f02002c;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int backgroundStacked=0x7f02002d;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int backgroundTint=0x7f02002e;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -388,52 +372,6 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>uniform</td><td>1</td><td></td></tr>
-     * </table>
-     */
-    public static final int autoSizeTextType=0x7f030030;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int background=0x7f030031;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int backgroundSplit=0x7f030032;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int backgroundStacked=0x7f030033;
-    /**
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int backgroundTint=0x7f030034;
-    /**
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td></td></tr>
      * <tr><td>multiply</td><td>e</td><td></td></tr>
      * <tr><td>screen</td><td>f</td><td></td></tr>
      * <tr><td>src_atop</td><td>9</td><td></td></tr>
@@ -441,7 +379,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int backgroundTintMode=0x7f030035;
+    public static final int backgroundTintMode=0x7f02002f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -449,12 +387,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int barLength=0x7f030036;
+    public static final int barLength=0x7f020030;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int barrierAllowsGoneWidgets=0x7f030037;
+    public static final int barrierAllowsGoneWidgets=0x7f020031;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -470,17 +408,17 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int barrierDirection=0x7f030038;
+    public static final int barrierDirection=0x7f020032;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int behavior_autoHide=0x7f030039;
+    public static final int behavior_autoHide=0x7f020033;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int behavior_hideable=0x7f03003a;
+    public static final int behavior_hideable=0x7f020034;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -488,7 +426,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int behavior_overlapTop=0x7f03003b;
+    public static final int behavior_overlapTop=0x7f020035;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -504,12 +442,12 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int behavior_peekHeight=0x7f03003c;
+    public static final int behavior_peekHeight=0x7f020036;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int behavior_skipCollapsed=0x7f03003d;
+    public static final int behavior_skipCollapsed=0x7f020037;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -517,63 +455,63 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int borderWidth=0x7f03003e;
+    public static final int borderWidth=0x7f020038;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int borderlessButtonStyle=0x7f03003f;
+    public static final int borderlessButtonStyle=0x7f020039;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int bottomSheetDialogTheme=0x7f030040;
+    public static final int bottomSheetDialogTheme=0x7f02003a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int bottomSheetStyle=0x7f030041;
+    public static final int bottomSheetStyle=0x7f02003b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarButtonStyle=0x7f030042;
+    public static final int buttonBarButtonStyle=0x7f02003c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarNegativeButtonStyle=0x7f030043;
+    public static final int buttonBarNegativeButtonStyle=0x7f02003d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarNeutralButtonStyle=0x7f030044;
+    public static final int buttonBarNeutralButtonStyle=0x7f02003e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarPositiveButtonStyle=0x7f030045;
+    public static final int buttonBarPositiveButtonStyle=0x7f02003f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarStyle=0x7f030046;
+    public static final int buttonBarStyle=0x7f020040;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -585,42 +523,34 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int buttonGravity=0x7f030047;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int buttonIconDimen=0x7f030048;
+    public static final int buttonGravity=0x7f020041;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonPanelSideLayout=0x7f030049;
+    public static final int buttonPanelSideLayout=0x7f020042;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonStyle=0x7f03004a;
+    public static final int buttonStyle=0x7f020043;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonStyleSmall=0x7f03004b;
+    public static final int buttonStyleSmall=0x7f020044;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int buttonTint=0x7f03004c;
+    public static final int buttonTint=0x7f020045;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -628,7 +558,6 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td></td></tr>
      * <tr><td>multiply</td><td>e</td><td></td></tr>
      * <tr><td>screen</td><td>f</td><td></td></tr>
      * <tr><td>src_atop</td><td>9</td><td></td></tr>
@@ -636,52 +565,52 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int buttonTintMode=0x7f03004d;
+    public static final int buttonTintMode=0x7f020046;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int chainUseRtl=0x7f03004e;
+    public static final int chainUseRtl=0x7f020047;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkboxStyle=0x7f03004f;
+    public static final int checkboxStyle=0x7f020048;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkedTextViewStyle=0x7f030050;
+    public static final int checkedTextViewStyle=0x7f020049;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int closeIcon=0x7f030051;
+    public static final int closeIcon=0x7f02004a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int closeItemLayout=0x7f030052;
+    public static final int closeItemLayout=0x7f02004b;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int collapseContentDescription=0x7f030053;
+    public static final int collapseContentDescription=0x7f02004c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int collapseIcon=0x7f030054;
+    public static final int collapseIcon=0x7f02004d;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -701,115 +630,100 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int collapsedTitleGravity=0x7f030055;
+    public static final int collapsedTitleGravity=0x7f02004e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int collapsedTitleTextAppearance=0x7f030056;
+    public static final int collapsedTitleTextAppearance=0x7f02004f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int color=0x7f030057;
+    public static final int color=0x7f020050;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorAccent=0x7f030058;
+    public static final int colorAccent=0x7f020051;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorBackgroundFloating=0x7f030059;
+    public static final int colorBackgroundFloating=0x7f020052;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorButtonNormal=0x7f03005a;
+    public static final int colorButtonNormal=0x7f020053;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlActivated=0x7f03005b;
+    public static final int colorControlActivated=0x7f020054;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlHighlight=0x7f03005c;
+    public static final int colorControlHighlight=0x7f020055;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlNormal=0x7f03005d;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int colorError=0x7f03005e;
+    public static final int colorControlNormal=0x7f020056;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimary=0x7f03005f;
+    public static final int colorPrimary=0x7f020057;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimaryDark=0x7f030060;
+    public static final int colorPrimaryDark=0x7f020058;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorSwitchThumbNormal=0x7f030061;
+    public static final int colorSwitchThumbNormal=0x7f020059;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int commitIcon=0x7f030062;
+    public static final int commitIcon=0x7f02005a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int constraintSet=0x7f030063;
+    public static final int constraintSet=0x7f02005b;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int constraint_referenced_ids=0x7f030064;
+    public static final int constraint_referenced_ids=0x7f02005c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int content=0x7f030065;
-    /**
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     */
-    public static final int contentDescription=0x7f030066;
+    public static final int content=0x7f02005d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -817,7 +731,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEnd=0x7f030067;
+    public static final int contentInsetEnd=0x7f02005e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -825,7 +739,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEndWithActions=0x7f030068;
+    public static final int contentInsetEndWithActions=0x7f02005f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -833,7 +747,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetLeft=0x7f030069;
+    public static final int contentInsetLeft=0x7f020060;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -841,7 +755,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetRight=0x7f03006a;
+    public static final int contentInsetRight=0x7f020061;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -849,7 +763,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStart=0x7f03006b;
+    public static final int contentInsetStart=0x7f020062;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -857,62 +771,55 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStartWithNavigation=0x7f03006c;
+    public static final int contentInsetStartWithNavigation=0x7f020063;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int contentScrim=0x7f03006d;
+    public static final int contentScrim=0x7f020064;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int controlBackground=0x7f03006e;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int coordinatorLayoutStyle=0x7f03006f;
+    public static final int controlBackground=0x7f020065;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int counterEnabled=0x7f030070;
+    public static final int counterEnabled=0x7f020066;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int counterMaxLength=0x7f030071;
+    public static final int counterMaxLength=0x7f020067;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int counterOverflowTextAppearance=0x7f030072;
+    public static final int counterOverflowTextAppearance=0x7f020068;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int counterTextAppearance=0x7f030073;
+    public static final int counterTextAppearance=0x7f020069;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int customNavigationLayout=0x7f030074;
+    public static final int customNavigationLayout=0x7f02006a;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int defaultQueryHint=0x7f030075;
+    public static final int defaultQueryHint=0x7f02006b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -920,14 +827,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogPreferredPadding=0x7f030076;
+    public static final int dialogPreferredPadding=0x7f02006c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogTheme=0x7f030077;
+    public static final int dialogTheme=0x7f02006d;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -944,21 +851,21 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int displayOptions=0x7f030078;
+    public static final int displayOptions=0x7f02006e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int divider=0x7f030079;
+    public static final int divider=0x7f02006f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerHorizontal=0x7f03007a;
+    public static final int dividerHorizontal=0x7f020070;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -966,14 +873,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dividerPadding=0x7f03007b;
+    public static final int dividerPadding=0x7f020071;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerVertical=0x7f03007c;
+    public static final int dividerVertical=0x7f020072;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -981,21 +888,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int drawableSize=0x7f03007d;
+    public static final int drawableSize=0x7f020073;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawerArrowStyle=0x7f03007e;
+    public static final int drawerArrowStyle=0x7f020074;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dropDownListViewStyle=0x7f03007f;
+    public static final int dropDownListViewStyle=0x7f020075;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1003,14 +910,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dropdownListPreferredItemHeight=0x7f030080;
+    public static final int dropdownListPreferredItemHeight=0x7f020076;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextBackground=0x7f030081;
+    public static final int editTextBackground=0x7f020077;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1020,14 +927,14 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int editTextColor=0x7f030082;
+    public static final int editTextColor=0x7f020078;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextStyle=0x7f030083;
+    public static final int editTextStyle=0x7f020079;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1035,7 +942,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int elevation=0x7f030084;
+    public static final int elevation=0x7f02007a;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1047,31 +954,31 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int emptyVisibility=0x7f030085;
+    public static final int emptyVisibility=0x7f02007b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int errorEnabled=0x7f030086;
+    public static final int errorEnabled=0x7f02007c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int errorTextAppearance=0x7f030087;
+    public static final int errorTextAppearance=0x7f02007d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandActivityOverflowButtonDrawable=0x7f030088;
+    public static final int expandActivityOverflowButtonDrawable=0x7f02007e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int expanded=0x7f030089;
+    public static final int expanded=0x7f02007f;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1091,7 +998,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int expandedTitleGravity=0x7f03008a;
+    public static final int expandedTitleGravity=0x7f020080;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1099,7 +1006,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMargin=0x7f03008b;
+    public static final int expandedTitleMargin=0x7f020081;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1107,7 +1014,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginBottom=0x7f03008c;
+    public static final int expandedTitleMarginBottom=0x7f020082;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1115,7 +1022,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginEnd=0x7f03008d;
+    public static final int expandedTitleMarginEnd=0x7f020083;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1123,7 +1030,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginStart=0x7f03008e;
+    public static final int expandedTitleMarginStart=0x7f020084;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1131,22 +1038,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginTop=0x7f03008f;
+    public static final int expandedTitleMarginTop=0x7f020085;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandedTitleTextAppearance=0x7f030090;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int fabCustomSize=0x7f030091;
+    public static final int expandedTitleTextAppearance=0x7f020086;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1159,64 +1058,26 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fabSize=0x7f030092;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int fastScrollEnabled=0x7f030093;
+    public static final int fabSize=0x7f020087;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalThumbDrawable=0x7f030094;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int fastScrollHorizontalTrackDrawable=0x7f030095;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int fastScrollVerticalThumbDrawable=0x7f030096;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int fastScrollVerticalTrackDrawable=0x7f030097;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int font=0x7f030098;
+    public static final int font=0x7f020088;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontFamily=0x7f030099;
-    /**
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     */
-    public static final int fontProviderAuthority=0x7f03009a;
+    public static final int fontProviderAuthority=0x7f020089;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f03009b;
+    public static final int fontProviderCerts=0x7f02008a;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1228,7 +1089,7 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f03009c;
+    public static final int fontProviderFetchStrategy=0x7f02008b;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -1240,17 +1101,17 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f03009d;
+    public static final int fontProviderFetchTimeout=0x7f02008c;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f03009e;
+    public static final int fontProviderPackage=0x7f02008d;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f03009f;
+    public static final int fontProviderQuery=0x7f02008e;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1262,16 +1123,16 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f0300a0;
+    public static final int fontStyle=0x7f02008f;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f0300a1;
+    public static final int fontWeight=0x7f020090;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int foregroundInsidePadding=0x7f0300a2;
+    public static final int foregroundInsidePadding=0x7f020091;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1279,21 +1140,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int gapBetweenBars=0x7f0300a3;
+    public static final int gapBetweenBars=0x7f020092;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int goIcon=0x7f0300a4;
+    public static final int goIcon=0x7f020093;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int headerLayout=0x7f0300a5;
+    public static final int headerLayout=0x7f020094;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1301,96 +1162,74 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int height=0x7f0300a6;
+    public static final int height=0x7f020095;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnContentScroll=0x7f0300a7;
+    public static final int hideOnContentScroll=0x7f020096;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintAnimationEnabled=0x7f0300a8;
+    public static final int hintAnimationEnabled=0x7f020097;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintEnabled=0x7f0300a9;
+    public static final int hintEnabled=0x7f020098;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int hintTextAppearance=0x7f0300aa;
+    public static final int hintTextAppearance=0x7f020099;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeAsUpIndicator=0x7f0300ab;
+    public static final int homeAsUpIndicator=0x7f02009a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeLayout=0x7f0300ac;
+    public static final int homeLayout=0x7f02009b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int icon=0x7f0300ad;
-    /**
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int iconTint=0x7f0300ae;
-    /**
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td></td></tr>
-     * <tr><td>multiply</td><td>e</td><td></td></tr>
-     * <tr><td>screen</td><td>f</td><td></td></tr>
-     * <tr><td>src_atop</td><td>9</td><td></td></tr>
-     * <tr><td>src_in</td><td>5</td><td></td></tr>
-     * <tr><td>src_over</td><td>3</td><td></td></tr>
-     * </table>
-     */
-    public static final int iconTintMode=0x7f0300af;
+    public static final int icon=0x7f02009c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int iconifiedByDefault=0x7f0300b0;
+    public static final int iconifiedByDefault=0x7f02009d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int imageButtonStyle=0x7f0300b1;
+    public static final int imageButtonStyle=0x7f02009e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int indeterminateProgressStyle=0x7f0300b2;
+    public static final int indeterminateProgressStyle=0x7f02009f;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int initialActivityCount=0x7f0300b3;
+    public static final int initialActivityCount=0x7f0200a0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1400,25 +1239,25 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int insetForeground=0x7f0300b4;
+    public static final int insetForeground=0x7f0200a1;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isLightTheme=0x7f0300b5;
+    public static final int isLightTheme=0x7f0200a2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemBackground=0x7f0300b6;
+    public static final int itemBackground=0x7f0200a3;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemIconTint=0x7f0300b7;
+    public static final int itemIconTint=0x7f0200a4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1426,46 +1265,46 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemPadding=0x7f0300b8;
+    public static final int itemPadding=0x7f0200a5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemTextAppearance=0x7f0300b9;
+    public static final int itemTextAppearance=0x7f0200a6;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemTextColor=0x7f0300ba;
+    public static final int itemTextColor=0x7f0200a7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int keylines=0x7f0300bb;
+    public static final int keylines=0x7f0200a8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout=0x7f0300bc;
+    public static final int layout=0x7f0200a9;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layoutManager=0x7f0300bd;
+    public static final int layoutManager=0x7f0200aa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_anchor=0x7f0300be;
+    public static final int layout_anchor=0x7f0200ab;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1489,12 +1328,12 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_anchorGravity=0x7f0300bf;
+    public static final int layout_anchorGravity=0x7f0200ac;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_behavior=0x7f0300c0;
+    public static final int layout_behavior=0x7f0200ad;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1507,25 +1346,25 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_collapseMode=0x7f0300c1;
+    public static final int layout_collapseMode=0x7f0200ae;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_collapseParallaxMultiplier=0x7f0300c2;
+    public static final int layout_collapseParallaxMultiplier=0x7f0200af;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedHeight=0x7f0300c3;
+    public static final int layout_constrainedHeight=0x7f0200b0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedWidth=0x7f0300c4;
+    public static final int layout_constrainedWidth=0x7f0200b1;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBaseline_creator=0x7f0300c5;
+    public static final int layout_constraintBaseline_creator=0x7f0200b2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1540,11 +1379,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBaseline_toBaselineOf=0x7f0300c6;
+    public static final int layout_constraintBaseline_toBaselineOf=0x7f0200b3;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBottom_creator=0x7f0300c7;
+    public static final int layout_constraintBottom_creator=0x7f0200b4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1559,7 +1398,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toBottomOf=0x7f0300c8;
+    public static final int layout_constraintBottom_toBottomOf=0x7f0200b5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1574,18 +1413,18 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toTopOf=0x7f0300c9;
+    public static final int layout_constraintBottom_toTopOf=0x7f0200b6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_constraintCircle=0x7f0300ca;
+    public static final int layout_constraintCircle=0x7f0200b7;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintCircleAngle=0x7f0300cb;
+    public static final int layout_constraintCircleAngle=0x7f0200b8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1593,12 +1432,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintCircleRadius=0x7f0300cc;
+    public static final int layout_constraintCircleRadius=0x7f0200b9;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_constraintDimensionRatio=0x7f0300cd;
+    public static final int layout_constraintDimensionRatio=0x7f0200ba;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1613,7 +1452,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toEndOf=0x7f0300ce;
+    public static final int layout_constraintEnd_toEndOf=0x7f0200bb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1628,7 +1467,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toStartOf=0x7f0300cf;
+    public static final int layout_constraintEnd_toStartOf=0x7f0200bc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1636,7 +1475,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_begin=0x7f0300d0;
+    public static final int layout_constraintGuide_begin=0x7f0200bd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1644,11 +1483,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_end=0x7f0300d1;
+    public static final int layout_constraintGuide_end=0x7f0200be;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintGuide_percent=0x7f0300d2;
+    public static final int layout_constraintGuide_percent=0x7f0200bf;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1661,7 +1500,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_default=0x7f0300d3;
+    public static final int layout_constraintHeight_default=0x7f0200c0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1677,7 +1516,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_max=0x7f0300d4;
+    public static final int layout_constraintHeight_max=0x7f0200c1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1693,15 +1532,15 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_min=0x7f0300d5;
+    public static final int layout_constraintHeight_min=0x7f0200c2;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHeight_percent=0x7f0300d6;
+    public static final int layout_constraintHeight_percent=0x7f0200c3;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_bias=0x7f0300d7;
+    public static final int layout_constraintHorizontal_bias=0x7f0200c4;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1714,15 +1553,15 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHorizontal_chainStyle=0x7f0300d8;
+    public static final int layout_constraintHorizontal_chainStyle=0x7f0200c5;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_weight=0x7f0300d9;
+    public static final int layout_constraintHorizontal_weight=0x7f0200c6;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintLeft_creator=0x7f0300da;
+    public static final int layout_constraintLeft_creator=0x7f0200c7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1737,7 +1576,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toLeftOf=0x7f0300db;
+    public static final int layout_constraintLeft_toLeftOf=0x7f0200c8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1752,11 +1591,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toRightOf=0x7f0300dc;
+    public static final int layout_constraintLeft_toRightOf=0x7f0200c9;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintRight_creator=0x7f0300dd;
+    public static final int layout_constraintRight_creator=0x7f0200ca;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1771,7 +1610,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toLeftOf=0x7f0300de;
+    public static final int layout_constraintRight_toLeftOf=0x7f0200cb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1786,7 +1625,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toRightOf=0x7f0300df;
+    public static final int layout_constraintRight_toRightOf=0x7f0200cc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1801,7 +1640,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toEndOf=0x7f0300e0;
+    public static final int layout_constraintStart_toEndOf=0x7f0200cd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1816,11 +1655,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toStartOf=0x7f0300e1;
+    public static final int layout_constraintStart_toStartOf=0x7f0200ce;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintTop_creator=0x7f0300e2;
+    public static final int layout_constraintTop_creator=0x7f0200cf;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1835,7 +1674,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toBottomOf=0x7f0300e3;
+    public static final int layout_constraintTop_toBottomOf=0x7f0200d0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1850,11 +1689,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toTopOf=0x7f0300e4;
+    public static final int layout_constraintTop_toTopOf=0x7f0200d1;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_bias=0x7f0300e5;
+    public static final int layout_constraintVertical_bias=0x7f0200d2;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1867,11 +1706,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintVertical_chainStyle=0x7f0300e6;
+    public static final int layout_constraintVertical_chainStyle=0x7f0200d3;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_weight=0x7f0300e7;
+    public static final int layout_constraintVertical_weight=0x7f0200d4;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1884,7 +1723,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_default=0x7f0300e8;
+    public static final int layout_constraintWidth_default=0x7f0200d5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1900,7 +1739,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_max=0x7f0300e9;
+    public static final int layout_constraintWidth_max=0x7f0200d6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1916,11 +1755,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_min=0x7f0300ea;
+    public static final int layout_constraintWidth_min=0x7f0200d7;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintWidth_percent=0x7f0300eb;
+    public static final int layout_constraintWidth_percent=0x7f0200d8;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1933,12 +1772,12 @@ public final class R {
      * <tr><td>end</td><td>800005</td><td></td></tr>
      * <tr><td>left</td><td>3</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>right</td><td>3</td><td></td></tr>
      * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_dodgeInsetEdges=0x7f0300ec;
+    public static final int layout_dodgeInsetEdges=0x7f0200d9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1946,7 +1785,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteX=0x7f0300ed;
+    public static final int layout_editor_absoluteX=0x7f0200da;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1954,7 +1793,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteY=0x7f0300ee;
+    public static final int layout_editor_absoluteY=0x7f0200db;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1962,7 +1801,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginBottom=0x7f0300ef;
+    public static final int layout_goneMarginBottom=0x7f0200dc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1970,7 +1809,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginEnd=0x7f0300f0;
+    public static final int layout_goneMarginEnd=0x7f0200dd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1978,7 +1817,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginLeft=0x7f0300f1;
+    public static final int layout_goneMarginLeft=0x7f0200de;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1986,7 +1825,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginRight=0x7f0300f2;
+    public static final int layout_goneMarginRight=0x7f0200df;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1994,7 +1833,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginStart=0x7f0300f3;
+    public static final int layout_goneMarginStart=0x7f0200e0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2002,7 +1841,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginTop=0x7f0300f4;
+    public static final int layout_goneMarginTop=0x7f0200e1;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2014,16 +1853,16 @@ public final class R {
      * <tr><td>end</td><td>800005</td><td></td></tr>
      * <tr><td>left</td><td>3</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>right</td><td>3</td><td></td></tr>
      * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_insetEdge=0x7f0300f5;
+    public static final int layout_insetEdge=0x7f0200e2;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_keyline=0x7f0300f6;
+    public static final int layout_keyline=0x7f0200e3;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2034,12 +1873,13 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>standard</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      */
-    public static final int layout_optimizationLevel=0x7f0300f7;
+    public static final int layout_optimizationLevel=0x7f0200e4;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2054,56 +1894,56 @@ public final class R {
      * <tr><td>snap</td><td>10</td><td></td></tr>
      * </table>
      */
-    public static final int layout_scrollFlags=0x7f0300f8;
+    public static final int layout_scrollFlags=0x7f0200e5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_scrollInterpolator=0x7f0300f9;
+    public static final int layout_scrollInterpolator=0x7f0200e6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listChoiceBackgroundIndicator=0x7f0300fa;
+    public static final int listChoiceBackgroundIndicator=0x7f0200e7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listDividerAlertDialog=0x7f0300fb;
+    public static final int listDividerAlertDialog=0x7f0200e8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listItemLayout=0x7f0300fc;
+    public static final int listItemLayout=0x7f0200e9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listLayout=0x7f0300fd;
+    public static final int listLayout=0x7f0200ea;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listMenuViewStyle=0x7f0300fe;
+    public static final int listMenuViewStyle=0x7f0200eb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listPopupWindowStyle=0x7f0300ff;
+    public static final int listPopupWindowStyle=0x7f0200ec;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2111,7 +1951,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeight=0x7f030100;
+    public static final int listPreferredItemHeight=0x7f0200ed;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2119,7 +1959,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightLarge=0x7f030101;
+    public static final int listPreferredItemHeightLarge=0x7f0200ee;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2127,7 +1967,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightSmall=0x7f030102;
+    public static final int listPreferredItemHeightSmall=0x7f0200ef;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2135,7 +1975,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingLeft=0x7f030103;
+    public static final int listPreferredItemPaddingLeft=0x7f0200f0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2143,19 +1983,19 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingRight=0x7f030104;
+    public static final int listPreferredItemPaddingRight=0x7f0200f1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int logo=0x7f030105;
+    public static final int logo=0x7f0200f2;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int logoDescription=0x7f030106;
+    public static final int logoDescription=0x7f0200f3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2163,7 +2003,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxActionInlineWidth=0x7f030107;
+    public static final int maxActionInlineWidth=0x7f0200f4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2171,38 +2011,38 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxButtonHeight=0x7f030108;
+    public static final int maxButtonHeight=0x7f0200f5;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int measureWithLargestChild=0x7f030109;
+    public static final int measureWithLargestChild=0x7f0200f6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int menu=0x7f03010a;
+    public static final int menu=0x7f0200f7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int multiChoiceItemLayout=0x7f03010b;
+    public static final int multiChoiceItemLayout=0x7f0200f8;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int navigationContentDescription=0x7f03010c;
+    public static final int navigationContentDescription=0x7f0200f9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationIcon=0x7f03010d;
+    public static final int navigationIcon=0x7f0200fa;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2215,28 +2055,12 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int navigationMode=0x7f03010e;
-    /**
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>ALT</td><td>2</td><td></td></tr>
-     * <tr><td>CTRL</td><td>1000</td><td></td></tr>
-     * <tr><td>FUNCTION</td><td>8</td><td></td></tr>
-     * <tr><td>META</td><td>10000</td><td></td></tr>
-     * <tr><td>SHIFT</td><td>1</td><td></td></tr>
-     * <tr><td>SYM</td><td>4</td><td></td></tr>
-     * </table>
-     */
-    public static final int numericModifiers=0x7f03010f;
+    public static final int navigationMode=0x7f0200fb;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int overlapAnchor=0x7f030110;
+    public static final int overlapAnchor=0x7f0200fc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2244,7 +2068,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingBottomNoButtons=0x7f030111;
+    public static final int paddingEnd=0x7f0200fd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2252,37 +2076,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingEnd=0x7f030112;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int paddingStart=0x7f030113;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int paddingTopNoTitle=0x7f030114;
+    public static final int paddingStart=0x7f0200fe;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelBackground=0x7f030115;
+    public static final int panelBackground=0x7f0200ff;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelMenuListTheme=0x7f030116;
+    public static final int panelMenuListTheme=0x7f020100;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2290,30 +2098,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int panelMenuListWidth=0x7f030117;
+    public static final int panelMenuListWidth=0x7f020101;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int passwordToggleContentDescription=0x7f030118;
+    public static final int passwordToggleContentDescription=0x7f020102;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int passwordToggleDrawable=0x7f030119;
+    public static final int passwordToggleDrawable=0x7f020103;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int passwordToggleEnabled=0x7f03011a;
+    public static final int passwordToggleEnabled=0x7f020104;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int passwordToggleTint=0x7f03011b;
+    public static final int passwordToggleTint=0x7f020105;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2328,33 +2136,33 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int passwordToggleTintMode=0x7f03011c;
+    public static final int passwordToggleTintMode=0x7f020106;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupMenuStyle=0x7f03011d;
+    public static final int popupMenuStyle=0x7f020107;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupTheme=0x7f03011e;
+    public static final int popupTheme=0x7f020108;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupWindowStyle=0x7f03011f;
+    public static final int popupWindowStyle=0x7f020109;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int preserveIconSpacing=0x7f030120;
+    public static final int preserveIconSpacing=0x7f02010a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2362,7 +2170,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int pressedTranslationZ=0x7f030121;
+    public static final int pressedTranslationZ=0x7f02010b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2370,69 +2178,69 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int progressBarPadding=0x7f030122;
+    public static final int progressBarPadding=0x7f02010c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int progressBarStyle=0x7f030123;
+    public static final int progressBarStyle=0x7f02010d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int queryBackground=0x7f030124;
+    public static final int queryBackground=0x7f02010e;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f030125;
+    public static final int queryHint=0x7f02010f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f030126;
+    public static final int radioButtonStyle=0x7f020110;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f030127;
+    public static final int ratingBarStyle=0x7f020111;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleIndicator=0x7f030128;
+    public static final int ratingBarStyleIndicator=0x7f020112;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleSmall=0x7f030129;
+    public static final int ratingBarStyleSmall=0x7f020113;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f03012a;
+    public static final int reverseLayout=0x7f020114;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int rippleColor=0x7f03012b;
+    public static final int rippleColor=0x7f020115;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int scrimAnimationDuration=0x7f03012c;
+    public static final int scrimAnimationDuration=0x7f020116;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2440,49 +2248,49 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int scrimVisibleHeightTrigger=0x7f03012d;
+    public static final int scrimVisibleHeightTrigger=0x7f020117;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f03012e;
+    public static final int searchHintIcon=0x7f020118;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f03012f;
+    public static final int searchIcon=0x7f020119;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f030130;
+    public static final int searchViewStyle=0x7f02011a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f030131;
+    public static final int seekBarStyle=0x7f02011b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f030132;
+    public static final int selectableItemBackground=0x7f02011c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f030133;
+    public static final int selectableItemBackgroundBorderless=0x7f02011d;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2497,7 +2305,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f030134;
+    public static final int showAsAction=0x7f02011e;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2511,141 +2319,133 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f030135;
+    public static final int showDividers=0x7f02011f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f030136;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int showTitle=0x7f030137;
+    public static final int showText=0x7f020120;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f030138;
+    public static final int singleChoiceItemLayout=0x7f020121;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int spanCount=0x7f030139;
+    public static final int spanCount=0x7f020122;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f03013a;
+    public static final int spinBars=0x7f020123;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f03013b;
+    public static final int spinnerDropDownItemStyle=0x7f020124;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f03013c;
+    public static final int spinnerStyle=0x7f020125;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f03013d;
+    public static final int splitTrack=0x7f020126;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f03013e;
+    public static final int srcCompat=0x7f020127;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int stackFromEnd=0x7f03013f;
+    public static final int stackFromEnd=0x7f020128;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f030140;
+    public static final int state_above_anchor=0x7f020129;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsed=0x7f030141;
+    public static final int state_collapsed=0x7f02012a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsible=0x7f030142;
+    public static final int state_collapsible=0x7f02012b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int statusBarBackground=0x7f02012c;
+    /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarBackground=0x7f030143;
-    /**
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int statusBarScrim=0x7f030144;
+    public static final int statusBarScrim=0x7f02012d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f030145;
+    public static final int subMenuArrow=0x7f02012e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f030146;
+    public static final int submitBackground=0x7f02012f;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f030147;
+    public static final int subtitle=0x7f020130;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f030148;
+    public static final int subtitleTextAppearance=0x7f020131;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f030149;
+    public static final int subtitleTextColor=0x7f020132;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f03014a;
+    public static final int subtitleTextStyle=0x7f020133;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f03014b;
+    public static final int suggestionRowLayout=0x7f020134;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2653,7 +2453,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f03014c;
+    public static final int switchMinWidth=0x7f020135;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2661,28 +2461,28 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f03014d;
+    public static final int switchPadding=0x7f020136;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f03014e;
+    public static final int switchStyle=0x7f020137;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f03014f;
+    public static final int switchTextAppearance=0x7f020138;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabBackground=0x7f030150;
+    public static final int tabBackground=0x7f020139;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2690,7 +2490,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabContentStart=0x7f030151;
+    public static final int tabContentStart=0x7f02013a;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2702,13 +2502,13 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabGravity=0x7f030152;
+    public static final int tabGravity=0x7f02013b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabIndicatorColor=0x7f030153;
+    public static final int tabIndicatorColor=0x7f02013c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2716,7 +2516,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabIndicatorHeight=0x7f030154;
+    public static final int tabIndicatorHeight=0x7f02013d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2724,7 +2524,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMaxWidth=0x7f030155;
+    public static final int tabMaxWidth=0x7f02013e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2732,7 +2532,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMinWidth=0x7f030156;
+    public static final int tabMinWidth=0x7f02013f;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2744,7 +2544,7 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabMode=0x7f030157;
+    public static final int tabMode=0x7f020140;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2752,7 +2552,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPadding=0x7f030158;
+    public static final int tabPadding=0x7f020141;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2760,7 +2560,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingBottom=0x7f030159;
+    public static final int tabPaddingBottom=0x7f020142;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2768,7 +2568,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingEnd=0x7f03015a;
+    public static final int tabPaddingEnd=0x7f020143;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2776,7 +2576,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingStart=0x7f03015b;
+    public static final int tabPaddingStart=0x7f020144;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2784,26 +2584,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingTop=0x7f03015c;
+    public static final int tabPaddingTop=0x7f020145;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabSelectedTextColor=0x7f03015d;
+    public static final int tabSelectedTextColor=0x7f020146;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabTextAppearance=0x7f03015e;
+    public static final int tabTextAppearance=0x7f020147;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabTextColor=0x7f03015f;
+    public static final int tabTextColor=0x7f020148;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2812,63 +2612,56 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f030160;
+    public static final int textAllCaps=0x7f020149;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f030161;
+    public static final int textAppearanceLargePopupMenu=0x7f02014a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f030162;
+    public static final int textAppearanceListItem=0x7f02014b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSecondary=0x7f030163;
+    public static final int textAppearanceListItemSmall=0x7f02014c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f030164;
+    public static final int textAppearancePopupMenuHeader=0x7f02014d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f030165;
+    public static final int textAppearanceSearchResultSubtitle=0x7f02014e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f030166;
+    public static final int textAppearanceSearchResultTitle=0x7f02014f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f030167;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int textAppearanceSmallPopupMenu=0x7f030168;
+    public static final int textAppearanceSmallPopupMenu=0x7f020150;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2878,7 +2671,13 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorAlertDialogListItem=0x7f030169;
+    public static final int textColorAlertDialogListItem=0x7f020151;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorError=0x7f020152;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2888,24 +2687,14 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorError=0x7f03016a;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorSearchUrl=0x7f03016b;
+    public static final int textColorSearchUrl=0x7f020153;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f03016c;
+    public static final int theme=0x7f020154;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2913,7 +2702,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f03016d;
+    public static final int thickness=0x7f020155;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2921,13 +2710,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f03016e;
+    public static final int thumbTextPadding=0x7f020156;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f03016f;
+    public static final int thumbTint=0x7f020157;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2943,20 +2732,20 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f030170;
+    public static final int thumbTintMode=0x7f020158;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f030171;
+    public static final int tickMark=0x7f020159;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f030172;
+    public static final int tickMarkTint=0x7f02015a;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2972,39 +2761,17 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f030173;
-    /**
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int tint=0x7f030174;
-    /**
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td></td></tr>
-     * <tr><td>multiply</td><td>e</td><td></td></tr>
-     * <tr><td>screen</td><td>f</td><td></td></tr>
-     * <tr><td>src_atop</td><td>9</td><td></td></tr>
-     * <tr><td>src_in</td><td>5</td><td></td></tr>
-     * <tr><td>src_over</td><td>3</td><td></td></tr>
-     * </table>
-     */
-    public static final int tintMode=0x7f030175;
+    public static final int tickMarkTintMode=0x7f02015b;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f030176;
+    public static final int title=0x7f02015c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int titleEnabled=0x7f030177;
+    public static final int titleEnabled=0x7f02015d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3012,7 +2779,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f030178;
+    public static final int titleMargin=0x7f02015e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3020,7 +2787,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f030179;
+    public static final int titleMarginBottom=0x7f02015f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3028,7 +2795,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f03017a;
+    public static final int titleMarginEnd=0x7f020160;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3036,7 +2803,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f03017b;
+    public static final int titleMarginStart=0x7f020161;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3044,7 +2811,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f03017c;
+    public static final int titleMarginTop=0x7f020162;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3052,83 +2819,61 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f03017d;
+    public static final int titleMargins=0x7f020163;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f03017e;
+    public static final int titleTextAppearance=0x7f020164;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f03017f;
+    public static final int titleTextColor=0x7f020165;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f030180;
+    public static final int titleTextStyle=0x7f020166;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarId=0x7f030181;
+    public static final int toolbarId=0x7f020167;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f030182;
+    public static final int toolbarNavigationButtonStyle=0x7f020168;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f030183;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int tooltipForegroundColor=0x7f030184;
+    public static final int toolbarStyle=0x7f020169;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tooltipFrameBackground=0x7f030185;
-    /**
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     */
-    public static final int tooltipText=0x7f030186;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int track=0x7f030187;
+    public static final int track=0x7f02016a;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f030188;
+    public static final int trackTint=0x7f02016b;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3144,39 +2889,34 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f030189;
+    public static final int trackTintMode=0x7f02016c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useCompatPadding=0x7f03018a;
-    /**
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     */
-    public static final int viewInflaterClass=0x7f03018b;
+    public static final int useCompatPadding=0x7f02016d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f03018c;
+    public static final int voiceIcon=0x7f02016e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f03018d;
+    public static final int windowActionBar=0x7f02016f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f03018e;
+    public static final int windowActionBarOverlay=0x7f020170;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f03018f;
+    public static final int windowActionModeOverlay=0x7f020171;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3188,7 +2928,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f030190;
+    public static final int windowFixedHeightMajor=0x7f020172;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3200,7 +2940,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f030191;
+    public static final int windowFixedHeightMinor=0x7f020173;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3212,7 +2952,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f030192;
+    public static final int windowFixedWidthMajor=0x7f020174;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3224,7 +2964,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f030193;
+    public static final int windowFixedWidthMinor=0x7f020175;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3236,7 +2976,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f030194;
+    public static final int windowMinWidthMajor=0x7f020176;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3248,1211 +2988,1130 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f030195;
+    public static final int windowMinWidthMinor=0x7f020177;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f030196;
+    public static final int windowNoTitle=0x7f020178;
   }
   public static final class bool {
-    public static final int abc_action_bar_embed_tabs=0x7f040000;
-    public static final int abc_allow_stacked_button_bar=0x7f040001;
-    public static final int abc_config_actionMenuItemAllCaps=0x7f040002;
-    public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f040003;
+    public static final int abc_action_bar_embed_tabs=0x7f030000;
+    public static final int abc_allow_stacked_button_bar=0x7f030001;
+    public static final int abc_config_actionMenuItemAllCaps=0x7f030002;
+    public static final int abc_config_closeDialogWhenTouchOutside=0x7f030003;
+    public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f030004;
   }
   public static final class color {
-    public static final int abc_background_cache_hint_selector_material_dark=0x7f050000;
-    public static final int abc_background_cache_hint_selector_material_light=0x7f050001;
-    public static final int abc_btn_colored_borderless_text_material=0x7f050002;
-    public static final int abc_btn_colored_text_material=0x7f050003;
-    public static final int abc_color_highlight_material=0x7f050004;
-    public static final int abc_hint_foreground_material_dark=0x7f050005;
-    public static final int abc_hint_foreground_material_light=0x7f050006;
-    public static final int abc_input_method_navigation_guard=0x7f050007;
-    public static final int abc_primary_text_disable_only_material_dark=0x7f050008;
-    public static final int abc_primary_text_disable_only_material_light=0x7f050009;
-    public static final int abc_primary_text_material_dark=0x7f05000a;
-    public static final int abc_primary_text_material_light=0x7f05000b;
-    public static final int abc_search_url_text=0x7f05000c;
-    public static final int abc_search_url_text_normal=0x7f05000d;
-    public static final int abc_search_url_text_pressed=0x7f05000e;
-    public static final int abc_search_url_text_selected=0x7f05000f;
-    public static final int abc_secondary_text_material_dark=0x7f050010;
-    public static final int abc_secondary_text_material_light=0x7f050011;
-    public static final int abc_tint_btn_checkable=0x7f050012;
-    public static final int abc_tint_default=0x7f050013;
-    public static final int abc_tint_edittext=0x7f050014;
-    public static final int abc_tint_seek_thumb=0x7f050015;
-    public static final int abc_tint_spinner=0x7f050016;
-    public static final int abc_tint_switch_track=0x7f050017;
-    public static final int accent_material_dark=0x7f050018;
-    public static final int accent_material_light=0x7f050019;
-    public static final int background_floating_material_dark=0x7f05001a;
-    public static final int background_floating_material_light=0x7f05001b;
-    public static final int background_material_dark=0x7f05001c;
-    public static final int background_material_light=0x7f05001d;
-    public static final int bright_foreground_disabled_material_dark=0x7f05001e;
-    public static final int bright_foreground_disabled_material_light=0x7f05001f;
-    public static final int bright_foreground_inverse_material_dark=0x7f050020;
-    public static final int bright_foreground_inverse_material_light=0x7f050021;
-    public static final int bright_foreground_material_dark=0x7f050022;
-    public static final int bright_foreground_material_light=0x7f050023;
-    public static final int button_material_dark=0x7f050024;
-    public static final int button_material_light=0x7f050025;
-    public static final int colorAccent=0x7f050026;
-    public static final int colorPrimary=0x7f050027;
-    public static final int colorPrimaryDark=0x7f050028;
-    public static final int design_bottom_navigation_shadow_color=0x7f050029;
-    public static final int design_error=0x7f05002a;
-    public static final int design_fab_shadow_end_color=0x7f05002b;
-    public static final int design_fab_shadow_mid_color=0x7f05002c;
-    public static final int design_fab_shadow_start_color=0x7f05002d;
-    public static final int design_fab_stroke_end_inner_color=0x7f05002e;
-    public static final int design_fab_stroke_end_outer_color=0x7f05002f;
-    public static final int design_fab_stroke_top_inner_color=0x7f050030;
-    public static final int design_fab_stroke_top_outer_color=0x7f050031;
-    public static final int design_snackbar_background_color=0x7f050032;
-    public static final int design_tint_password_toggle=0x7f050033;
-    public static final int dim_foreground_disabled_material_dark=0x7f050034;
-    public static final int dim_foreground_disabled_material_light=0x7f050035;
-    public static final int dim_foreground_material_dark=0x7f050036;
-    public static final int dim_foreground_material_light=0x7f050037;
-    public static final int error_color_material=0x7f050038;
-    public static final int foreground_material_dark=0x7f050039;
-    public static final int foreground_material_light=0x7f05003a;
-    public static final int grid_line=0x7f05003b;
-    public static final int highlighted_text_material_dark=0x7f05003c;
-    public static final int highlighted_text_material_light=0x7f05003d;
-    public static final int material_blue_grey_800=0x7f05003e;
-    public static final int material_blue_grey_900=0x7f05003f;
-    public static final int material_blue_grey_950=0x7f050040;
-    public static final int material_deep_teal_200=0x7f050041;
-    public static final int material_deep_teal_500=0x7f050042;
-    public static final int material_grey_100=0x7f050043;
-    public static final int material_grey_300=0x7f050044;
-    public static final int material_grey_50=0x7f050045;
-    public static final int material_grey_600=0x7f050046;
-    public static final int material_grey_800=0x7f050047;
-    public static final int material_grey_850=0x7f050048;
-    public static final int material_grey_900=0x7f050049;
-    public static final int notification_action_color_filter=0x7f05004a;
-    public static final int notification_icon_bg_color=0x7f05004b;
-    public static final int notification_material_background_media_default_color=0x7f05004c;
-    public static final int playback_indicator=0x7f05004d;
-    public static final int primary_dark_material_dark=0x7f05004e;
-    public static final int primary_dark_material_light=0x7f05004f;
-    public static final int primary_material_dark=0x7f050050;
-    public static final int primary_material_light=0x7f050051;
-    public static final int primary_text_default_material_dark=0x7f050052;
-    public static final int primary_text_default_material_light=0x7f050053;
-    public static final int primary_text_disabled_material_dark=0x7f050054;
-    public static final int primary_text_disabled_material_light=0x7f050055;
-    public static final int ripple_material_dark=0x7f050056;
-    public static final int ripple_material_light=0x7f050057;
-    public static final int secondary_text_default_material_dark=0x7f050058;
-    public static final int secondary_text_default_material_light=0x7f050059;
-    public static final int secondary_text_disabled_material_dark=0x7f05005a;
-    public static final int secondary_text_disabled_material_light=0x7f05005b;
-    public static final int selection_border=0x7f05005c;
-    public static final int switch_thumb_disabled_material_dark=0x7f05005d;
-    public static final int switch_thumb_disabled_material_light=0x7f05005e;
-    public static final int switch_thumb_material_dark=0x7f05005f;
-    public static final int switch_thumb_material_light=0x7f050060;
-    public static final int switch_thumb_normal_material_dark=0x7f050061;
-    public static final int switch_thumb_normal_material_light=0x7f050062;
-    public static final int timecode=0x7f050063;
-    public static final int timecode_shadow=0x7f050064;
-    public static final int tooltip_background_dark=0x7f050065;
-    public static final int tooltip_background_light=0x7f050066;
-    public static final int type_bkgnd_alarm=0x7f050067;
-    public static final int type_bkgnd_music=0x7f050068;
-    public static final int type_bkgnd_notification=0x7f050069;
-    public static final int type_bkgnd_ringtone=0x7f05006a;
-    public static final int type_bkgnd_unsupported=0x7f05006b;
-    public static final int waveform_selected=0x7f05006c;
-    public static final int waveform_unselected=0x7f05006d;
-    public static final int waveform_unselected_bkgnd_overlay=0x7f05006e;
+    public static final int abc_background_cache_hint_selector_material_dark=0x7f040000;
+    public static final int abc_background_cache_hint_selector_material_light=0x7f040001;
+    public static final int abc_btn_colored_borderless_text_material=0x7f040002;
+    public static final int abc_color_highlight_material=0x7f040003;
+    public static final int abc_input_method_navigation_guard=0x7f040004;
+    public static final int abc_primary_text_disable_only_material_dark=0x7f040005;
+    public static final int abc_primary_text_disable_only_material_light=0x7f040006;
+    public static final int abc_primary_text_material_dark=0x7f040007;
+    public static final int abc_primary_text_material_light=0x7f040008;
+    public static final int abc_search_url_text=0x7f040009;
+    public static final int abc_search_url_text_normal=0x7f04000a;
+    public static final int abc_search_url_text_pressed=0x7f04000b;
+    public static final int abc_search_url_text_selected=0x7f04000c;
+    public static final int abc_secondary_text_material_dark=0x7f04000d;
+    public static final int abc_secondary_text_material_light=0x7f04000e;
+    public static final int abc_tint_btn_checkable=0x7f04000f;
+    public static final int abc_tint_default=0x7f040010;
+    public static final int abc_tint_edittext=0x7f040011;
+    public static final int abc_tint_seek_thumb=0x7f040012;
+    public static final int abc_tint_spinner=0x7f040013;
+    public static final int abc_tint_switch_thumb=0x7f040014;
+    public static final int abc_tint_switch_track=0x7f040015;
+    public static final int accent_material_dark=0x7f040016;
+    public static final int accent_material_light=0x7f040017;
+    public static final int background_floating_material_dark=0x7f040018;
+    public static final int background_floating_material_light=0x7f040019;
+    public static final int background_material_dark=0x7f04001a;
+    public static final int background_material_light=0x7f04001b;
+    public static final int bright_foreground_disabled_material_dark=0x7f04001c;
+    public static final int bright_foreground_disabled_material_light=0x7f04001d;
+    public static final int bright_foreground_inverse_material_dark=0x7f04001e;
+    public static final int bright_foreground_inverse_material_light=0x7f04001f;
+    public static final int bright_foreground_material_dark=0x7f040020;
+    public static final int bright_foreground_material_light=0x7f040021;
+    public static final int button_material_dark=0x7f040022;
+    public static final int button_material_light=0x7f040023;
+    public static final int colorAccent=0x7f040024;
+    public static final int colorPrimary=0x7f040025;
+    public static final int colorPrimaryDark=0x7f040026;
+    public static final int design_error=0x7f040027;
+    public static final int design_fab_shadow_end_color=0x7f040028;
+    public static final int design_fab_shadow_mid_color=0x7f040029;
+    public static final int design_fab_shadow_start_color=0x7f04002a;
+    public static final int design_fab_stroke_end_inner_color=0x7f04002b;
+    public static final int design_fab_stroke_end_outer_color=0x7f04002c;
+    public static final int design_fab_stroke_top_inner_color=0x7f04002d;
+    public static final int design_fab_stroke_top_outer_color=0x7f04002e;
+    public static final int design_snackbar_background_color=0x7f04002f;
+    public static final int design_textinput_error_color_dark=0x7f040030;
+    public static final int design_textinput_error_color_light=0x7f040031;
+    public static final int design_tint_password_toggle=0x7f040032;
+    public static final int dim_foreground_disabled_material_dark=0x7f040033;
+    public static final int dim_foreground_disabled_material_light=0x7f040034;
+    public static final int dim_foreground_material_dark=0x7f040035;
+    public static final int dim_foreground_material_light=0x7f040036;
+    public static final int foreground_material_dark=0x7f040037;
+    public static final int foreground_material_light=0x7f040038;
+    public static final int grid_line=0x7f040039;
+    public static final int highlighted_text_material_dark=0x7f04003a;
+    public static final int highlighted_text_material_light=0x7f04003b;
+    public static final int hint_foreground_material_dark=0x7f04003c;
+    public static final int hint_foreground_material_light=0x7f04003d;
+    public static final int material_blue_grey_800=0x7f04003e;
+    public static final int material_blue_grey_900=0x7f04003f;
+    public static final int material_blue_grey_950=0x7f040040;
+    public static final int material_deep_teal_200=0x7f040041;
+    public static final int material_deep_teal_500=0x7f040042;
+    public static final int material_grey_100=0x7f040043;
+    public static final int material_grey_300=0x7f040044;
+    public static final int material_grey_50=0x7f040045;
+    public static final int material_grey_600=0x7f040046;
+    public static final int material_grey_800=0x7f040047;
+    public static final int material_grey_850=0x7f040048;
+    public static final int material_grey_900=0x7f040049;
+    public static final int notification_action_color_filter=0x7f04004a;
+    public static final int notification_icon_bg_color=0x7f04004b;
+    public static final int playback_indicator=0x7f04004c;
+    public static final int primary_dark_material_dark=0x7f04004d;
+    public static final int primary_dark_material_light=0x7f04004e;
+    public static final int primary_material_dark=0x7f04004f;
+    public static final int primary_material_light=0x7f040050;
+    public static final int primary_text_default_material_dark=0x7f040051;
+    public static final int primary_text_default_material_light=0x7f040052;
+    public static final int primary_text_disabled_material_dark=0x7f040053;
+    public static final int primary_text_disabled_material_light=0x7f040054;
+    public static final int ripple_material_dark=0x7f040055;
+    public static final int ripple_material_light=0x7f040056;
+    public static final int secondary_text_default_material_dark=0x7f040057;
+    public static final int secondary_text_default_material_light=0x7f040058;
+    public static final int secondary_text_disabled_material_dark=0x7f040059;
+    public static final int secondary_text_disabled_material_light=0x7f04005a;
+    public static final int selection_border=0x7f04005b;
+    public static final int switch_thumb_disabled_material_dark=0x7f04005c;
+    public static final int switch_thumb_disabled_material_light=0x7f04005d;
+    public static final int switch_thumb_material_dark=0x7f04005e;
+    public static final int switch_thumb_material_light=0x7f04005f;
+    public static final int switch_thumb_normal_material_dark=0x7f040060;
+    public static final int switch_thumb_normal_material_light=0x7f040061;
+    public static final int timecode=0x7f040062;
+    public static final int timecode_shadow=0x7f040063;
+    public static final int type_bkgnd_alarm=0x7f040064;
+    public static final int type_bkgnd_music=0x7f040065;
+    public static final int type_bkgnd_notification=0x7f040066;
+    public static final int type_bkgnd_ringtone=0x7f040067;
+    public static final int type_bkgnd_unsupported=0x7f040068;
+    public static final int waveform_selected=0x7f040069;
+    public static final int waveform_unselected=0x7f04006a;
+    public static final int waveform_unselected_bkgnd_overlay=0x7f04006b;
   }
   public static final class dimen {
-    public static final int abc_action_bar_content_inset_material=0x7f060000;
-    public static final int abc_action_bar_content_inset_with_nav=0x7f060001;
-    public static final int abc_action_bar_default_height_material=0x7f060002;
-    public static final int abc_action_bar_default_padding_end_material=0x7f060003;
-    public static final int abc_action_bar_default_padding_start_material=0x7f060004;
-    public static final int abc_action_bar_elevation_material=0x7f060005;
-    public static final int abc_action_bar_icon_vertical_padding_material=0x7f060006;
-    public static final int abc_action_bar_overflow_padding_end_material=0x7f060007;
-    public static final int abc_action_bar_overflow_padding_start_material=0x7f060008;
-    public static final int abc_action_bar_progress_bar_size=0x7f060009;
-    public static final int abc_action_bar_stacked_max_height=0x7f06000a;
-    public static final int abc_action_bar_stacked_tab_max_width=0x7f06000b;
-    public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f06000c;
-    public static final int abc_action_bar_subtitle_top_margin_material=0x7f06000d;
-    public static final int abc_action_button_min_height_material=0x7f06000e;
-    public static final int abc_action_button_min_width_material=0x7f06000f;
-    public static final int abc_action_button_min_width_overflow_material=0x7f060010;
-    public static final int abc_alert_dialog_button_bar_height=0x7f060011;
-    public static final int abc_alert_dialog_button_dimen=0x7f060012;
-    public static final int abc_button_inset_horizontal_material=0x7f060013;
-    public static final int abc_button_inset_vertical_material=0x7f060014;
-    public static final int abc_button_padding_horizontal_material=0x7f060015;
-    public static final int abc_button_padding_vertical_material=0x7f060016;
-    public static final int abc_cascading_menus_min_smallest_width=0x7f060017;
-    public static final int abc_config_prefDialogWidth=0x7f060018;
-    public static final int abc_control_corner_material=0x7f060019;
-    public static final int abc_control_inset_material=0x7f06001a;
-    public static final int abc_control_padding_material=0x7f06001b;
-    public static final int abc_dialog_fixed_height_major=0x7f06001c;
-    public static final int abc_dialog_fixed_height_minor=0x7f06001d;
-    public static final int abc_dialog_fixed_width_major=0x7f06001e;
-    public static final int abc_dialog_fixed_width_minor=0x7f06001f;
-    public static final int abc_dialog_list_padding_bottom_no_buttons=0x7f060020;
-    public static final int abc_dialog_list_padding_top_no_title=0x7f060021;
-    public static final int abc_dialog_min_width_major=0x7f060022;
-    public static final int abc_dialog_min_width_minor=0x7f060023;
-    public static final int abc_dialog_padding_material=0x7f060024;
-    public static final int abc_dialog_padding_top_material=0x7f060025;
-    public static final int abc_dialog_title_divider_material=0x7f060026;
-    public static final int abc_disabled_alpha_material_dark=0x7f060027;
-    public static final int abc_disabled_alpha_material_light=0x7f060028;
-    public static final int abc_dropdownitem_icon_width=0x7f060029;
-    public static final int abc_dropdownitem_text_padding_left=0x7f06002a;
-    public static final int abc_dropdownitem_text_padding_right=0x7f06002b;
-    public static final int abc_edit_text_inset_bottom_material=0x7f06002c;
-    public static final int abc_edit_text_inset_horizontal_material=0x7f06002d;
-    public static final int abc_edit_text_inset_top_material=0x7f06002e;
-    public static final int abc_floating_window_z=0x7f06002f;
-    public static final int abc_list_item_padding_horizontal_material=0x7f060030;
-    public static final int abc_panel_menu_list_width=0x7f060031;
-    public static final int abc_progress_bar_height_material=0x7f060032;
-    public static final int abc_search_view_preferred_height=0x7f060033;
-    public static final int abc_search_view_preferred_width=0x7f060034;
-    public static final int abc_seekbar_track_background_height_material=0x7f060035;
-    public static final int abc_seekbar_track_progress_height_material=0x7f060036;
-    public static final int abc_select_dialog_padding_start_material=0x7f060037;
-    public static final int abc_switch_padding=0x7f060038;
-    public static final int abc_text_size_body_1_material=0x7f060039;
-    public static final int abc_text_size_body_2_material=0x7f06003a;
-    public static final int abc_text_size_button_material=0x7f06003b;
-    public static final int abc_text_size_caption_material=0x7f06003c;
-    public static final int abc_text_size_display_1_material=0x7f06003d;
-    public static final int abc_text_size_display_2_material=0x7f06003e;
-    public static final int abc_text_size_display_3_material=0x7f06003f;
-    public static final int abc_text_size_display_4_material=0x7f060040;
-    public static final int abc_text_size_headline_material=0x7f060041;
-    public static final int abc_text_size_large_material=0x7f060042;
-    public static final int abc_text_size_medium_material=0x7f060043;
-    public static final int abc_text_size_menu_header_material=0x7f060044;
-    public static final int abc_text_size_menu_material=0x7f060045;
-    public static final int abc_text_size_small_material=0x7f060046;
-    public static final int abc_text_size_subhead_material=0x7f060047;
-    public static final int abc_text_size_subtitle_material_toolbar=0x7f060048;
-    public static final int abc_text_size_title_material=0x7f060049;
-    public static final int abc_text_size_title_material_toolbar=0x7f06004a;
-    public static final int activity_horizontal_margin=0x7f06004b;
-    public static final int activity_vertical_margin=0x7f06004c;
-    public static final int compat_button_inset_horizontal_material=0x7f06004d;
-    public static final int compat_button_inset_vertical_material=0x7f06004e;
-    public static final int compat_button_padding_horizontal_material=0x7f06004f;
-    public static final int compat_button_padding_vertical_material=0x7f060050;
-    public static final int compat_control_corner_material=0x7f060051;
-    public static final int design_appbar_elevation=0x7f060052;
-    public static final int design_bottom_navigation_active_item_max_width=0x7f060053;
-    public static final int design_bottom_navigation_active_text_size=0x7f060054;
-    public static final int design_bottom_navigation_elevation=0x7f060055;
-    public static final int design_bottom_navigation_height=0x7f060056;
-    public static final int design_bottom_navigation_item_max_width=0x7f060057;
-    public static final int design_bottom_navigation_item_min_width=0x7f060058;
-    public static final int design_bottom_navigation_margin=0x7f060059;
-    public static final int design_bottom_navigation_shadow_height=0x7f06005a;
-    public static final int design_bottom_navigation_text_size=0x7f06005b;
-    public static final int design_bottom_sheet_modal_elevation=0x7f06005c;
-    public static final int design_bottom_sheet_peek_height_min=0x7f06005d;
-    public static final int design_fab_border_width=0x7f06005e;
-    public static final int design_fab_elevation=0x7f06005f;
-    public static final int design_fab_image_size=0x7f060060;
-    public static final int design_fab_size_mini=0x7f060061;
-    public static final int design_fab_size_normal=0x7f060062;
-    public static final int design_fab_translation_z_pressed=0x7f060063;
-    public static final int design_navigation_elevation=0x7f060064;
-    public static final int design_navigation_icon_padding=0x7f060065;
-    public static final int design_navigation_icon_size=0x7f060066;
-    public static final int design_navigation_max_width=0x7f060067;
-    public static final int design_navigation_padding_bottom=0x7f060068;
-    public static final int design_navigation_separator_vertical_padding=0x7f060069;
-    public static final int design_snackbar_action_inline_max_width=0x7f06006a;
-    public static final int design_snackbar_background_corner_radius=0x7f06006b;
-    public static final int design_snackbar_elevation=0x7f06006c;
-    public static final int design_snackbar_extra_spacing_horizontal=0x7f06006d;
-    public static final int design_snackbar_max_width=0x7f06006e;
-    public static final int design_snackbar_min_width=0x7f06006f;
-    public static final int design_snackbar_padding_horizontal=0x7f060070;
-    public static final int design_snackbar_padding_vertical=0x7f060071;
-    public static final int design_snackbar_padding_vertical_2lines=0x7f060072;
-    public static final int design_snackbar_text_size=0x7f060073;
-    public static final int design_tab_max_width=0x7f060074;
-    public static final int design_tab_scrollable_min_width=0x7f060075;
-    public static final int design_tab_text_size=0x7f060076;
-    public static final int design_tab_text_size_2line=0x7f060077;
-    public static final int disabled_alpha_material_dark=0x7f060078;
-    public static final int disabled_alpha_material_light=0x7f060079;
-    public static final int fastscroll_default_thickness=0x7f06007a;
-    public static final int fastscroll_margin=0x7f06007b;
-    public static final int fastscroll_minimum_range=0x7f06007c;
-    public static final int highlight_alpha_material_colored=0x7f06007d;
-    public static final int highlight_alpha_material_dark=0x7f06007e;
-    public static final int highlight_alpha_material_light=0x7f06007f;
-    public static final int hint_alpha_material_dark=0x7f060080;
-    public static final int hint_alpha_material_light=0x7f060081;
-    public static final int hint_pressed_alpha_material_dark=0x7f060082;
-    public static final int hint_pressed_alpha_material_light=0x7f060083;
-    public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f060084;
-    public static final int item_touch_helper_swipe_escape_max_velocity=0x7f060085;
-    public static final int item_touch_helper_swipe_escape_velocity=0x7f060086;
-    public static final int notification_action_icon_size=0x7f060087;
-    public static final int notification_action_text_size=0x7f060088;
-    public static final int notification_big_circle_margin=0x7f060089;
-    public static final int notification_content_margin_start=0x7f06008a;
-    public static final int notification_large_icon_height=0x7f06008b;
-    public static final int notification_large_icon_width=0x7f06008c;
-    public static final int notification_main_column_padding_top=0x7f06008d;
-    public static final int notification_media_narrow_margin=0x7f06008e;
-    public static final int notification_right_icon_size=0x7f06008f;
-    public static final int notification_right_side_padding_top=0x7f060090;
-    public static final int notification_small_icon_background_padding=0x7f060091;
-    public static final int notification_small_icon_size_as_large=0x7f060092;
-    public static final int notification_subtext_size=0x7f060093;
-    public static final int notification_top_pad=0x7f060094;
-    public static final int notification_top_pad_large_text=0x7f060095;
-    public static final int text_margin=0x7f060096;
-    public static final int tooltip_corner_radius=0x7f060097;
-    public static final int tooltip_horizontal_padding=0x7f060098;
-    public static final int tooltip_margin=0x7f060099;
-    public static final int tooltip_precise_anchor_extra_offset=0x7f06009a;
-    public static final int tooltip_precise_anchor_threshold=0x7f06009b;
-    public static final int tooltip_vertical_padding=0x7f06009c;
-    public static final int tooltip_y_offset_non_touch=0x7f06009d;
-    public static final int tooltip_y_offset_touch=0x7f06009e;
+    public static final int abc_action_bar_content_inset_material=0x7f050000;
+    public static final int abc_action_bar_content_inset_with_nav=0x7f050001;
+    public static final int abc_action_bar_default_height_material=0x7f050002;
+    public static final int abc_action_bar_default_padding_end_material=0x7f050003;
+    public static final int abc_action_bar_default_padding_start_material=0x7f050004;
+    public static final int abc_action_bar_elevation_material=0x7f050005;
+    public static final int abc_action_bar_icon_vertical_padding_material=0x7f050006;
+    public static final int abc_action_bar_overflow_padding_end_material=0x7f050007;
+    public static final int abc_action_bar_overflow_padding_start_material=0x7f050008;
+    public static final int abc_action_bar_progress_bar_size=0x7f050009;
+    public static final int abc_action_bar_stacked_max_height=0x7f05000a;
+    public static final int abc_action_bar_stacked_tab_max_width=0x7f05000b;
+    public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f05000c;
+    public static final int abc_action_bar_subtitle_top_margin_material=0x7f05000d;
+    public static final int abc_action_button_min_height_material=0x7f05000e;
+    public static final int abc_action_button_min_width_material=0x7f05000f;
+    public static final int abc_action_button_min_width_overflow_material=0x7f050010;
+    public static final int abc_alert_dialog_button_bar_height=0x7f050011;
+    public static final int abc_button_inset_horizontal_material=0x7f050012;
+    public static final int abc_button_inset_vertical_material=0x7f050013;
+    public static final int abc_button_padding_horizontal_material=0x7f050014;
+    public static final int abc_button_padding_vertical_material=0x7f050015;
+    public static final int abc_cascading_menus_min_smallest_width=0x7f050016;
+    public static final int abc_config_prefDialogWidth=0x7f050017;
+    public static final int abc_control_corner_material=0x7f050018;
+    public static final int abc_control_inset_material=0x7f050019;
+    public static final int abc_control_padding_material=0x7f05001a;
+    public static final int abc_dialog_fixed_height_major=0x7f05001b;
+    public static final int abc_dialog_fixed_height_minor=0x7f05001c;
+    public static final int abc_dialog_fixed_width_major=0x7f05001d;
+    public static final int abc_dialog_fixed_width_minor=0x7f05001e;
+    public static final int abc_dialog_list_padding_vertical_material=0x7f05001f;
+    public static final int abc_dialog_min_width_major=0x7f050020;
+    public static final int abc_dialog_min_width_minor=0x7f050021;
+    public static final int abc_dialog_padding_material=0x7f050022;
+    public static final int abc_dialog_padding_top_material=0x7f050023;
+    public static final int abc_disabled_alpha_material_dark=0x7f050024;
+    public static final int abc_disabled_alpha_material_light=0x7f050025;
+    public static final int abc_dropdownitem_icon_width=0x7f050026;
+    public static final int abc_dropdownitem_text_padding_left=0x7f050027;
+    public static final int abc_dropdownitem_text_padding_right=0x7f050028;
+    public static final int abc_edit_text_inset_bottom_material=0x7f050029;
+    public static final int abc_edit_text_inset_horizontal_material=0x7f05002a;
+    public static final int abc_edit_text_inset_top_material=0x7f05002b;
+    public static final int abc_floating_window_z=0x7f05002c;
+    public static final int abc_list_item_padding_horizontal_material=0x7f05002d;
+    public static final int abc_panel_menu_list_width=0x7f05002e;
+    public static final int abc_progress_bar_height_material=0x7f05002f;
+    public static final int abc_search_view_preferred_height=0x7f050030;
+    public static final int abc_search_view_preferred_width=0x7f050031;
+    public static final int abc_seekbar_track_background_height_material=0x7f050032;
+    public static final int abc_seekbar_track_progress_height_material=0x7f050033;
+    public static final int abc_select_dialog_padding_start_material=0x7f050034;
+    public static final int abc_switch_padding=0x7f050035;
+    public static final int abc_text_size_body_1_material=0x7f050036;
+    public static final int abc_text_size_body_2_material=0x7f050037;
+    public static final int abc_text_size_button_material=0x7f050038;
+    public static final int abc_text_size_caption_material=0x7f050039;
+    public static final int abc_text_size_display_1_material=0x7f05003a;
+    public static final int abc_text_size_display_2_material=0x7f05003b;
+    public static final int abc_text_size_display_3_material=0x7f05003c;
+    public static final int abc_text_size_display_4_material=0x7f05003d;
+    public static final int abc_text_size_headline_material=0x7f05003e;
+    public static final int abc_text_size_large_material=0x7f05003f;
+    public static final int abc_text_size_medium_material=0x7f050040;
+    public static final int abc_text_size_menu_header_material=0x7f050041;
+    public static final int abc_text_size_menu_material=0x7f050042;
+    public static final int abc_text_size_small_material=0x7f050043;
+    public static final int abc_text_size_subhead_material=0x7f050044;
+    public static final int abc_text_size_subtitle_material_toolbar=0x7f050045;
+    public static final int abc_text_size_title_material=0x7f050046;
+    public static final int abc_text_size_title_material_toolbar=0x7f050047;
+    public static final int activity_horizontal_margin=0x7f050048;
+    public static final int activity_vertical_margin=0x7f050049;
+    public static final int compat_button_inset_horizontal_material=0x7f05004a;
+    public static final int compat_button_inset_vertical_material=0x7f05004b;
+    public static final int compat_button_padding_horizontal_material=0x7f05004c;
+    public static final int compat_button_padding_vertical_material=0x7f05004d;
+    public static final int compat_control_corner_material=0x7f05004e;
+    public static final int design_appbar_elevation=0x7f05004f;
+    public static final int design_bottom_navigation_active_item_max_width=0x7f050050;
+    public static final int design_bottom_navigation_active_text_size=0x7f050051;
+    public static final int design_bottom_navigation_height=0x7f050052;
+    public static final int design_bottom_navigation_item_max_width=0x7f050053;
+    public static final int design_bottom_navigation_margin=0x7f050054;
+    public static final int design_bottom_navigation_text_size=0x7f050055;
+    public static final int design_bottom_sheet_modal_elevation=0x7f050056;
+    public static final int design_bottom_sheet_peek_height_min=0x7f050057;
+    public static final int design_fab_border_width=0x7f050058;
+    public static final int design_fab_elevation=0x7f050059;
+    public static final int design_fab_image_size=0x7f05005a;
+    public static final int design_fab_size_mini=0x7f05005b;
+    public static final int design_fab_size_normal=0x7f05005c;
+    public static final int design_fab_translation_z_pressed=0x7f05005d;
+    public static final int design_navigation_elevation=0x7f05005e;
+    public static final int design_navigation_icon_padding=0x7f05005f;
+    public static final int design_navigation_icon_size=0x7f050060;
+    public static final int design_navigation_max_width=0x7f050061;
+    public static final int design_navigation_padding_bottom=0x7f050062;
+    public static final int design_navigation_separator_vertical_padding=0x7f050063;
+    public static final int design_snackbar_action_inline_max_width=0x7f050064;
+    public static final int design_snackbar_background_corner_radius=0x7f050065;
+    public static final int design_snackbar_elevation=0x7f050066;
+    public static final int design_snackbar_extra_spacing_horizontal=0x7f050067;
+    public static final int design_snackbar_max_width=0x7f050068;
+    public static final int design_snackbar_min_width=0x7f050069;
+    public static final int design_snackbar_padding_horizontal=0x7f05006a;
+    public static final int design_snackbar_padding_vertical=0x7f05006b;
+    public static final int design_snackbar_padding_vertical_2lines=0x7f05006c;
+    public static final int design_snackbar_text_size=0x7f05006d;
+    public static final int design_tab_max_width=0x7f05006e;
+    public static final int design_tab_scrollable_min_width=0x7f05006f;
+    public static final int design_tab_text_size=0x7f050070;
+    public static final int design_tab_text_size_2line=0x7f050071;
+    public static final int disabled_alpha_material_dark=0x7f050072;
+    public static final int disabled_alpha_material_light=0x7f050073;
+    public static final int highlight_alpha_material_colored=0x7f050074;
+    public static final int highlight_alpha_material_dark=0x7f050075;
+    public static final int highlight_alpha_material_light=0x7f050076;
+    public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f050077;
+    public static final int item_touch_helper_swipe_escape_max_velocity=0x7f050078;
+    public static final int item_touch_helper_swipe_escape_velocity=0x7f050079;
+    public static final int notification_action_icon_size=0x7f05007a;
+    public static final int notification_action_text_size=0x7f05007b;
+    public static final int notification_big_circle_margin=0x7f05007c;
+    public static final int notification_content_margin_start=0x7f05007d;
+    public static final int notification_large_icon_height=0x7f05007e;
+    public static final int notification_large_icon_width=0x7f05007f;
+    public static final int notification_main_column_padding_top=0x7f050080;
+    public static final int notification_media_narrow_margin=0x7f050081;
+    public static final int notification_right_icon_size=0x7f050082;
+    public static final int notification_right_side_padding_top=0x7f050083;
+    public static final int notification_small_icon_background_padding=0x7f050084;
+    public static final int notification_small_icon_size_as_large=0x7f050085;
+    public static final int notification_subtext_size=0x7f050086;
+    public static final int notification_top_pad=0x7f050087;
+    public static final int notification_top_pad_large_text=0x7f050088;
+    public static final int text_margin=0x7f050089;
   }
   public static final class drawable {
-    public static final int abc_ab_share_pack_mtrl_alpha=0x7f070006;
-    public static final int abc_action_bar_item_background_material=0x7f070007;
-    public static final int abc_btn_borderless_material=0x7f070008;
-    public static final int abc_btn_check_material=0x7f070009;
-    public static final int abc_btn_check_to_on_mtrl_000=0x7f07000a;
-    public static final int abc_btn_check_to_on_mtrl_015=0x7f07000b;
-    public static final int abc_btn_colored_material=0x7f07000c;
-    public static final int abc_btn_default_mtrl_shape=0x7f07000d;
-    public static final int abc_btn_radio_material=0x7f07000e;
-    public static final int abc_btn_radio_to_on_mtrl_000=0x7f07000f;
-    public static final int abc_btn_radio_to_on_mtrl_015=0x7f070010;
-    public static final int abc_btn_switch_to_on_mtrl_00001=0x7f070011;
-    public static final int abc_btn_switch_to_on_mtrl_00012=0x7f070012;
-    public static final int abc_cab_background_internal_bg=0x7f070013;
-    public static final int abc_cab_background_top_material=0x7f070014;
-    public static final int abc_cab_background_top_mtrl_alpha=0x7f070015;
-    public static final int abc_control_background_material=0x7f070016;
-    public static final int abc_dialog_material_background=0x7f070017;
-    public static final int abc_edit_text_material=0x7f070018;
-    public static final int abc_ic_ab_back_material=0x7f070019;
-    public static final int abc_ic_arrow_drop_right_black_24dp=0x7f07001a;
-    public static final int abc_ic_clear_material=0x7f07001b;
-    public static final int abc_ic_commit_search_api_mtrl_alpha=0x7f07001c;
-    public static final int abc_ic_go_search_api_material=0x7f07001d;
-    public static final int abc_ic_menu_copy_mtrl_am_alpha=0x7f07001e;
-    public static final int abc_ic_menu_cut_mtrl_alpha=0x7f07001f;
-    public static final int abc_ic_menu_overflow_material=0x7f070020;
-    public static final int abc_ic_menu_paste_mtrl_am_alpha=0x7f070021;
-    public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f070022;
-    public static final int abc_ic_menu_share_mtrl_alpha=0x7f070023;
-    public static final int abc_ic_search_api_material=0x7f070024;
-    public static final int abc_ic_star_black_16dp=0x7f070025;
-    public static final int abc_ic_star_black_36dp=0x7f070026;
-    public static final int abc_ic_star_black_48dp=0x7f070027;
-    public static final int abc_ic_star_half_black_16dp=0x7f070028;
-    public static final int abc_ic_star_half_black_36dp=0x7f070029;
-    public static final int abc_ic_star_half_black_48dp=0x7f07002a;
-    public static final int abc_ic_voice_search_api_material=0x7f07002b;
-    public static final int abc_item_background_holo_dark=0x7f07002c;
-    public static final int abc_item_background_holo_light=0x7f07002d;
-    public static final int abc_list_divider_mtrl_alpha=0x7f07002e;
-    public static final int abc_list_focused_holo=0x7f07002f;
-    public static final int abc_list_longpressed_holo=0x7f070030;
-    public static final int abc_list_pressed_holo_dark=0x7f070031;
-    public static final int abc_list_pressed_holo_light=0x7f070032;
-    public static final int abc_list_selector_background_transition_holo_dark=0x7f070033;
-    public static final int abc_list_selector_background_transition_holo_light=0x7f070034;
-    public static final int abc_list_selector_disabled_holo_dark=0x7f070035;
-    public static final int abc_list_selector_disabled_holo_light=0x7f070036;
-    public static final int abc_list_selector_holo_dark=0x7f070037;
-    public static final int abc_list_selector_holo_light=0x7f070038;
-    public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f070039;
-    public static final int abc_popup_background_mtrl_mult=0x7f07003a;
-    public static final int abc_ratingbar_indicator_material=0x7f07003b;
-    public static final int abc_ratingbar_material=0x7f07003c;
-    public static final int abc_ratingbar_small_material=0x7f07003d;
-    public static final int abc_scrubber_control_off_mtrl_alpha=0x7f07003e;
-    public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f07003f;
-    public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f070040;
-    public static final int abc_scrubber_primary_mtrl_alpha=0x7f070041;
-    public static final int abc_scrubber_track_mtrl_alpha=0x7f070042;
-    public static final int abc_seekbar_thumb_material=0x7f070043;
-    public static final int abc_seekbar_tick_mark_material=0x7f070044;
-    public static final int abc_seekbar_track_material=0x7f070045;
-    public static final int abc_spinner_mtrl_am_alpha=0x7f070046;
-    public static final int abc_spinner_textfield_background_material=0x7f070047;
-    public static final int abc_switch_thumb_material=0x7f070048;
-    public static final int abc_switch_track_mtrl_alpha=0x7f070049;
-    public static final int abc_tab_indicator_material=0x7f07004a;
-    public static final int abc_tab_indicator_mtrl_alpha=0x7f07004b;
-    public static final int abc_text_cursor_material=0x7f07004c;
-    public static final int abc_text_select_handle_left_mtrl_dark=0x7f07004d;
-    public static final int abc_text_select_handle_left_mtrl_light=0x7f07004e;
-    public static final int abc_text_select_handle_middle_mtrl_dark=0x7f07004f;
-    public static final int abc_text_select_handle_middle_mtrl_light=0x7f070050;
-    public static final int abc_text_select_handle_right_mtrl_dark=0x7f070051;
-    public static final int abc_text_select_handle_right_mtrl_light=0x7f070052;
-    public static final int abc_textfield_activated_mtrl_alpha=0x7f070053;
-    public static final int abc_textfield_default_mtrl_alpha=0x7f070054;
-    public static final int abc_textfield_search_activated_mtrl_alpha=0x7f070055;
-    public static final int abc_textfield_search_default_mtrl_alpha=0x7f070056;
-    public static final int abc_textfield_search_material=0x7f070057;
-    public static final int abc_vector_test=0x7f070058;
-    public static final int audio_play=0x7f070059;
-    public static final int avd_hide_password=0x7f07005a;
-    public static final int avd_show_password=0x7f07005b;
-    public static final int design_bottom_navigation_item_background=0x7f07005c;
-    public static final int design_fab_background=0x7f07005d;
-    public static final int design_ic_visibility=0x7f07005e;
-    public static final int design_ic_visibility_off=0x7f07005f;
-    public static final int design_password_eye=0x7f070060;
-    public static final int design_snackbar_background=0x7f070061;
-    public static final int ic_first_page_black_24dp=0x7f070062;
-    public static final int ic_last_page_black_24dp=0x7f070063;
-    public static final int ic_launcher=0x7f070064;
-    public static final int ic_launcher_background=0x7f070065;
-    public static final int ic_menu_black_24dp=0x7f070066;
-    public static final int ic_play_circle_filled_black_24dp=0x7f070067;
-    public static final int launch_screen=0x7f070068;
-    public static final int logo=0x7f070069;
-    public static final int navigation_empty_icon=0x7f07006a;
-    public static final int notification_action_background=0x7f07006b;
-    public static final int notification_bg=0x7f07006c;
-    public static final int notification_bg_low=0x7f07006d;
-    public static final int notification_bg_low_normal=0x7f07006e;
-    public static final int notification_bg_low_pressed=0x7f07006f;
-    public static final int notification_bg_normal=0x7f070070;
-    public static final int notification_bg_normal_pressed=0x7f070071;
-    public static final int notification_icon_background=0x7f070072;
-    public static final int notification_template_icon_bg=0x7f070073;
-    public static final int notification_template_icon_low_bg=0x7f070074;
-    public static final int notification_tile_bg=0x7f070075;
-    public static final int notify_panel_notification_icon_bg=0x7f070076;
-    public static final int tooltip_frame_dark=0x7f070077;
-    public static final int tooltip_frame_light=0x7f070078;
-    public static final int waveform_border=0x7f070079;
+    public static final int abc_ab_share_pack_mtrl_alpha=0x7f060000;
+    public static final int abc_action_bar_item_background_material=0x7f060001;
+    public static final int abc_btn_borderless_material=0x7f060002;
+    public static final int abc_btn_check_material=0x7f060003;
+    public static final int abc_btn_check_to_on_mtrl_000=0x7f060004;
+    public static final int abc_btn_check_to_on_mtrl_015=0x7f060005;
+    public static final int abc_btn_colored_material=0x7f060006;
+    public static final int abc_btn_default_mtrl_shape=0x7f060007;
+    public static final int abc_btn_radio_material=0x7f060008;
+    public static final int abc_btn_radio_to_on_mtrl_000=0x7f060009;
+    public static final int abc_btn_radio_to_on_mtrl_015=0x7f06000a;
+    public static final int abc_btn_switch_to_on_mtrl_00001=0x7f06000b;
+    public static final int abc_btn_switch_to_on_mtrl_00012=0x7f06000c;
+    public static final int abc_cab_background_internal_bg=0x7f06000d;
+    public static final int abc_cab_background_top_material=0x7f06000e;
+    public static final int abc_cab_background_top_mtrl_alpha=0x7f06000f;
+    public static final int abc_control_background_material=0x7f060010;
+    public static final int abc_dialog_material_background=0x7f060011;
+    public static final int abc_edit_text_material=0x7f060012;
+    public static final int abc_ic_ab_back_material=0x7f060013;
+    public static final int abc_ic_arrow_drop_right_black_24dp=0x7f060014;
+    public static final int abc_ic_clear_material=0x7f060015;
+    public static final int abc_ic_commit_search_api_mtrl_alpha=0x7f060016;
+    public static final int abc_ic_go_search_api_material=0x7f060017;
+    public static final int abc_ic_menu_copy_mtrl_am_alpha=0x7f060018;
+    public static final int abc_ic_menu_cut_mtrl_alpha=0x7f060019;
+    public static final int abc_ic_menu_overflow_material=0x7f06001a;
+    public static final int abc_ic_menu_paste_mtrl_am_alpha=0x7f06001b;
+    public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f06001c;
+    public static final int abc_ic_menu_share_mtrl_alpha=0x7f06001d;
+    public static final int abc_ic_search_api_material=0x7f06001e;
+    public static final int abc_ic_star_black_16dp=0x7f06001f;
+    public static final int abc_ic_star_black_36dp=0x7f060020;
+    public static final int abc_ic_star_black_48dp=0x7f060021;
+    public static final int abc_ic_star_half_black_16dp=0x7f060022;
+    public static final int abc_ic_star_half_black_36dp=0x7f060023;
+    public static final int abc_ic_star_half_black_48dp=0x7f060024;
+    public static final int abc_ic_voice_search_api_material=0x7f060025;
+    public static final int abc_item_background_holo_dark=0x7f060026;
+    public static final int abc_item_background_holo_light=0x7f060027;
+    public static final int abc_list_divider_mtrl_alpha=0x7f060028;
+    public static final int abc_list_focused_holo=0x7f060029;
+    public static final int abc_list_longpressed_holo=0x7f06002a;
+    public static final int abc_list_pressed_holo_dark=0x7f06002b;
+    public static final int abc_list_pressed_holo_light=0x7f06002c;
+    public static final int abc_list_selector_background_transition_holo_dark=0x7f06002d;
+    public static final int abc_list_selector_background_transition_holo_light=0x7f06002e;
+    public static final int abc_list_selector_disabled_holo_dark=0x7f06002f;
+    public static final int abc_list_selector_disabled_holo_light=0x7f060030;
+    public static final int abc_list_selector_holo_dark=0x7f060031;
+    public static final int abc_list_selector_holo_light=0x7f060032;
+    public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f060033;
+    public static final int abc_popup_background_mtrl_mult=0x7f060034;
+    public static final int abc_ratingbar_indicator_material=0x7f060035;
+    public static final int abc_ratingbar_material=0x7f060036;
+    public static final int abc_ratingbar_small_material=0x7f060037;
+    public static final int abc_scrubber_control_off_mtrl_alpha=0x7f060038;
+    public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f060039;
+    public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f06003a;
+    public static final int abc_scrubber_primary_mtrl_alpha=0x7f06003b;
+    public static final int abc_scrubber_track_mtrl_alpha=0x7f06003c;
+    public static final int abc_seekbar_thumb_material=0x7f06003d;
+    public static final int abc_seekbar_tick_mark_material=0x7f06003e;
+    public static final int abc_seekbar_track_material=0x7f06003f;
+    public static final int abc_spinner_mtrl_am_alpha=0x7f060040;
+    public static final int abc_spinner_textfield_background_material=0x7f060041;
+    public static final int abc_switch_thumb_material=0x7f060042;
+    public static final int abc_switch_track_mtrl_alpha=0x7f060043;
+    public static final int abc_tab_indicator_material=0x7f060044;
+    public static final int abc_tab_indicator_mtrl_alpha=0x7f060045;
+    public static final int abc_text_cursor_material=0x7f060046;
+    public static final int abc_text_select_handle_left_mtrl_dark=0x7f060047;
+    public static final int abc_text_select_handle_left_mtrl_light=0x7f060048;
+    public static final int abc_text_select_handle_middle_mtrl_dark=0x7f060049;
+    public static final int abc_text_select_handle_middle_mtrl_light=0x7f06004a;
+    public static final int abc_text_select_handle_right_mtrl_dark=0x7f06004b;
+    public static final int abc_text_select_handle_right_mtrl_light=0x7f06004c;
+    public static final int abc_textfield_activated_mtrl_alpha=0x7f06004d;
+    public static final int abc_textfield_default_mtrl_alpha=0x7f06004e;
+    public static final int abc_textfield_search_activated_mtrl_alpha=0x7f06004f;
+    public static final int abc_textfield_search_default_mtrl_alpha=0x7f060050;
+    public static final int abc_textfield_search_material=0x7f060051;
+    public static final int abc_vector_test=0x7f060052;
+    public static final int audio_play=0x7f060053;
+    public static final int design_fab_background=0x7f060054;
+    public static final int design_ic_visibility=0x7f060055;
+    public static final int design_snackbar_background=0x7f060056;
+    public static final int ic_first_page_black_24dp=0x7f060057;
+    public static final int ic_last_page_black_24dp=0x7f060058;
+    public static final int ic_launcher=0x7f060059;
+    public static final int ic_launcher_background=0x7f06005a;
+    public static final int ic_menu_black_24dp=0x7f06005b;
+    public static final int ic_play_circle_filled_black_24dp=0x7f06005c;
+    public static final int launch_screen=0x7f06005d;
+    public static final int logo=0x7f06005e;
+    public static final int navigation_empty_icon=0x7f06005f;
+    public static final int notification_action_background=0x7f060060;
+    public static final int notification_bg=0x7f060061;
+    public static final int notification_bg_low=0x7f060062;
+    public static final int notification_bg_low_normal=0x7f060063;
+    public static final int notification_bg_low_pressed=0x7f060064;
+    public static final int notification_bg_normal=0x7f060065;
+    public static final int notification_bg_normal_pressed=0x7f060066;
+    public static final int notification_icon_background=0x7f060067;
+    public static final int notification_template_icon_bg=0x7f060068;
+    public static final int notification_template_icon_low_bg=0x7f060069;
+    public static final int notification_tile_bg=0x7f06006a;
+    public static final int notify_panel_notification_icon_bg=0x7f06006b;
+    public static final int waveform_border=0x7f06006c;
   }
   public static final class id {
-    public static final int ALT=0x7f080000;
-    public static final int CTRL=0x7f080001;
-    public static final int FUNCTION=0x7f080002;
-    public static final int META=0x7f080003;
-    public static final int SHIFT=0x7f080004;
-    public static final int SYM=0x7f080005;
-    public static final int action0=0x7f080006;
-    public static final int action_bar=0x7f080007;
-    public static final int action_bar_activity_content=0x7f080008;
-    public static final int action_bar_container=0x7f080009;
-    public static final int action_bar_root=0x7f08000a;
-    public static final int action_bar_spinner=0x7f08000b;
-    public static final int action_bar_subtitle=0x7f08000c;
-    public static final int action_bar_title=0x7f08000d;
-    public static final int action_container=0x7f08000e;
-    public static final int action_context_bar=0x7f08000f;
-    public static final int action_divider=0x7f080010;
-    public static final int action_image=0x7f080011;
-    public static final int action_menu_divider=0x7f080012;
-    public static final int action_menu_presenter=0x7f080013;
-    public static final int action_mode_bar=0x7f080014;
-    public static final int action_mode_bar_stub=0x7f080015;
-    public static final int action_mode_close_button=0x7f080016;
-    public static final int action_text=0x7f080017;
-    public static final int actions=0x7f080018;
-    public static final int activity_chooser_view_content=0x7f080019;
-    public static final int activity_main=0x7f08001a;
-    public static final int add=0x7f08001b;
-    public static final int alertTitle=0x7f08001c;
-    public static final int all=0x7f08001d;
-    public static final int always=0x7f08001e;
-    public static final int async=0x7f08001f;
-    public static final int auto=0x7f080020;
-    public static final int barrier=0x7f080021;
-    public static final int beginning=0x7f080022;
-    public static final int blocking=0x7f080023;
-    public static final int bottom=0x7f080024;
-    public static final int buttonPanel=0x7f080025;
-    public static final int cancel_action=0x7f080026;
-    public static final int center=0x7f080027;
-    public static final int center_horizontal=0x7f080028;
-    public static final int center_vertical=0x7f080029;
-    public static final int chains=0x7f08002a;
-    public static final int checkbox=0x7f08002b;
-    public static final int chronometer=0x7f08002c;
-    public static final int clip_horizontal=0x7f08002d;
-    public static final int clip_vertical=0x7f08002e;
-    public static final int collapseActionView=0x7f08002f;
-    public static final int container=0x7f080030;
-    public static final int contentPanel=0x7f080031;
-    public static final int content_frame=0x7f080032;
-    public static final int coordinator=0x7f080033;
-    public static final int custom=0x7f080034;
-    public static final int customPanel=0x7f080035;
-    public static final int decor_content_parent=0x7f080036;
-    public static final int default_activity_button=0x7f080037;
-    public static final int design_bottom_sheet=0x7f080038;
-    public static final int design_menu_item_action_area=0x7f080039;
-    public static final int design_menu_item_action_area_stub=0x7f08003a;
-    public static final int design_menu_item_text=0x7f08003b;
-    public static final int design_navigation_view=0x7f08003c;
-    public static final int dimensions=0x7f08003d;
-    public static final int direct=0x7f08003e;
-    public static final int disableHome=0x7f08003f;
-    public static final int drawer_layout=0x7f080040;
-    public static final int edit_query=0x7f080041;
-    public static final int end=0x7f080042;
-    public static final int end_padder=0x7f080043;
-    public static final int enterAlways=0x7f080044;
-    public static final int enterAlwaysCollapsed=0x7f080045;
-    public static final int exitUntilCollapsed=0x7f080046;
-    public static final int expand_activities_button=0x7f080047;
-    public static final int expanded_menu=0x7f080048;
-    public static final int fill=0x7f080049;
-    public static final int fill_horizontal=0x7f08004a;
-    public static final int fill_vertical=0x7f08004b;
-    public static final int fixed=0x7f08004c;
-    public static final int forever=0x7f08004d;
-    public static final int ghost_view=0x7f08004e;
-    public static final int gone=0x7f08004f;
-    public static final int home=0x7f080050;
-    public static final int homeAsUp=0x7f080051;
-    public static final int icon=0x7f080052;
-    public static final int icon_group=0x7f080053;
-    public static final int ifRoom=0x7f080054;
-    public static final int image=0x7f080055;
-    public static final int imageButton_audio_back=0x7f080056;
-    public static final int imageButton_audio_forward=0x7f080057;
-    public static final int imageButton_audio_play=0x7f080058;
-    public static final int info=0x7f080059;
-    public static final int invisible=0x7f08005a;
-    public static final int italic=0x7f08005b;
-    public static final int item_touch_helper_previous_elevation=0x7f08005c;
-    public static final int largeLabel=0x7f08005d;
-    public static final int left=0x7f08005e;
-    public static final int line1=0x7f08005f;
-    public static final int line3=0x7f080060;
-    public static final int list=0x7f080061;
-    public static final int listMode=0x7f080062;
-    public static final int list_item=0x7f080063;
-    public static final int main_drawer_layout=0x7f080064;
-    public static final int masked=0x7f080065;
-    public static final int media_actions=0x7f080066;
-    public static final int message=0x7f080067;
-    public static final int middle=0x7f080068;
-    public static final int mini=0x7f080069;
-    public static final int multiply=0x7f08006a;
-    public static final int nav_main=0x7f08006b;
-    public static final int nav_piece=0x7f08006c;
-    public static final int nav_pieces=0x7f08006d;
-    public static final int navigation_header_container=0x7f08006e;
-    public static final int never=0x7f08006f;
-    public static final int none=0x7f080070;
-    public static final int normal=0x7f080071;
-    public static final int notification_background=0x7f080072;
-    public static final int notification_main_column=0x7f080073;
-    public static final int notification_main_column_container=0x7f080074;
-    public static final int packed=0x7f080075;
-    public static final int parallax=0x7f080076;
-    public static final int parent=0x7f080077;
-    public static final int parentPanel=0x7f080078;
-    public static final int parent_matrix=0x7f080079;
-    public static final int percent=0x7f08007a;
-    public static final int pin=0x7f08007b;
-    public static final int progress_circular=0x7f08007c;
-    public static final int progress_horizontal=0x7f08007d;
-    public static final int radio=0x7f08007e;
-    public static final int right=0x7f08007f;
-    public static final int right_icon=0x7f080080;
-    public static final int right_side=0x7f080081;
-    public static final int save_image_matrix=0x7f080082;
-    public static final int save_non_transition_alpha=0x7f080083;
-    public static final int save_scale_type=0x7f080084;
-    public static final int screen=0x7f080085;
-    public static final int scroll=0x7f080086;
-    public static final int scrollIndicatorDown=0x7f080087;
-    public static final int scrollIndicatorUp=0x7f080088;
-    public static final int scrollView=0x7f080089;
-    public static final int scrollable=0x7f08008a;
-    public static final int search_badge=0x7f08008b;
-    public static final int search_bar=0x7f08008c;
-    public static final int search_button=0x7f08008d;
-    public static final int search_close_btn=0x7f08008e;
-    public static final int search_edit_frame=0x7f08008f;
-    public static final int search_go_btn=0x7f080090;
-    public static final int search_mag_icon=0x7f080091;
-    public static final int search_plate=0x7f080092;
-    public static final int search_src_text=0x7f080093;
-    public static final int search_voice_btn=0x7f080094;
-    public static final int seekBar_crossfader=0x7f080095;
-    public static final int seekBar_pitch=0x7f080096;
-    public static final int seekBar_pitchCents=0x7f080097;
-    public static final int seekBar_tempo=0x7f080098;
-    public static final int select_dialog_listview=0x7f080099;
-    public static final int shortcut=0x7f08009a;
-    public static final int showCustom=0x7f08009b;
-    public static final int showHome=0x7f08009c;
-    public static final int showTitle=0x7f08009d;
-    public static final int smallLabel=0x7f08009e;
-    public static final int snackbar_action=0x7f08009f;
-    public static final int snackbar_text=0x7f0800a0;
-    public static final int snap=0x7f0800a1;
-    public static final int spacer=0x7f0800a2;
-    public static final int split_action_bar=0x7f0800a3;
-    public static final int spread=0x7f0800a4;
-    public static final int spread_inside=0x7f0800a5;
-    public static final int src_atop=0x7f0800a6;
-    public static final int src_in=0x7f0800a7;
-    public static final int src_over=0x7f0800a8;
-    public static final int standard=0x7f0800a9;
-    public static final int start=0x7f0800aa;
-    public static final int status_bar_latest_event_content=0x7f0800ab;
-    public static final int submenuarrow=0x7f0800ac;
-    public static final int submit_area=0x7f0800ad;
-    public static final int tabMode=0x7f0800ae;
-    public static final int tag_transition_group=0x7f0800af;
-    public static final int text=0x7f0800b0;
-    public static final int text2=0x7f0800b1;
-    public static final int textSpacerNoButtons=0x7f0800b2;
-    public static final int textSpacerNoTitle=0x7f0800b3;
-    public static final int textView_name=0x7f0800b4;
-    public static final int text_input_password_toggle=0x7f0800b5;
-    public static final int textinput_counter=0x7f0800b6;
-    public static final int textinput_error=0x7f0800b7;
-    public static final int time=0x7f0800b8;
-    public static final int title=0x7f0800b9;
-    public static final int titleDividerNoCustom=0x7f0800ba;
-    public static final int title_template=0x7f0800bb;
-    public static final int toolbar_audio_play=0x7f0800bc;
-    public static final int toolbar_main=0x7f0800bd;
-    public static final int top=0x7f0800be;
-    public static final int topPanel=0x7f0800bf;
-    public static final int touch_outside=0x7f0800c0;
-    public static final int transition_current_scene=0x7f0800c1;
-    public static final int transition_layout_save=0x7f0800c2;
-    public static final int transition_position=0x7f0800c3;
-    public static final int transition_scene_layoutid_cache=0x7f0800c4;
-    public static final int transition_transform=0x7f0800c5;
-    public static final int uniform=0x7f0800c6;
-    public static final int up=0x7f0800c7;
-    public static final int useLogo=0x7f0800c8;
-    public static final int view_offset_helper=0x7f0800c9;
-    public static final int visible=0x7f0800ca;
-    public static final int waveFormView_first=0x7f0800cb;
-    public static final int waveFormView_second=0x7f0800cc;
-    public static final int withText=0x7f0800cd;
-    public static final int wrap=0x7f0800ce;
-    public static final int wrap_content=0x7f0800cf;
+    public static final int action0=0x7f070000;
+    public static final int action_bar=0x7f070001;
+    public static final int action_bar_activity_content=0x7f070002;
+    public static final int action_bar_container=0x7f070003;
+    public static final int action_bar_root=0x7f070004;
+    public static final int action_bar_spinner=0x7f070005;
+    public static final int action_bar_subtitle=0x7f070006;
+    public static final int action_bar_title=0x7f070007;
+    public static final int action_container=0x7f070008;
+    public static final int action_context_bar=0x7f070009;
+    public static final int action_divider=0x7f07000a;
+    public static final int action_image=0x7f07000b;
+    public static final int action_menu_divider=0x7f07000c;
+    public static final int action_menu_presenter=0x7f07000d;
+    public static final int action_mode_bar=0x7f07000e;
+    public static final int action_mode_bar_stub=0x7f07000f;
+    public static final int action_mode_close_button=0x7f070010;
+    public static final int action_text=0x7f070011;
+    public static final int actions=0x7f070012;
+    public static final int activity_chooser_view_content=0x7f070013;
+    public static final int activity_main=0x7f070014;
+    public static final int add=0x7f070015;
+    public static final int alertTitle=0x7f070016;
+    public static final int all=0x7f070017;
+    public static final int always=0x7f070018;
+    public static final int async=0x7f070019;
+    public static final int audioitemfragment_list=0x7f07001a;
+    public static final int auto=0x7f07001b;
+    public static final int barrier=0x7f07001c;
+    public static final int beginning=0x7f07001d;
+    public static final int blocking=0x7f07001e;
+    public static final int bottom=0x7f07001f;
+    public static final int buttonPanel=0x7f070020;
+    public static final int cancel_action=0x7f070021;
+    public static final int center=0x7f070022;
+    public static final int center_horizontal=0x7f070023;
+    public static final int center_vertical=0x7f070024;
+    public static final int chains=0x7f070025;
+    public static final int checkbox=0x7f070026;
+    public static final int chronometer=0x7f070027;
+    public static final int clip_horizontal=0x7f070028;
+    public static final int clip_vertical=0x7f070029;
+    public static final int collapseActionView=0x7f07002a;
+    public static final int contentPanel=0x7f07002b;
+    public static final int content_frame=0x7f07002c;
+    public static final int custom=0x7f07002d;
+    public static final int customPanel=0x7f07002e;
+    public static final int decor_content_parent=0x7f07002f;
+    public static final int default_activity_button=0x7f070030;
+    public static final int design_bottom_sheet=0x7f070031;
+    public static final int design_menu_item_action_area=0x7f070032;
+    public static final int design_menu_item_action_area_stub=0x7f070033;
+    public static final int design_menu_item_text=0x7f070034;
+    public static final int design_navigation_view=0x7f070035;
+    public static final int dimensions=0x7f070036;
+    public static final int direct=0x7f070037;
+    public static final int disableHome=0x7f070038;
+    public static final int drawer_layout=0x7f070039;
+    public static final int edit_query=0x7f07003a;
+    public static final int end=0x7f07003b;
+    public static final int end_padder=0x7f07003c;
+    public static final int enterAlways=0x7f07003d;
+    public static final int enterAlwaysCollapsed=0x7f07003e;
+    public static final int exitUntilCollapsed=0x7f07003f;
+    public static final int expand_activities_button=0x7f070040;
+    public static final int expanded_menu=0x7f070041;
+    public static final int fill=0x7f070042;
+    public static final int fill_horizontal=0x7f070043;
+    public static final int fill_vertical=0x7f070044;
+    public static final int fixed=0x7f070045;
+    public static final int forever=0x7f070046;
+    public static final int gone=0x7f070047;
+    public static final int groups=0x7f070048;
+    public static final int home=0x7f070049;
+    public static final int homeAsUp=0x7f07004a;
+    public static final int icon=0x7f07004b;
+    public static final int icon_group=0x7f07004c;
+    public static final int ifRoom=0x7f07004d;
+    public static final int image=0x7f07004e;
+    public static final int imageButton_audio_back=0x7f07004f;
+    public static final int imageButton_audio_forward=0x7f070050;
+    public static final int imageButton_audio_play=0x7f070051;
+    public static final int info=0x7f070052;
+    public static final int invisible=0x7f070053;
+    public static final int italic=0x7f070054;
+    public static final int item_touch_helper_previous_elevation=0x7f070055;
+    public static final int left=0x7f070056;
+    public static final int line1=0x7f070057;
+    public static final int line3=0x7f070058;
+    public static final int listMode=0x7f070059;
+    public static final int list_item=0x7f07005a;
+    public static final int main_drawer_layout=0x7f07005b;
+    public static final int media_actions=0x7f07005c;
+    public static final int middle=0x7f07005d;
+    public static final int mini=0x7f07005e;
+    public static final int multiply=0x7f07005f;
+    public static final int nav_main=0x7f070060;
+    public static final int nav_piece=0x7f070061;
+    public static final int nav_pieces=0x7f070062;
+    public static final int navigation_header_container=0x7f070063;
+    public static final int never=0x7f070064;
+    public static final int none=0x7f070065;
+    public static final int normal=0x7f070066;
+    public static final int notification_background=0x7f070067;
+    public static final int notification_main_column=0x7f070068;
+    public static final int notification_main_column_container=0x7f070069;
+    public static final int packed=0x7f07006a;
+    public static final int parallax=0x7f07006b;
+    public static final int parent=0x7f07006c;
+    public static final int parentPanel=0x7f07006d;
+    public static final int percent=0x7f07006e;
+    public static final int pin=0x7f07006f;
+    public static final int progress_circular=0x7f070070;
+    public static final int progress_horizontal=0x7f070071;
+    public static final int radio=0x7f070072;
+    public static final int right=0x7f070073;
+    public static final int right_icon=0x7f070074;
+    public static final int right_side=0x7f070075;
+    public static final int screen=0x7f070076;
+    public static final int scroll=0x7f070077;
+    public static final int scrollIndicatorDown=0x7f070078;
+    public static final int scrollIndicatorUp=0x7f070079;
+    public static final int scrollView=0x7f07007a;
+    public static final int scrollable=0x7f07007b;
+    public static final int search_badge=0x7f07007c;
+    public static final int search_bar=0x7f07007d;
+    public static final int search_button=0x7f07007e;
+    public static final int search_close_btn=0x7f07007f;
+    public static final int search_edit_frame=0x7f070080;
+    public static final int search_go_btn=0x7f070081;
+    public static final int search_mag_icon=0x7f070082;
+    public static final int search_plate=0x7f070083;
+    public static final int search_src_text=0x7f070084;
+    public static final int search_voice_btn=0x7f070085;
+    public static final int seekBar_crossfader=0x7f070086;
+    public static final int seekBar_pitch=0x7f070087;
+    public static final int seekBar_pitchCents=0x7f070088;
+    public static final int seekBar_tempo=0x7f070089;
+    public static final int select_dialog_listview=0x7f07008a;
+    public static final int shortcut=0x7f07008b;
+    public static final int showCustom=0x7f07008c;
+    public static final int showHome=0x7f07008d;
+    public static final int showTitle=0x7f07008e;
+    public static final int snackbar_action=0x7f07008f;
+    public static final int snackbar_text=0x7f070090;
+    public static final int snap=0x7f070091;
+    public static final int spacer=0x7f070092;
+    public static final int split_action_bar=0x7f070093;
+    public static final int spread=0x7f070094;
+    public static final int spread_inside=0x7f070095;
+    public static final int src_atop=0x7f070096;
+    public static final int src_in=0x7f070097;
+    public static final int src_over=0x7f070098;
+    public static final int standard=0x7f070099;
+    public static final int start=0x7f07009a;
+    public static final int status_bar_latest_event_content=0x7f07009b;
+    public static final int submenuarrow=0x7f07009c;
+    public static final int submit_area=0x7f07009d;
+    public static final int tabMode=0x7f07009e;
+    public static final int text=0x7f07009f;
+    public static final int text2=0x7f0700a0;
+    public static final int textSpacerNoButtons=0x7f0700a1;
+    public static final int textView_name=0x7f0700a2;
+    public static final int text_input_password_toggle=0x7f0700a3;
+    public static final int time=0x7f0700a4;
+    public static final int title=0x7f0700a5;
+    public static final int title_template=0x7f0700a6;
+    public static final int toolbar_audio_play=0x7f0700a7;
+    public static final int toolbar_main=0x7f0700a8;
+    public static final int top=0x7f0700a9;
+    public static final int topPanel=0x7f0700aa;
+    public static final int touch_outside=0x7f0700ab;
+    public static final int up=0x7f0700ac;
+    public static final int useLogo=0x7f0700ad;
+    public static final int view_offset_helper=0x7f0700ae;
+    public static final int waveFormView_first=0x7f0700af;
+    public static final int waveFormView_second=0x7f0700b0;
+    public static final int withText=0x7f0700b1;
+    public static final int wrap=0x7f0700b2;
+    public static final int wrap_content=0x7f0700b3;
   }
   public static final class integer {
-    public static final int abc_config_activityDefaultDur=0x7f090000;
-    public static final int abc_config_activityShortDur=0x7f090001;
-    public static final int app_bar_elevation_anim_duration=0x7f090002;
-    public static final int bottom_sheet_slide_duration=0x7f090003;
-    public static final int cancel_button_image_alpha=0x7f090004;
-    public static final int config_tooltipAnimTime=0x7f090005;
-    public static final int design_snackbar_text_max_lines=0x7f090006;
-    public static final int hide_password_duration=0x7f090007;
-    public static final int show_password_duration=0x7f090008;
-    public static final int status_bar_notification_info_maxnum=0x7f090009;
+    public static final int abc_config_activityDefaultDur=0x7f080000;
+    public static final int abc_config_activityShortDur=0x7f080001;
+    public static final int app_bar_elevation_anim_duration=0x7f080002;
+    public static final int bottom_sheet_slide_duration=0x7f080003;
+    public static final int cancel_button_image_alpha=0x7f080004;
+    public static final int design_snackbar_text_max_lines=0x7f080005;
+    public static final int status_bar_notification_info_maxnum=0x7f080006;
   }
   public static final class layout {
-    public static final int abc_action_bar_title_item=0x7f0a0000;
-    public static final int abc_action_bar_up_container=0x7f0a0001;
-    public static final int abc_action_menu_item_layout=0x7f0a0002;
-    public static final int abc_action_menu_layout=0x7f0a0003;
-    public static final int abc_action_mode_bar=0x7f0a0004;
-    public static final int abc_action_mode_close_item_material=0x7f0a0005;
-    public static final int abc_activity_chooser_view=0x7f0a0006;
-    public static final int abc_activity_chooser_view_list_item=0x7f0a0007;
-    public static final int abc_alert_dialog_button_bar_material=0x7f0a0008;
-    public static final int abc_alert_dialog_material=0x7f0a0009;
-    public static final int abc_alert_dialog_title_material=0x7f0a000a;
-    public static final int abc_dialog_title_material=0x7f0a000b;
-    public static final int abc_expanded_menu_layout=0x7f0a000c;
-    public static final int abc_list_menu_item_checkbox=0x7f0a000d;
-    public static final int abc_list_menu_item_icon=0x7f0a000e;
-    public static final int abc_list_menu_item_layout=0x7f0a000f;
-    public static final int abc_list_menu_item_radio=0x7f0a0010;
-    public static final int abc_popup_menu_header_item_layout=0x7f0a0011;
-    public static final int abc_popup_menu_item_layout=0x7f0a0012;
-    public static final int abc_screen_content_include=0x7f0a0013;
-    public static final int abc_screen_simple=0x7f0a0014;
-    public static final int abc_screen_simple_overlay_action_mode=0x7f0a0015;
-    public static final int abc_screen_toolbar=0x7f0a0016;
-    public static final int abc_search_dropdown_item_icons_2line=0x7f0a0017;
-    public static final int abc_search_view=0x7f0a0018;
-    public static final int abc_select_dialog_material=0x7f0a0019;
-    public static final int abc_tooltip=0x7f0a001a;
-    public static final int activity_main=0x7f0a001b;
-    public static final int design_bottom_navigation_item=0x7f0a001c;
-    public static final int design_bottom_sheet_dialog=0x7f0a001d;
-    public static final int design_layout_snackbar=0x7f0a001e;
-    public static final int design_layout_snackbar_include=0x7f0a001f;
-    public static final int design_layout_tab_icon=0x7f0a0020;
-    public static final int design_layout_tab_text=0x7f0a0021;
-    public static final int design_menu_item_action_area=0x7f0a0022;
-    public static final int design_navigation_item=0x7f0a0023;
-    public static final int design_navigation_item_header=0x7f0a0024;
-    public static final int design_navigation_item_separator=0x7f0a0025;
-    public static final int design_navigation_item_subheader=0x7f0a0026;
-    public static final int design_navigation_menu=0x7f0a0027;
-    public static final int design_navigation_menu_item=0x7f0a0028;
-    public static final int design_text_input_password_icon=0x7f0a0029;
-    public static final int fragment_audio_play=0x7f0a002a;
-    public static final int fragment_audioitem=0x7f0a002b;
-    public static final int fragment_audioitem_list=0x7f0a002c;
-    public static final int notification_action=0x7f0a002d;
-    public static final int notification_action_tombstone=0x7f0a002e;
-    public static final int notification_media_action=0x7f0a002f;
-    public static final int notification_media_cancel_action=0x7f0a0030;
-    public static final int notification_template_big_media=0x7f0a0031;
-    public static final int notification_template_big_media_custom=0x7f0a0032;
-    public static final int notification_template_big_media_narrow=0x7f0a0033;
-    public static final int notification_template_big_media_narrow_custom=0x7f0a0034;
-    public static final int notification_template_custom_big=0x7f0a0035;
-    public static final int notification_template_icon_group=0x7f0a0036;
-    public static final int notification_template_lines_media=0x7f0a0037;
-    public static final int notification_template_media=0x7f0a0038;
-    public static final int notification_template_media_custom=0x7f0a0039;
-    public static final int notification_template_part_chronometer=0x7f0a003a;
-    public static final int notification_template_part_time=0x7f0a003b;
-    public static final int select_dialog_item_material=0x7f0a003c;
-    public static final int select_dialog_multichoice_material=0x7f0a003d;
-    public static final int select_dialog_singlechoice_material=0x7f0a003e;
-    public static final int support_simple_spinner_dropdown_item=0x7f0a003f;
+    public static final int abc_action_bar_title_item=0x7f090000;
+    public static final int abc_action_bar_up_container=0x7f090001;
+    public static final int abc_action_bar_view_list_nav_layout=0x7f090002;
+    public static final int abc_action_menu_item_layout=0x7f090003;
+    public static final int abc_action_menu_layout=0x7f090004;
+    public static final int abc_action_mode_bar=0x7f090005;
+    public static final int abc_action_mode_close_item_material=0x7f090006;
+    public static final int abc_activity_chooser_view=0x7f090007;
+    public static final int abc_activity_chooser_view_list_item=0x7f090008;
+    public static final int abc_alert_dialog_button_bar_material=0x7f090009;
+    public static final int abc_alert_dialog_material=0x7f09000a;
+    public static final int abc_dialog_title_material=0x7f09000b;
+    public static final int abc_expanded_menu_layout=0x7f09000c;
+    public static final int abc_list_menu_item_checkbox=0x7f09000d;
+    public static final int abc_list_menu_item_icon=0x7f09000e;
+    public static final int abc_list_menu_item_layout=0x7f09000f;
+    public static final int abc_list_menu_item_radio=0x7f090010;
+    public static final int abc_popup_menu_header_item_layout=0x7f090011;
+    public static final int abc_popup_menu_item_layout=0x7f090012;
+    public static final int abc_screen_content_include=0x7f090013;
+    public static final int abc_screen_simple=0x7f090014;
+    public static final int abc_screen_simple_overlay_action_mode=0x7f090015;
+    public static final int abc_screen_toolbar=0x7f090016;
+    public static final int abc_search_dropdown_item_icons_2line=0x7f090017;
+    public static final int abc_search_view=0x7f090018;
+    public static final int abc_select_dialog_material=0x7f090019;
+    public static final int activity_main=0x7f09001a;
+    public static final int design_bottom_sheet_dialog=0x7f09001b;
+    public static final int design_layout_snackbar=0x7f09001c;
+    public static final int design_layout_snackbar_include=0x7f09001d;
+    public static final int design_layout_tab_icon=0x7f09001e;
+    public static final int design_layout_tab_text=0x7f09001f;
+    public static final int design_menu_item_action_area=0x7f090020;
+    public static final int design_navigation_item=0x7f090021;
+    public static final int design_navigation_item_header=0x7f090022;
+    public static final int design_navigation_item_separator=0x7f090023;
+    public static final int design_navigation_item_subheader=0x7f090024;
+    public static final int design_navigation_menu=0x7f090025;
+    public static final int design_navigation_menu_item=0x7f090026;
+    public static final int design_text_input_password_icon=0x7f090027;
+    public static final int fragment_audio_play=0x7f090028;
+    public static final int fragment_audioitem=0x7f090029;
+    public static final int fragment_audioitem_list=0x7f09002a;
+    public static final int notification_action=0x7f09002b;
+    public static final int notification_action_tombstone=0x7f09002c;
+    public static final int notification_media_action=0x7f09002d;
+    public static final int notification_media_cancel_action=0x7f09002e;
+    public static final int notification_template_big_media=0x7f09002f;
+    public static final int notification_template_big_media_narrow=0x7f090030;
+    public static final int notification_template_custom_big=0x7f090031;
+    public static final int notification_template_icon_group=0x7f090032;
+    public static final int notification_template_lines=0x7f090033;
+    public static final int notification_template_media=0x7f090034;
+    public static final int notification_template_part_chronometer=0x7f090035;
+    public static final int notification_template_part_time=0x7f090036;
+    public static final int select_dialog_item_material=0x7f090037;
+    public static final int select_dialog_multichoice_material=0x7f090038;
+    public static final int select_dialog_singlechoice_material=0x7f090039;
+    public static final int support_simple_spinner_dropdown_item=0x7f09003a;
   }
   public static final class menu {
-    public static final int menu_audio_list=0x7f0b0000;
-    public static final int menu_audio_play=0x7f0b0001;
-    public static final int menu_main=0x7f0b0002;
-    public static final int nav_main=0x7f0b0003;
+    public static final int menu_audio_list=0x7f0a0000;
+    public static final int menu_audio_play=0x7f0a0001;
+    public static final int menu_main=0x7f0a0002;
+    public static final int nav_main=0x7f0a0003;
   }
   public static final class raw {
-    public static final int links=0x7f0c0000;
-    public static final int rechts=0x7f0c0001;
+    public static final int links=0x7f0b0000;
+    public static final int rechts=0x7f0b0001;
   }
   public static final class string {
-    public static final int abc_action_bar_home_description=0x7f0d0000;
-    public static final int abc_action_bar_up_description=0x7f0d0001;
-    public static final int abc_action_menu_overflow_description=0x7f0d0002;
-    public static final int abc_action_mode_done=0x7f0d0003;
-    public static final int abc_activity_chooser_view_see_all=0x7f0d0004;
-    public static final int abc_activitychooserview_choose_application=0x7f0d0005;
-    public static final int abc_capital_off=0x7f0d0006;
-    public static final int abc_capital_on=0x7f0d0007;
-    public static final int abc_font_family_body_1_material=0x7f0d0008;
-    public static final int abc_font_family_body_2_material=0x7f0d0009;
-    public static final int abc_font_family_button_material=0x7f0d000a;
-    public static final int abc_font_family_caption_material=0x7f0d000b;
-    public static final int abc_font_family_display_1_material=0x7f0d000c;
-    public static final int abc_font_family_display_2_material=0x7f0d000d;
-    public static final int abc_font_family_display_3_material=0x7f0d000e;
-    public static final int abc_font_family_display_4_material=0x7f0d000f;
-    public static final int abc_font_family_headline_material=0x7f0d0010;
-    public static final int abc_font_family_menu_material=0x7f0d0011;
-    public static final int abc_font_family_subhead_material=0x7f0d0012;
-    public static final int abc_font_family_title_material=0x7f0d0013;
-    public static final int abc_search_hint=0x7f0d0014;
-    public static final int abc_searchview_description_clear=0x7f0d0015;
-    public static final int abc_searchview_description_query=0x7f0d0016;
-    public static final int abc_searchview_description_search=0x7f0d0017;
-    public static final int abc_searchview_description_submit=0x7f0d0018;
-    public static final int abc_searchview_description_voice=0x7f0d0019;
-    public static final int abc_shareactionprovider_share_with=0x7f0d001a;
-    public static final int abc_shareactionprovider_share_with_application=0x7f0d001b;
-    public static final int abc_toolbar_collapse_description=0x7f0d001c;
-    public static final int about_text=0x7f0d001d;
-    public static final int about_title=0x7f0d001e;
-    public static final int alert_no_button=0x7f0d001f;
-    public static final int alert_ok_button=0x7f0d0020;
-    public static final int alert_title_failure=0x7f0d0021;
-    public static final int alert_title_success=0x7f0d0022;
-    public static final int alert_yes_button=0x7f0d0023;
-    public static final int app_name=0x7f0d0024;
-    public static final int appbar_scrolling_view_behavior=0x7f0d0025;
-    public static final int artist_name=0x7f0d0026;
-    public static final int bad_extension_error=0x7f0d0027;
-    public static final int bottom_sheet_behavior=0x7f0d0028;
-    public static final int button_options=0x7f0d0029;
-    public static final int button_start_record_activity=0x7f0d002a;
-    public static final int character_counter_pattern=0x7f0d002b;
-    public static final int choose_contact_ringtone_button=0x7f0d002c;
-    public static final int choose_contact_title=0x7f0d002d;
-    public static final int confirm_delete_non_ringdroid=0x7f0d002e;
-    public static final int confirm_delete_ringdroid=0x7f0d002f;
-    public static final int context_menu_contact=0x7f0d0030;
-    public static final int context_menu_default_notification=0x7f0d0031;
-    public static final int context_menu_default_ringtone=0x7f0d0032;
-    public static final int context_menu_delete=0x7f0d0033;
-    public static final int context_menu_edit=0x7f0d0034;
-    public static final int default_notification_success_message=0x7f0d0035;
-    public static final int default_ringtone_success_message=0x7f0d0036;
-    public static final int delete_alarm=0x7f0d0037;
-    public static final int delete_audio=0x7f0d0038;
-    public static final int delete_cancel_button=0x7f0d0039;
-    public static final int delete_failed=0x7f0d003a;
-    public static final int delete_music=0x7f0d003b;
-    public static final int delete_notification=0x7f0d003c;
-    public static final int delete_ok_button=0x7f0d003d;
-    public static final int delete_ringtone=0x7f0d003e;
-    public static final int do_nothing_with_ringtone_button=0x7f0d003f;
-    public static final int edit_intent=0x7f0d0040;
-    public static final int end_label=0x7f0d0041;
-    public static final int end_marker=0x7f0d0042;
-    public static final int ffwd=0x7f0d0043;
-    public static final int file_save_button_cancel=0x7f0d0044;
-    public static final int file_save_button_save=0x7f0d0045;
-    public static final int file_save_title=0x7f0d0046;
-    public static final int main_activity_label=0x7f0d0047;
-    public static final int make_default_ringtone_button=0x7f0d0048;
-    public static final int menu_about=0x7f0d0049;
-    public static final int menu_reset=0x7f0d004a;
-    public static final int menu_save=0x7f0d004b;
-    public static final int menu_show_all_audio=0x7f0d004c;
-    public static final int no_extension_error=0x7f0d004d;
-    public static final int no_sdcard=0x7f0d004e;
-    public static final int no_space_error=0x7f0d004f;
-    public static final int no_unique_filename=0x7f0d0050;
-    public static final int password_toggle_content_description=0x7f0d0051;
-    public static final int path_password_eye=0x7f0d0052;
-    public static final int path_password_eye_mask_strike_through=0x7f0d0053;
-    public static final int path_password_eye_mask_visible=0x7f0d0054;
-    public static final int path_password_strike_through=0x7f0d0055;
-    public static final int play=0x7f0d0056;
-    public static final int play_error=0x7f0d0057;
-    public static final int progress_dialog_cancel=0x7f0d0058;
-    public static final int progress_dialog_loading=0x7f0d0059;
-    public static final int progress_dialog_recording=0x7f0d005a;
-    public static final int progress_dialog_saving=0x7f0d005b;
-    public static final int progress_dialog_stop=0x7f0d005c;
-    public static final int read_error=0x7f0d005d;
-    public static final int record_error=0x7f0d005e;
-    public static final int rewind=0x7f0d005f;
-    public static final int ringdroid_app_name=0x7f0d0060;
-    public static final int ringtone_name_label=0x7f0d0061;
-    public static final int ringtone_type_label=0x7f0d0062;
-    public static final int save_button=0x7f0d0063;
-    public static final int save_success_message=0x7f0d0064;
-    public static final int sdcard_readonly=0x7f0d0065;
-    public static final int sdcard_shared=0x7f0d0066;
-    public static final int search_edit_box=0x7f0d0067;
-    public static final int search_menu_title=0x7f0d0068;
-    public static final int set_default_notification=0x7f0d0069;
-    public static final int start_label=0x7f0d006a;
-    public static final int start_marker=0x7f0d006b;
-    public static final int status_bar_notification_info_overflow=0x7f0d006c;
-    public static final int stop=0x7f0d006d;
-    public static final int success_contact_ringtone=0x7f0d006e;
-    public static final int time_seconds=0x7f0d006f;
-    public static final int too_small_error=0x7f0d0070;
-    public static final int type_alarm=0x7f0d0071;
-    public static final int type_music=0x7f0d0072;
-    public static final int type_notification=0x7f0d0073;
-    public static final int type_ringtone=0x7f0d0074;
-    public static final int what_to_do_with_ringtone=0x7f0d0075;
-    public static final int write_error=0x7f0d0076;
-    public static final int zoom_in=0x7f0d0077;
-    public static final int zoom_out=0x7f0d0078;
+    public static final int abc_action_bar_home_description=0x7f0c0000;
+    public static final int abc_action_bar_home_description_format=0x7f0c0001;
+    public static final int abc_action_bar_home_subtitle_description_format=0x7f0c0002;
+    public static final int abc_action_bar_up_description=0x7f0c0003;
+    public static final int abc_action_menu_overflow_description=0x7f0c0004;
+    public static final int abc_action_mode_done=0x7f0c0005;
+    public static final int abc_activity_chooser_view_see_all=0x7f0c0006;
+    public static final int abc_activitychooserview_choose_application=0x7f0c0007;
+    public static final int abc_capital_off=0x7f0c0008;
+    public static final int abc_capital_on=0x7f0c0009;
+    public static final int abc_font_family_body_1_material=0x7f0c000a;
+    public static final int abc_font_family_body_2_material=0x7f0c000b;
+    public static final int abc_font_family_button_material=0x7f0c000c;
+    public static final int abc_font_family_caption_material=0x7f0c000d;
+    public static final int abc_font_family_display_1_material=0x7f0c000e;
+    public static final int abc_font_family_display_2_material=0x7f0c000f;
+    public static final int abc_font_family_display_3_material=0x7f0c0010;
+    public static final int abc_font_family_display_4_material=0x7f0c0011;
+    public static final int abc_font_family_headline_material=0x7f0c0012;
+    public static final int abc_font_family_menu_material=0x7f0c0013;
+    public static final int abc_font_family_subhead_material=0x7f0c0014;
+    public static final int abc_font_family_title_material=0x7f0c0015;
+    public static final int abc_search_hint=0x7f0c0016;
+    public static final int abc_searchview_description_clear=0x7f0c0017;
+    public static final int abc_searchview_description_query=0x7f0c0018;
+    public static final int abc_searchview_description_search=0x7f0c0019;
+    public static final int abc_searchview_description_submit=0x7f0c001a;
+    public static final int abc_searchview_description_voice=0x7f0c001b;
+    public static final int abc_shareactionprovider_share_with=0x7f0c001c;
+    public static final int abc_shareactionprovider_share_with_application=0x7f0c001d;
+    public static final int abc_toolbar_collapse_description=0x7f0c001e;
+    public static final int about_text=0x7f0c001f;
+    public static final int about_title=0x7f0c0020;
+    public static final int alert_no_button=0x7f0c0021;
+    public static final int alert_ok_button=0x7f0c0022;
+    public static final int alert_title_failure=0x7f0c0023;
+    public static final int alert_title_success=0x7f0c0024;
+    public static final int alert_yes_button=0x7f0c0025;
+    public static final int app_name=0x7f0c0026;
+    public static final int appbar_scrolling_view_behavior=0x7f0c0027;
+    public static final int artist_name=0x7f0c0028;
+    public static final int bad_extension_error=0x7f0c0029;
+    public static final int bottom_sheet_behavior=0x7f0c002a;
+    public static final int button_options=0x7f0c002b;
+    public static final int button_start_record_activity=0x7f0c002c;
+    public static final int character_counter_pattern=0x7f0c002d;
+    public static final int choose_contact_ringtone_button=0x7f0c002e;
+    public static final int choose_contact_title=0x7f0c002f;
+    public static final int confirm_delete_non_ringdroid=0x7f0c0030;
+    public static final int confirm_delete_ringdroid=0x7f0c0031;
+    public static final int context_menu_contact=0x7f0c0032;
+    public static final int context_menu_default_notification=0x7f0c0033;
+    public static final int context_menu_default_ringtone=0x7f0c0034;
+    public static final int context_menu_delete=0x7f0c0035;
+    public static final int context_menu_edit=0x7f0c0036;
+    public static final int default_notification_success_message=0x7f0c0037;
+    public static final int default_ringtone_success_message=0x7f0c0038;
+    public static final int delete_alarm=0x7f0c0039;
+    public static final int delete_audio=0x7f0c003a;
+    public static final int delete_cancel_button=0x7f0c003b;
+    public static final int delete_failed=0x7f0c003c;
+    public static final int delete_music=0x7f0c003d;
+    public static final int delete_notification=0x7f0c003e;
+    public static final int delete_ok_button=0x7f0c003f;
+    public static final int delete_ringtone=0x7f0c0040;
+    public static final int do_nothing_with_ringtone_button=0x7f0c0041;
+    public static final int edit_intent=0x7f0c0042;
+    public static final int end_label=0x7f0c0043;
+    public static final int end_marker=0x7f0c0044;
+    public static final int ffwd=0x7f0c0045;
+    public static final int file_save_button_cancel=0x7f0c0046;
+    public static final int file_save_button_save=0x7f0c0047;
+    public static final int file_save_title=0x7f0c0048;
+    public static final int main_activity_label=0x7f0c0049;
+    public static final int make_default_ringtone_button=0x7f0c004a;
+    public static final int menu_about=0x7f0c004b;
+    public static final int menu_reset=0x7f0c004c;
+    public static final int menu_save=0x7f0c004d;
+    public static final int menu_show_all_audio=0x7f0c004e;
+    public static final int no_extension_error=0x7f0c004f;
+    public static final int no_sdcard=0x7f0c0050;
+    public static final int no_space_error=0x7f0c0051;
+    public static final int no_unique_filename=0x7f0c0052;
+    public static final int play=0x7f0c0053;
+    public static final int play_error=0x7f0c0054;
+    public static final int progress_dialog_cancel=0x7f0c0055;
+    public static final int progress_dialog_loading=0x7f0c0056;
+    public static final int progress_dialog_recording=0x7f0c0057;
+    public static final int progress_dialog_saving=0x7f0c0058;
+    public static final int progress_dialog_stop=0x7f0c0059;
+    public static final int read_error=0x7f0c005a;
+    public static final int record_error=0x7f0c005b;
+    public static final int rewind=0x7f0c005c;
+    public static final int ringdroid_app_name=0x7f0c005d;
+    public static final int ringtone_name_label=0x7f0c005e;
+    public static final int ringtone_type_label=0x7f0c005f;
+    public static final int save_button=0x7f0c0060;
+    public static final int save_success_message=0x7f0c0061;
+    public static final int sdcard_readonly=0x7f0c0062;
+    public static final int sdcard_shared=0x7f0c0063;
+    public static final int search_edit_box=0x7f0c0064;
+    public static final int search_menu_title=0x7f0c0065;
+    public static final int set_default_notification=0x7f0c0066;
+    public static final int start_label=0x7f0c0067;
+    public static final int start_marker=0x7f0c0068;
+    public static final int status_bar_notification_info_overflow=0x7f0c0069;
+    public static final int stop=0x7f0c006a;
+    public static final int success_contact_ringtone=0x7f0c006b;
+    public static final int time_seconds=0x7f0c006c;
+    public static final int too_small_error=0x7f0c006d;
+    public static final int type_alarm=0x7f0c006e;
+    public static final int type_music=0x7f0c006f;
+    public static final int type_notification=0x7f0c0070;
+    public static final int type_ringtone=0x7f0c0071;
+    public static final int what_to_do_with_ringtone=0x7f0c0072;
+    public static final int write_error=0x7f0c0073;
+    public static final int zoom_in=0x7f0c0074;
+    public static final int zoom_out=0x7f0c0075;
   }
   public static final class style {
-    public static final int AlertDialog_AppCompat=0x7f0e0000;
-    public static final int AlertDialog_AppCompat_Light=0x7f0e0001;
-    public static final int Animation_AppCompat_Dialog=0x7f0e0002;
-    public static final int Animation_AppCompat_DropDownUp=0x7f0e0003;
-    public static final int Animation_AppCompat_Tooltip=0x7f0e0004;
-    public static final int Animation_Design_BottomSheetDialog=0x7f0e0005;
-    public static final int AppTheme=0x7f0e0006;
-    public static final int AppTheme_Launcher=0x7f0e0007;
-    public static final int Base_AlertDialog_AppCompat=0x7f0e0008;
-    public static final int Base_AlertDialog_AppCompat_Light=0x7f0e0009;
-    public static final int Base_Animation_AppCompat_Dialog=0x7f0e000a;
-    public static final int Base_Animation_AppCompat_DropDownUp=0x7f0e000b;
-    public static final int Base_Animation_AppCompat_Tooltip=0x7f0e000c;
-    public static final int Base_DialogWindowTitle_AppCompat=0x7f0e000d;
-    public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0e000e;
-    public static final int Base_TextAppearance_AppCompat=0x7f0e000f;
-    public static final int Base_TextAppearance_AppCompat_Body1=0x7f0e0010;
-    public static final int Base_TextAppearance_AppCompat_Body2=0x7f0e0011;
-    public static final int Base_TextAppearance_AppCompat_Button=0x7f0e0012;
-    public static final int Base_TextAppearance_AppCompat_Caption=0x7f0e0013;
-    public static final int Base_TextAppearance_AppCompat_Display1=0x7f0e0014;
-    public static final int Base_TextAppearance_AppCompat_Display2=0x7f0e0015;
-    public static final int Base_TextAppearance_AppCompat_Display3=0x7f0e0016;
-    public static final int Base_TextAppearance_AppCompat_Display4=0x7f0e0017;
-    public static final int Base_TextAppearance_AppCompat_Headline=0x7f0e0018;
-    public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0e0019;
-    public static final int Base_TextAppearance_AppCompat_Large=0x7f0e001a;
-    public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0e001b;
-    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0e001c;
-    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0e001d;
-    public static final int Base_TextAppearance_AppCompat_Medium=0x7f0e001e;
-    public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0e001f;
-    public static final int Base_TextAppearance_AppCompat_Menu=0x7f0e0020;
-    public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0e0021;
-    public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0e0022;
-    public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0e0023;
-    public static final int Base_TextAppearance_AppCompat_Small=0x7f0e0024;
-    public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0e0025;
-    public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0e0026;
-    public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0e0027;
-    public static final int Base_TextAppearance_AppCompat_Title=0x7f0e0028;
-    public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0e0029;
-    public static final int Base_TextAppearance_AppCompat_Tooltip=0x7f0e002a;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0e002b;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0e002c;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0e002d;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0e002e;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0e002f;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0e0030;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0e0031;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0e0032;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0e0033;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f0e0034;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0e0035;
-    public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0e0036;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0e0037;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0e0038;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0e0039;
-    public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0e003a;
-    public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0e003b;
-    public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0e003c;
-    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0e003d;
-    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0e003e;
-    public static final int Base_Theme_AppCompat=0x7f0e003f;
-    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0e0040;
-    public static final int Base_Theme_AppCompat_Dialog=0x7f0e0041;
-    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0e0042;
-    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0e0043;
-    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0e0044;
-    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0e0045;
-    public static final int Base_Theme_AppCompat_Light=0x7f0e0046;
-    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0e0047;
-    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0e0048;
-    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0e0049;
-    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0e004a;
-    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0e004b;
-    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0e004c;
-    public static final int Base_ThemeOverlay_AppCompat=0x7f0e004d;
-    public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0e004e;
-    public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0e004f;
-    public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0e0050;
-    public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0e0051;
-    public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0e0052;
-    public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0e0053;
-    public static final int Base_V14_Widget_Design_AppBarLayout=0x7f0e0054;
-    public static final int Base_V21_Theme_AppCompat=0x7f0e0055;
-    public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0e0056;
-    public static final int Base_V21_Theme_AppCompat_Light=0x7f0e0057;
-    public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0e0058;
-    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0e0059;
-    public static final int Base_V21_Widget_Design_AppBarLayout=0x7f0e005a;
-    public static final int Base_V22_Theme_AppCompat=0x7f0e005b;
-    public static final int Base_V22_Theme_AppCompat_Light=0x7f0e005c;
-    public static final int Base_V23_Theme_AppCompat=0x7f0e005d;
-    public static final int Base_V23_Theme_AppCompat_Light=0x7f0e005e;
-    public static final int Base_V26_Theme_AppCompat=0x7f0e005f;
-    public static final int Base_V26_Theme_AppCompat_Light=0x7f0e0060;
-    public static final int Base_V26_Widget_AppCompat_Toolbar=0x7f0e0061;
-    public static final int Base_V26_Widget_Design_AppBarLayout=0x7f0e0062;
-    public static final int Base_V7_Theme_AppCompat=0x7f0e0063;
-    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0e0064;
-    public static final int Base_V7_Theme_AppCompat_Light=0x7f0e0065;
-    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0e0066;
-    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0e0067;
-    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0e0068;
-    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0e0069;
-    public static final int Base_V7_Widget_AppCompat_Toolbar=0x7f0e006a;
-    public static final int Base_Widget_AppCompat_ActionBar=0x7f0e006b;
-    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0e006c;
-    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0e006d;
-    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0e006e;
-    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0e006f;
-    public static final int Base_Widget_AppCompat_ActionButton=0x7f0e0070;
-    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0e0071;
-    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0e0072;
-    public static final int Base_Widget_AppCompat_ActionMode=0x7f0e0073;
-    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0e0074;
-    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0e0075;
-    public static final int Base_Widget_AppCompat_Button=0x7f0e0076;
-    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0e0077;
-    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0e0078;
-    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0e0079;
-    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0e007a;
-    public static final int Base_Widget_AppCompat_Button_Small=0x7f0e007b;
-    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0e007c;
-    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0e007d;
-    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0e007e;
-    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0e007f;
-    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0e0080;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0e0081;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0e0082;
-    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0e0083;
-    public static final int Base_Widget_AppCompat_EditText=0x7f0e0084;
-    public static final int Base_Widget_AppCompat_ImageButton=0x7f0e0085;
-    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0e0086;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0e0087;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0e0088;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0e0089;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0e008a;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0e008b;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0e008c;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0e008d;
-    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0e008e;
-    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0e008f;
-    public static final int Base_Widget_AppCompat_ListView=0x7f0e0090;
-    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0e0091;
-    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0e0092;
-    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0e0093;
-    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0e0094;
-    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0e0095;
-    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0e0096;
-    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0e0097;
-    public static final int Base_Widget_AppCompat_RatingBar=0x7f0e0098;
-    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0e0099;
-    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0e009a;
-    public static final int Base_Widget_AppCompat_SearchView=0x7f0e009b;
-    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0e009c;
-    public static final int Base_Widget_AppCompat_SeekBar=0x7f0e009d;
-    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0e009e;
-    public static final int Base_Widget_AppCompat_Spinner=0x7f0e009f;
-    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0e00a0;
-    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0e00a1;
-    public static final int Base_Widget_AppCompat_Toolbar=0x7f0e00a2;
-    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0e00a3;
-    public static final int Base_Widget_Design_AppBarLayout=0x7f0e00a4;
-    public static final int Base_Widget_Design_TabLayout=0x7f0e00a5;
-    public static final int Platform_AppCompat=0x7f0e00a6;
-    public static final int Platform_AppCompat_Light=0x7f0e00a7;
-    public static final int Platform_ThemeOverlay_AppCompat=0x7f0e00a8;
-    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0e00a9;
-    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0e00aa;
-    public static final int Platform_V21_AppCompat=0x7f0e00ab;
-    public static final int Platform_V21_AppCompat_Light=0x7f0e00ac;
-    public static final int Platform_V25_AppCompat=0x7f0e00ad;
-    public static final int Platform_V25_AppCompat_Light=0x7f0e00ae;
-    public static final int Platform_Widget_AppCompat_Spinner=0x7f0e00af;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0e00b0;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0e00b1;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0e00b2;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0e00b3;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0e00b4;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0e00b5;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0e00b6;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0e00b7;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0e00b8;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0e00b9;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0e00ba;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0e00bb;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0e00bc;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0e00bd;
-    public static final int TextAppearance_AppCompat=0x7f0e00be;
-    public static final int TextAppearance_AppCompat_Body1=0x7f0e00bf;
-    public static final int TextAppearance_AppCompat_Body2=0x7f0e00c0;
-    public static final int TextAppearance_AppCompat_Button=0x7f0e00c1;
-    public static final int TextAppearance_AppCompat_Caption=0x7f0e00c2;
-    public static final int TextAppearance_AppCompat_Display1=0x7f0e00c3;
-    public static final int TextAppearance_AppCompat_Display2=0x7f0e00c4;
-    public static final int TextAppearance_AppCompat_Display3=0x7f0e00c5;
-    public static final int TextAppearance_AppCompat_Display4=0x7f0e00c6;
-    public static final int TextAppearance_AppCompat_Headline=0x7f0e00c7;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f0e00c8;
-    public static final int TextAppearance_AppCompat_Large=0x7f0e00c9;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0e00ca;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0e00cb;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0e00cc;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0e00cd;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0e00ce;
-    public static final int TextAppearance_AppCompat_Medium=0x7f0e00cf;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0e00d0;
-    public static final int TextAppearance_AppCompat_Menu=0x7f0e00d1;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0e00d2;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0e00d3;
-    public static final int TextAppearance_AppCompat_Small=0x7f0e00d4;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0e00d5;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f0e00d6;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0e00d7;
-    public static final int TextAppearance_AppCompat_Title=0x7f0e00d8;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0e00d9;
-    public static final int TextAppearance_AppCompat_Tooltip=0x7f0e00da;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0e00db;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0e00dc;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0e00dd;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0e00de;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0e00df;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0e00e0;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0e00e1;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0e00e2;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0e00e3;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0e00e4;
-    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0e00e5;
-    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0e00e6;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0e00e7;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0e00e8;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0e00e9;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0e00ea;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0e00eb;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0e00ec;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0e00ed;
-    public static final int TextAppearance_Compat_Notification=0x7f0e00ee;
-    public static final int TextAppearance_Compat_Notification_Info=0x7f0e00ef;
-    public static final int TextAppearance_Compat_Notification_Info_Media=0x7f0e00f0;
-    public static final int TextAppearance_Compat_Notification_Line2=0x7f0e00f1;
-    public static final int TextAppearance_Compat_Notification_Line2_Media=0x7f0e00f2;
-    public static final int TextAppearance_Compat_Notification_Media=0x7f0e00f3;
-    public static final int TextAppearance_Compat_Notification_Time=0x7f0e00f4;
-    public static final int TextAppearance_Compat_Notification_Time_Media=0x7f0e00f5;
-    public static final int TextAppearance_Compat_Notification_Title=0x7f0e00f6;
-    public static final int TextAppearance_Compat_Notification_Title_Media=0x7f0e00f7;
-    public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0e00f8;
-    public static final int TextAppearance_Design_Counter=0x7f0e00f9;
-    public static final int TextAppearance_Design_Counter_Overflow=0x7f0e00fa;
-    public static final int TextAppearance_Design_Error=0x7f0e00fb;
-    public static final int TextAppearance_Design_Hint=0x7f0e00fc;
-    public static final int TextAppearance_Design_Snackbar_Message=0x7f0e00fd;
-    public static final int TextAppearance_Design_Tab=0x7f0e00fe;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0e00ff;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0e0100;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0e0101;
-    public static final int Theme_AppCompat=0x7f0e0102;
-    public static final int Theme_AppCompat_CompactMenu=0x7f0e0103;
-    public static final int Theme_AppCompat_DayNight=0x7f0e0104;
-    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0e0105;
-    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0e0106;
-    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0e0107;
-    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0e0108;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0e0109;
-    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0e010a;
-    public static final int Theme_AppCompat_Dialog=0x7f0e010b;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f0e010c;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0e010d;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0e010e;
-    public static final int Theme_AppCompat_Light=0x7f0e010f;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0e0110;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f0e0111;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0e0112;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0e0113;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0e0114;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0e0115;
-    public static final int Theme_AppCompat_NoActionBar=0x7f0e0116;
-    public static final int Theme_Design=0x7f0e0117;
-    public static final int Theme_Design_BottomSheetDialog=0x7f0e0118;
-    public static final int Theme_Design_Light=0x7f0e0119;
-    public static final int Theme_Design_Light_BottomSheetDialog=0x7f0e011a;
-    public static final int Theme_Design_Light_NoActionBar=0x7f0e011b;
-    public static final int Theme_Design_NoActionBar=0x7f0e011c;
-    public static final int ThemeOverlay_AppCompat=0x7f0e011d;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0e011e;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f0e011f;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0e0120;
-    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0e0121;
-    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0e0122;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f0e0123;
-    public static final int Widget_AppCompat_ActionBar=0x7f0e0124;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0e0125;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0e0126;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0e0127;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0e0128;
-    public static final int Widget_AppCompat_ActionButton=0x7f0e0129;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0e012a;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0e012b;
-    public static final int Widget_AppCompat_ActionMode=0x7f0e012c;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f0e012d;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0e012e;
-    public static final int Widget_AppCompat_Button=0x7f0e012f;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f0e0130;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0e0131;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0e0132;
-    public static final int Widget_AppCompat_Button_Colored=0x7f0e0133;
-    public static final int Widget_AppCompat_Button_Small=0x7f0e0134;
-    public static final int Widget_AppCompat_ButtonBar=0x7f0e0135;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0e0136;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0e0137;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0e0138;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0e0139;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0e013a;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0e013b;
-    public static final int Widget_AppCompat_EditText=0x7f0e013c;
-    public static final int Widget_AppCompat_ImageButton=0x7f0e013d;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f0e013e;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0e013f;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0e0140;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0e0141;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0e0142;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0e0143;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0e0144;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0e0145;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0e0146;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f0e0147;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0e0148;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0e0149;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0e014a;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0e014b;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0e014c;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0e014d;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0e014e;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0e014f;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0e0150;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0e0151;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f0e0152;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0e0153;
-    public static final int Widget_AppCompat_ListMenuView=0x7f0e0154;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f0e0155;
-    public static final int Widget_AppCompat_ListView=0x7f0e0156;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f0e0157;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f0e0158;
-    public static final int Widget_AppCompat_PopupMenu=0x7f0e0159;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0e015a;
-    public static final int Widget_AppCompat_PopupWindow=0x7f0e015b;
-    public static final int Widget_AppCompat_ProgressBar=0x7f0e015c;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0e015d;
-    public static final int Widget_AppCompat_RatingBar=0x7f0e015e;
-    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0e015f;
-    public static final int Widget_AppCompat_RatingBar_Small=0x7f0e0160;
-    public static final int Widget_AppCompat_SearchView=0x7f0e0161;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0e0162;
-    public static final int Widget_AppCompat_SeekBar=0x7f0e0163;
-    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0e0164;
-    public static final int Widget_AppCompat_Spinner=0x7f0e0165;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0e0166;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0e0167;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0e0168;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0e0169;
-    public static final int Widget_AppCompat_Toolbar=0x7f0e016a;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0e016b;
-    public static final int Widget_Compat_NotificationActionContainer=0x7f0e016c;
-    public static final int Widget_Compat_NotificationActionText=0x7f0e016d;
-    public static final int Widget_Design_AppBarLayout=0x7f0e016e;
-    public static final int Widget_Design_BottomNavigationView=0x7f0e016f;
-    public static final int Widget_Design_BottomSheet_Modal=0x7f0e0170;
-    public static final int Widget_Design_CollapsingToolbar=0x7f0e0171;
-    public static final int Widget_Design_CoordinatorLayout=0x7f0e0172;
-    public static final int Widget_Design_FloatingActionButton=0x7f0e0173;
-    public static final int Widget_Design_NavigationView=0x7f0e0174;
-    public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0e0175;
-    public static final int Widget_Design_Snackbar=0x7f0e0176;
-    public static final int Widget_Design_TabLayout=0x7f0e0177;
-    public static final int Widget_Design_TextInputLayout=0x7f0e0178;
-    public static final int Widget_Support_CoordinatorLayout=0x7f0e0179;
+    public static final int AlertDialog_AppCompat=0x7f0d0000;
+    public static final int AlertDialog_AppCompat_Light=0x7f0d0001;
+    public static final int Animation_AppCompat_Dialog=0x7f0d0002;
+    public static final int Animation_AppCompat_DropDownUp=0x7f0d0003;
+    public static final int Animation_Design_BottomSheetDialog=0x7f0d0004;
+    public static final int AppTheme=0x7f0d0005;
+    public static final int AppTheme_Launcher=0x7f0d0006;
+    public static final int Base_AlertDialog_AppCompat=0x7f0d0007;
+    public static final int Base_AlertDialog_AppCompat_Light=0x7f0d0008;
+    public static final int Base_Animation_AppCompat_Dialog=0x7f0d0009;
+    public static final int Base_Animation_AppCompat_DropDownUp=0x7f0d000a;
+    public static final int Base_DialogWindowTitle_AppCompat=0x7f0d000b;
+    public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0d000c;
+    public static final int Base_TextAppearance_AppCompat=0x7f0d000d;
+    public static final int Base_TextAppearance_AppCompat_Body1=0x7f0d000e;
+    public static final int Base_TextAppearance_AppCompat_Body2=0x7f0d000f;
+    public static final int Base_TextAppearance_AppCompat_Button=0x7f0d0010;
+    public static final int Base_TextAppearance_AppCompat_Caption=0x7f0d0011;
+    public static final int Base_TextAppearance_AppCompat_Display1=0x7f0d0012;
+    public static final int Base_TextAppearance_AppCompat_Display2=0x7f0d0013;
+    public static final int Base_TextAppearance_AppCompat_Display3=0x7f0d0014;
+    public static final int Base_TextAppearance_AppCompat_Display4=0x7f0d0015;
+    public static final int Base_TextAppearance_AppCompat_Headline=0x7f0d0016;
+    public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0d0017;
+    public static final int Base_TextAppearance_AppCompat_Large=0x7f0d0018;
+    public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0d0019;
+    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0d001a;
+    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0d001b;
+    public static final int Base_TextAppearance_AppCompat_Medium=0x7f0d001c;
+    public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0d001d;
+    public static final int Base_TextAppearance_AppCompat_Menu=0x7f0d001e;
+    public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0d001f;
+    public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0d0020;
+    public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0d0021;
+    public static final int Base_TextAppearance_AppCompat_Small=0x7f0d0022;
+    public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0d0023;
+    public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0d0024;
+    public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0d0025;
+    public static final int Base_TextAppearance_AppCompat_Title=0x7f0d0026;
+    public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0d0027;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0d0028;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0d0029;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0d002a;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0d002b;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0d002c;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0d002d;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0d002e;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0d002f;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0d0030;
+    public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0d0031;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0d0032;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0d0033;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0d0034;
+    public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0d0035;
+    public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0d0036;
+    public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0d0037;
+    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0d0038;
+    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0d0039;
+    public static final int Base_Theme_AppCompat=0x7f0d003a;
+    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0d003b;
+    public static final int Base_Theme_AppCompat_Dialog=0x7f0d003c;
+    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0d003d;
+    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0d003e;
+    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0d003f;
+    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0d0040;
+    public static final int Base_Theme_AppCompat_Light=0x7f0d0041;
+    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0d0042;
+    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0d0043;
+    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0d0044;
+    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0d0045;
+    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0d0046;
+    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0d0047;
+    public static final int Base_ThemeOverlay_AppCompat=0x7f0d0048;
+    public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0d0049;
+    public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0d004a;
+    public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0d004b;
+    public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0d004c;
+    public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0d004d;
+    public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0d004e;
+    public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0d004f;
+    public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0d0050;
+    public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0d0051;
+    public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0d0052;
+    public static final int Base_V12_Widget_AppCompat_EditText=0x7f0d0053;
+    public static final int Base_V21_Theme_AppCompat=0x7f0d0054;
+    public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0d0055;
+    public static final int Base_V21_Theme_AppCompat_Light=0x7f0d0056;
+    public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0d0057;
+    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0d0058;
+    public static final int Base_V22_Theme_AppCompat=0x7f0d0059;
+    public static final int Base_V22_Theme_AppCompat_Light=0x7f0d005a;
+    public static final int Base_V23_Theme_AppCompat=0x7f0d005b;
+    public static final int Base_V23_Theme_AppCompat_Light=0x7f0d005c;
+    public static final int Base_V7_Theme_AppCompat=0x7f0d005d;
+    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0d005e;
+    public static final int Base_V7_Theme_AppCompat_Light=0x7f0d005f;
+    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0d0060;
+    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0d0061;
+    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0d0062;
+    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0d0063;
+    public static final int Base_Widget_AppCompat_ActionBar=0x7f0d0064;
+    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0d0065;
+    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0d0066;
+    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0d0067;
+    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0d0068;
+    public static final int Base_Widget_AppCompat_ActionButton=0x7f0d0069;
+    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0d006a;
+    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0d006b;
+    public static final int Base_Widget_AppCompat_ActionMode=0x7f0d006c;
+    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0d006d;
+    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0d006e;
+    public static final int Base_Widget_AppCompat_Button=0x7f0d006f;
+    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0d0070;
+    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0d0071;
+    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0d0072;
+    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0d0073;
+    public static final int Base_Widget_AppCompat_Button_Small=0x7f0d0074;
+    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0d0075;
+    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0d0076;
+    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0d0077;
+    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0d0078;
+    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0d0079;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0d007a;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0d007b;
+    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0d007c;
+    public static final int Base_Widget_AppCompat_EditText=0x7f0d007d;
+    public static final int Base_Widget_AppCompat_ImageButton=0x7f0d007e;
+    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0d007f;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0d0080;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0d0081;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0d0082;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0d0083;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0d0084;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0d0085;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0d0086;
+    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0d0087;
+    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0d0088;
+    public static final int Base_Widget_AppCompat_ListView=0x7f0d0089;
+    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0d008a;
+    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0d008b;
+    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0d008c;
+    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0d008d;
+    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0d008e;
+    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0d008f;
+    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0d0090;
+    public static final int Base_Widget_AppCompat_RatingBar=0x7f0d0091;
+    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0d0092;
+    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0d0093;
+    public static final int Base_Widget_AppCompat_SearchView=0x7f0d0094;
+    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0d0095;
+    public static final int Base_Widget_AppCompat_SeekBar=0x7f0d0096;
+    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0d0097;
+    public static final int Base_Widget_AppCompat_Spinner=0x7f0d0098;
+    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0d0099;
+    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0d009a;
+    public static final int Base_Widget_AppCompat_Toolbar=0x7f0d009b;
+    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0d009c;
+    public static final int Base_Widget_Design_AppBarLayout=0x7f0d009d;
+    public static final int Base_Widget_Design_TabLayout=0x7f0d009e;
+    public static final int Platform_AppCompat=0x7f0d009f;
+    public static final int Platform_AppCompat_Light=0x7f0d00a0;
+    public static final int Platform_ThemeOverlay_AppCompat=0x7f0d00a1;
+    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0d00a2;
+    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0d00a3;
+    public static final int Platform_V11_AppCompat=0x7f0d00a4;
+    public static final int Platform_V11_AppCompat_Light=0x7f0d00a5;
+    public static final int Platform_V14_AppCompat=0x7f0d00a6;
+    public static final int Platform_V14_AppCompat_Light=0x7f0d00a7;
+    public static final int Platform_Widget_AppCompat_Spinner=0x7f0d00a8;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0d00a9;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0d00aa;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0d00ab;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0d00ac;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0d00ad;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0d00ae;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0d00af;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0d00b0;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0d00b1;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0d00b2;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0d00b3;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0d00b4;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0d00b5;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0d00b6;
+    public static final int TextAppearance_AppCompat=0x7f0d00b7;
+    public static final int TextAppearance_AppCompat_Body1=0x7f0d00b8;
+    public static final int TextAppearance_AppCompat_Body2=0x7f0d00b9;
+    public static final int TextAppearance_AppCompat_Button=0x7f0d00ba;
+    public static final int TextAppearance_AppCompat_Caption=0x7f0d00bb;
+    public static final int TextAppearance_AppCompat_Display1=0x7f0d00bc;
+    public static final int TextAppearance_AppCompat_Display2=0x7f0d00bd;
+    public static final int TextAppearance_AppCompat_Display3=0x7f0d00be;
+    public static final int TextAppearance_AppCompat_Display4=0x7f0d00bf;
+    public static final int TextAppearance_AppCompat_Headline=0x7f0d00c0;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f0d00c1;
+    public static final int TextAppearance_AppCompat_Large=0x7f0d00c2;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0d00c3;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0d00c4;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0d00c5;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0d00c6;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0d00c7;
+    public static final int TextAppearance_AppCompat_Medium=0x7f0d00c8;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0d00c9;
+    public static final int TextAppearance_AppCompat_Menu=0x7f0d00ca;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0d00cb;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0d00cc;
+    public static final int TextAppearance_AppCompat_Small=0x7f0d00cd;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0d00ce;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f0d00cf;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0d00d0;
+    public static final int TextAppearance_AppCompat_Title=0x7f0d00d1;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0d00d2;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0d00d3;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0d00d4;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0d00d5;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0d00d6;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0d00d7;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0d00d8;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0d00d9;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0d00da;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0d00db;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0d00dc;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0d00dd;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0d00de;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0d00df;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0d00e0;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0d00e1;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0d00e2;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0d00e3;
+    public static final int TextAppearance_Compat_Notification=0x7f0d00e4;
+    public static final int TextAppearance_Compat_Notification_Info=0x7f0d00e5;
+    public static final int TextAppearance_Compat_Notification_Line2=0x7f0d00e6;
+    public static final int TextAppearance_Compat_Notification_Time=0x7f0d00e7;
+    public static final int TextAppearance_Compat_Notification_Title=0x7f0d00e8;
+    public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0d00e9;
+    public static final int TextAppearance_Design_Counter=0x7f0d00ea;
+    public static final int TextAppearance_Design_Counter_Overflow=0x7f0d00eb;
+    public static final int TextAppearance_Design_Error=0x7f0d00ec;
+    public static final int TextAppearance_Design_Hint=0x7f0d00ed;
+    public static final int TextAppearance_Design_Snackbar_Message=0x7f0d00ee;
+    public static final int TextAppearance_Design_Tab=0x7f0d00ef;
+    public static final int TextAppearance_StatusBar_EventContent=0x7f0d00f0;
+    public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0d00f1;
+    public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0d00f2;
+    public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0d00f3;
+    public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0d00f4;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0d00f5;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0d00f6;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0d00f7;
+    public static final int Theme_AppCompat=0x7f0d00f8;
+    public static final int Theme_AppCompat_CompactMenu=0x7f0d00f9;
+    public static final int Theme_AppCompat_DayNight=0x7f0d00fa;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0d00fb;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0d00fc;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0d00fd;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0d00fe;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0d00ff;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0d0100;
+    public static final int Theme_AppCompat_Dialog=0x7f0d0101;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f0d0102;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0d0103;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0d0104;
+    public static final int Theme_AppCompat_Light=0x7f0d0105;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0d0106;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f0d0107;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0d0108;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0d0109;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0d010a;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0d010b;
+    public static final int Theme_AppCompat_NoActionBar=0x7f0d010c;
+    public static final int Theme_Design=0x7f0d010d;
+    public static final int Theme_Design_BottomSheetDialog=0x7f0d010e;
+    public static final int Theme_Design_Light=0x7f0d010f;
+    public static final int Theme_Design_Light_BottomSheetDialog=0x7f0d0110;
+    public static final int Theme_Design_Light_NoActionBar=0x7f0d0111;
+    public static final int Theme_Design_NoActionBar=0x7f0d0112;
+    public static final int ThemeOverlay_AppCompat=0x7f0d0113;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0d0114;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f0d0115;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0d0116;
+    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0d0117;
+    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0d0118;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f0d0119;
+    public static final int Widget_AppCompat_ActionBar=0x7f0d011a;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0d011b;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0d011c;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0d011d;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0d011e;
+    public static final int Widget_AppCompat_ActionButton=0x7f0d011f;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0d0120;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0d0121;
+    public static final int Widget_AppCompat_ActionMode=0x7f0d0122;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f0d0123;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0d0124;
+    public static final int Widget_AppCompat_Button=0x7f0d0125;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f0d0126;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0d0127;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0d0128;
+    public static final int Widget_AppCompat_Button_Colored=0x7f0d0129;
+    public static final int Widget_AppCompat_Button_Small=0x7f0d012a;
+    public static final int Widget_AppCompat_ButtonBar=0x7f0d012b;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0d012c;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0d012d;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0d012e;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0d012f;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0d0130;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0d0131;
+    public static final int Widget_AppCompat_EditText=0x7f0d0132;
+    public static final int Widget_AppCompat_ImageButton=0x7f0d0133;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f0d0134;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0d0135;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0d0136;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0d0137;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0d0138;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0d0139;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0d013a;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0d013b;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0d013c;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f0d013d;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0d013e;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0d013f;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0d0140;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0d0141;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0d0142;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0d0143;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0d0144;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0d0145;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0d0146;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0d0147;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f0d0148;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0d0149;
+    public static final int Widget_AppCompat_ListMenuView=0x7f0d014a;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f0d014b;
+    public static final int Widget_AppCompat_ListView=0x7f0d014c;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f0d014d;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f0d014e;
+    public static final int Widget_AppCompat_PopupMenu=0x7f0d014f;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0d0150;
+    public static final int Widget_AppCompat_PopupWindow=0x7f0d0151;
+    public static final int Widget_AppCompat_ProgressBar=0x7f0d0152;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0d0153;
+    public static final int Widget_AppCompat_RatingBar=0x7f0d0154;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0d0155;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f0d0156;
+    public static final int Widget_AppCompat_SearchView=0x7f0d0157;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0d0158;
+    public static final int Widget_AppCompat_SeekBar=0x7f0d0159;
+    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0d015a;
+    public static final int Widget_AppCompat_Spinner=0x7f0d015b;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0d015c;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0d015d;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0d015e;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0d015f;
+    public static final int Widget_AppCompat_Toolbar=0x7f0d0160;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0d0161;
+    public static final int Widget_Compat_NotificationActionContainer=0x7f0d0162;
+    public static final int Widget_Compat_NotificationActionText=0x7f0d0163;
+    public static final int Widget_Design_AppBarLayout=0x7f0d0164;
+    public static final int Widget_Design_BottomSheet_Modal=0x7f0d0165;
+    public static final int Widget_Design_CollapsingToolbar=0x7f0d0166;
+    public static final int Widget_Design_CoordinatorLayout=0x7f0d0167;
+    public static final int Widget_Design_FloatingActionButton=0x7f0d0168;
+    public static final int Widget_Design_NavigationView=0x7f0d0169;
+    public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0d016a;
+    public static final int Widget_Design_Snackbar=0x7f0d016b;
+    public static final int Widget_Design_TabLayout=0x7f0d016c;
+    public static final int Widget_Design_TextInputLayout=0x7f0d016d;
   }
   public static final class styleable {
     /**
@@ -4462,35 +4121,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.superpowered.hoerklavierschule:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.superpowered.hoerklavierschule:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.superpowered.hoerklavierschule:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.superpowered.hoerklavierschule:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.superpowered.hoerklavierschule:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.superpowered.hoerklavierschule:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.superpowered.hoerklavierschule:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.superpowered.hoerklavierschule:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.superpowered.hoerklavierschule:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.superpowered.hoerklavierschule:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.superpowered.hoerklavierschule:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.superpowered.hoerklavierschule:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.superpowered.hoerklavierschule:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.superpowered.hoerklavierschule:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.superpowered.hoerklavierschule:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.superpowered.hoerklavierschule:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.superpowered.hoerklavierschule:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.superpowered.hoerklavierschule:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.superpowered.hoerklavierschule:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.superpowered.hoerklavierschule:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.superpowered.hoerklavierschule:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.superpowered.hoerklavierschule:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.superpowered.hoerklavierschule:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.superpowered.hoerklavierschule:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.superpowered.hoerklavierschule:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.superpowered.hoerklavierschule:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.superpowered.hoerklavierschule:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.superpowered.hoerklavierschule:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.superpowered.hoerklavierschule:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.superpowered.crossexample:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.superpowered.crossexample:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.superpowered.crossexample:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.superpowered.crossexample:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.superpowered.crossexample:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.superpowered.crossexample:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.superpowered.crossexample:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.superpowered.crossexample:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.superpowered.crossexample:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.superpowered.crossexample:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.superpowered.crossexample:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.superpowered.crossexample:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.superpowered.crossexample:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.superpowered.crossexample:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.superpowered.crossexample:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.superpowered.crossexample:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.superpowered.crossexample:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.superpowered.crossexample:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.superpowered.crossexample:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.superpowered.crossexample:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.superpowered.crossexample:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.superpowered.crossexample:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.superpowered.crossexample:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.superpowered.crossexample:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.superpowered.crossexample:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.superpowered.crossexample:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.superpowered.crossexample:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.superpowered.crossexample:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.superpowered.crossexample:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -4523,17 +4182,17 @@ public final class R {
      * @see #ActionBar_titleTextStyle
      */
     public static final int[] ActionBar={
-      0x7f030031, 0x7f030032, 0x7f030033, 0x7f030067, 
-      0x7f030068, 0x7f030069, 0x7f03006a, 0x7f03006b, 
-      0x7f03006c, 0x7f030074, 0x7f030078, 0x7f030079, 
-      0x7f030084, 0x7f0300a6, 0x7f0300a7, 0x7f0300ab, 
-      0x7f0300ac, 0x7f0300ad, 0x7f0300b2, 0x7f0300b8, 
-      0x7f030105, 0x7f03010e, 0x7f03011e, 0x7f030122, 
-      0x7f030123, 0x7f030147, 0x7f03014a, 0x7f030176, 
-      0x7f030180
+      0x7f02002b, 0x7f02002c, 0x7f02002d, 0x7f02005e, 
+      0x7f02005f, 0x7f020060, 0x7f020061, 0x7f020062, 
+      0x7f020063, 0x7f02006a, 0x7f02006e, 0x7f02006f, 
+      0x7f02007a, 0x7f020095, 0x7f020096, 0x7f02009a, 
+      0x7f02009b, 0x7f02009c, 0x7f02009f, 0x7f0200a5, 
+      0x7f0200f2, 0x7f0200fb, 0x7f020108, 0x7f02010c, 
+      0x7f02010d, 0x7f020130, 0x7f020133, 0x7f02015c, 
+      0x7f020166
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4541,11 +4200,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:background
+     * @attr name com.superpowered.crossexample:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4556,11 +4215,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:backgroundSplit
+     * @attr name com.superpowered.crossexample:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4571,11 +4230,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:backgroundStacked
+     * @attr name com.superpowered.crossexample:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4584,11 +4243,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:contentInsetEnd
+     * @attr name com.superpowered.crossexample:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4597,11 +4256,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:contentInsetEndWithActions
+     * @attr name com.superpowered.crossexample:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4610,11 +4269,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:contentInsetLeft
+     * @attr name com.superpowered.crossexample:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4623,11 +4282,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:contentInsetRight
+     * @attr name com.superpowered.crossexample:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4636,11 +4295,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:contentInsetStart
+     * @attr name com.superpowered.crossexample:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4649,11 +4308,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:contentInsetStartWithNavigation
+     * @attr name com.superpowered.crossexample:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4661,11 +4320,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:customNavigationLayout
+     * @attr name com.superpowered.crossexample:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -4683,11 +4342,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:displayOptions
+     * @attr name com.superpowered.crossexample:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4695,11 +4354,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:divider
+     * @attr name com.superpowered.crossexample:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4708,11 +4367,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:elevation
+     * @attr name com.superpowered.crossexample:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4721,21 +4380,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:height
+     * @attr name com.superpowered.crossexample:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:hideOnContentScroll
+     * @attr name com.superpowered.crossexample:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4743,11 +4402,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:homeAsUpIndicator
+     * @attr name com.superpowered.crossexample:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4755,11 +4414,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:homeLayout
+     * @attr name com.superpowered.crossexample:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4767,11 +4426,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:icon
+     * @attr name com.superpowered.crossexample:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4779,11 +4438,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:indeterminateProgressStyle
+     * @attr name com.superpowered.crossexample:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4792,11 +4451,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:itemPadding
+     * @attr name com.superpowered.crossexample:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4804,11 +4463,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:logo
+     * @attr name com.superpowered.crossexample:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4822,11 +4481,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:navigationMode
+     * @attr name com.superpowered.crossexample:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4834,11 +4493,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:popupTheme
+     * @attr name com.superpowered.crossexample:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4847,11 +4506,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:progressBarPadding
+     * @attr name com.superpowered.crossexample:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4859,21 +4518,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:progressBarStyle
+     * @attr name com.superpowered.crossexample:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:subtitle
+     * @attr name com.superpowered.crossexample:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4881,21 +4540,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:subtitleTextStyle
+     * @attr name com.superpowered.crossexample:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:title
+     * @attr name com.superpowered.crossexample:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4903,7 +4562,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:titleTextStyle
+     * @attr name com.superpowered.crossexample:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -4930,19 +4589,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>bottom</td><td>50</td><td></td></tr>
      * <tr><td>center</td><td>11</td><td></td></tr>
      * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
      * <tr><td>center_vertical</td><td>10</td><td></td></tr>
      * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
      * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
      * <tr><td>fill</td><td>77</td><td></td></tr>
      * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
      * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
      * <tr><td>left</td><td>3</td><td></td></tr>
      * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
@@ -4985,12 +4644,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.superpowered.hoerklavierschule:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.superpowered.hoerklavierschule:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.superpowered.hoerklavierschule:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.superpowered.hoerklavierschule:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.superpowered.hoerklavierschule:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.superpowered.hoerklavierschule:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.superpowered.crossexample:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.superpowered.crossexample:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.superpowered.crossexample:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.superpowered.crossexample:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.superpowered.crossexample:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.superpowered.crossexample:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -5000,11 +4659,11 @@ public final class R {
      * @see #ActionMode_titleTextStyle
      */
     public static final int[] ActionMode={
-      0x7f030031, 0x7f030032, 0x7f030052, 0x7f0300a6, 
-      0x7f03014a, 0x7f030180
+      0x7f02002b, 0x7f02002c, 0x7f02004b, 0x7f020095, 
+      0x7f020133, 0x7f020166
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5012,11 +4671,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:background
+     * @attr name com.superpowered.crossexample:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5027,11 +4686,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:backgroundSplit
+     * @attr name com.superpowered.crossexample:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5039,11 +4698,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:closeItemLayout
+     * @attr name com.superpowered.crossexample:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5052,11 +4711,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:height
+     * @attr name com.superpowered.crossexample:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5064,11 +4723,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:subtitleTextStyle
+     * @attr name com.superpowered.crossexample:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5076,7 +4735,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:titleTextStyle
+     * @attr name com.superpowered.crossexample:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -5086,17 +4745,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.superpowered.hoerklavierschule:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.superpowered.hoerklavierschule:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.superpowered.crossexample:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.superpowered.crossexample:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
      */
     public static final int[] ActivityChooserView={
-      0x7f030088, 0x7f0300b3
+      0x7f02007e, 0x7f0200a0
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5104,17 +4763,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:expandActivityOverflowButtonDrawable
+     * @attr name com.superpowered.crossexample:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:initialActivityCount
+     * @attr name com.superpowered.crossexample:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -5125,26 +4784,22 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.superpowered.hoerklavierschule:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.superpowered.hoerklavierschule:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.superpowered.hoerklavierschule:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.superpowered.hoerklavierschule:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.superpowered.hoerklavierschule:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.superpowered.hoerklavierschule:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.superpowered.hoerklavierschule:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.superpowered.crossexample:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.superpowered.crossexample:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.superpowered.crossexample:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.superpowered.crossexample:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.superpowered.crossexample:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
-     * @see #AlertDialog_buttonIconDimen
      * @see #AlertDialog_buttonPanelSideLayout
      * @see #AlertDialog_listItemLayout
      * @see #AlertDialog_listLayout
      * @see #AlertDialog_multiChoiceItemLayout
-     * @see #AlertDialog_showTitle
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
-      0x010100f2, 0x7f030048, 0x7f030049, 0x7f0300fc, 
-      0x7f0300fd, 0x7f03010b, 0x7f030137, 0x7f030138
+      0x010100f2, 0x7f020042, 0x7f0200e9, 0x7f0200ea, 
+      0x7f0200f8, 0x7f020121
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -5159,20 +4814,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#buttonIconDimen}
-     * attribute's value can be found in the {@link #AlertDialog} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.superpowered.hoerklavierschule:buttonIconDimen
-     */
-    public static final int AlertDialog_buttonIconDimen=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5180,11 +4822,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:buttonPanelSideLayout
+     * @attr name com.superpowered.crossexample:buttonPanelSideLayout
      */
-    public static final int AlertDialog_buttonPanelSideLayout=2;
+    public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5192,11 +4834,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:listItemLayout
+     * @attr name com.superpowered.crossexample:listItemLayout
      */
-    public static final int AlertDialog_listItemLayout=3;
+    public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5204,11 +4846,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:listLayout
+     * @attr name com.superpowered.crossexample:listLayout
      */
-    public static final int AlertDialog_listLayout=4;
+    public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5216,21 +4858,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:multiChoiceItemLayout
+     * @attr name com.superpowered.crossexample:multiChoiceItemLayout
      */
-    public static final int AlertDialog_multiChoiceItemLayout=5;
+    public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#showTitle}
-     * attribute's value can be found in the {@link #AlertDialog} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:showTitle
-     */
-    public static final int AlertDialog_showTitle=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5238,9 +4870,9 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:singleChoiceItemLayout
+     * @attr name com.superpowered.crossexample:singleChoiceItemLayout
      */
-    public static final int AlertDialog_singleChoiceItemLayout=7;
+    public static final int AlertDialog_singleChoiceItemLayout=5;
     /**
      * Attributes that can be used with a AppBarLayout.
      * <p>Includes the following attributes:</p>
@@ -5249,20 +4881,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.superpowered.hoerklavierschule:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded com.superpowered.hoerklavierschule:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation com.superpowered.crossexample:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded com.superpowered.crossexample:expanded}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
-     * @see #AppBarLayout_android_touchscreenBlocksFocus
-     * @see #AppBarLayout_android_keyboardNavigationCluster
      * @see #AppBarLayout_elevation
      * @see #AppBarLayout_expanded
      */
     public static final int[] AppBarLayout={
-      0x010100d4, 0x0101048f, 0x01010540, 0x7f030084, 
-      0x7f030089
+      0x010100d4, 0x7f02007a, 0x7f02007f
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -5280,27 +4907,7 @@ public final class R {
      */
     public static final int AppBarLayout_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#touchscreenBlocksFocus}
-     * attribute's value can be found in the {@link #AppBarLayout} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:touchscreenBlocksFocus
-     */
-    public static final int AppBarLayout_android_touchscreenBlocksFocus=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#keyboardNavigationCluster}
-     * attribute's value can be found in the {@link #AppBarLayout} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name android:keyboardNavigationCluster
-     */
-    public static final int AppBarLayout_android_keyboardNavigationCluster=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#elevation}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5309,19 +4916,19 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:elevation
+     * @attr name com.superpowered.crossexample:elevation
      */
-    public static final int AppBarLayout_elevation=3;
+    public static final int AppBarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#expanded}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#expanded}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:expanded
+     * @attr name com.superpowered.crossexample:expanded
      */
-    public static final int AppBarLayout_expanded=4;
+    public static final int AppBarLayout_expanded=2;
     /**
      * Attributes that can be used with a AppBarLayoutStates.
      * <p>Includes the following attributes:</p>
@@ -5329,33 +4936,33 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.superpowered.hoerklavierschule:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.superpowered.hoerklavierschule:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.superpowered.crossexample:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.superpowered.crossexample:state_collapsible}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
      */
     public static final int[] AppBarLayoutStates={
-      0x7f030141, 0x7f030142
+      0x7f02012a, 0x7f02012b
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:state_collapsed
+     * @attr name com.superpowered.crossexample:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:state_collapsible
+     * @attr name com.superpowered.crossexample:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
@@ -5365,17 +4972,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.superpowered.hoerklavierschule:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.superpowered.hoerklavierschule:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.superpowered.crossexample:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.superpowered.crossexample:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
      */
     public static final int[] AppBarLayout_Layout={
-      0x7f0300f8, 0x7f0300f9
+      0x7f0200e5, 0x7f0200e6
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -5391,11 +4998,11 @@ public final class R {
      * <tr><td>snap</td><td>10</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_scrollFlags
+     * @attr name com.superpowered.crossexample:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5403,7 +5010,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_scrollInterpolator
+     * @attr name com.superpowered.crossexample:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -5414,17 +5021,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.superpowered.hoerklavierschule:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.superpowered.hoerklavierschule:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.superpowered.hoerklavierschule:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.superpowered.crossexample:srcCompat}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
-     * @see #AppCompatImageView_tint
-     * @see #AppCompatImageView_tintMode
      */
     public static final int[] AppCompatImageView={
-      0x01010119, 0x7f03013e, 0x7f030174, 0x7f030175
+      0x01010119, 0x7f020127
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -5442,7 +5045,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5450,41 +5053,9 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:srcCompat
+     * @attr name com.superpowered.crossexample:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tint}
-     * attribute's value can be found in the {@link #AppCompatImageView} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:tint
-     */
-    public static final int AppCompatImageView_tint=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tintMode}
-     * attribute's value can be found in the {@link #AppCompatImageView} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td></td></tr>
-     * <tr><td>multiply</td><td>e</td><td></td></tr>
-     * <tr><td>screen</td><td>f</td><td></td></tr>
-     * <tr><td>src_atop</td><td>9</td><td></td></tr>
-     * <tr><td>src_in</td><td>5</td><td></td></tr>
-     * <tr><td>src_over</td><td>3</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.superpowered.hoerklavierschule:tintMode
-     */
-    public static final int AppCompatImageView_tintMode=3;
     /**
      * Attributes that can be used with a AppCompatSeekBar.
      * <p>Includes the following attributes:</p>
@@ -5493,9 +5064,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.superpowered.hoerklavierschule:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.superpowered.hoerklavierschule:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.superpowered.hoerklavierschule:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.superpowered.crossexample:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.superpowered.crossexample:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.superpowered.crossexample:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -5503,7 +5074,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-      0x01010142, 0x7f030171, 0x7f030172, 0x7f030173
+      0x01010142, 0x7f020159, 0x7f02015a, 0x7f02015b
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -5518,7 +5089,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5526,22 +5097,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:tickMark
+     * @attr name com.superpowered.crossexample:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:tickMarkTint
+     * @attr name com.superpowered.crossexample:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5558,7 +5129,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:tickMarkTintMode
+     * @attr name com.superpowered.crossexample:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -5698,26 +5269,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.superpowered.hoerklavierschule:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.superpowered.hoerklavierschule:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.superpowered.hoerklavierschule:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.superpowered.hoerklavierschule:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.superpowered.hoerklavierschule:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.superpowered.hoerklavierschule:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.superpowered.hoerklavierschule:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.superpowered.crossexample:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
-     * @see #AppCompatTextView_autoSizeMaxTextSize
-     * @see #AppCompatTextView_autoSizeMinTextSize
-     * @see #AppCompatTextView_autoSizePresetSizes
-     * @see #AppCompatTextView_autoSizeStepGranularity
-     * @see #AppCompatTextView_autoSizeTextType
-     * @see #AppCompatTextView_fontFamily
      * @see #AppCompatTextView_textAllCaps
      */
     public static final int[] AppCompatTextView={
-      0x01010034, 0x7f03002c, 0x7f03002d, 0x7f03002e, 
-      0x7f03002f, 0x7f030030, 0x7f030099, 0x7f030160
+      0x01010034, 0x7f020149
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -5732,85 +5290,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#autoSizeMaxTextSize}
-     * attribute's value can be found in the {@link #AppCompatTextView} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.superpowered.hoerklavierschule:autoSizeMaxTextSize
-     */
-    public static final int AppCompatTextView_autoSizeMaxTextSize=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#autoSizeMinTextSize}
-     * attribute's value can be found in the {@link #AppCompatTextView} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.superpowered.hoerklavierschule:autoSizeMinTextSize
-     */
-    public static final int AppCompatTextView_autoSizeMinTextSize=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#autoSizePresetSizes}
-     * attribute's value can be found in the {@link #AppCompatTextView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:autoSizePresetSizes
-     */
-    public static final int AppCompatTextView_autoSizePresetSizes=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#autoSizeStepGranularity}
-     * attribute's value can be found in the {@link #AppCompatTextView} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.superpowered.hoerklavierschule:autoSizeStepGranularity
-     */
-    public static final int AppCompatTextView_autoSizeStepGranularity=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#autoSizeTextType}
-     * attribute's value can be found in the {@link #AppCompatTextView} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>uniform</td><td>1</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.superpowered.hoerklavierschule:autoSizeTextType
-     */
-    public static final int AppCompatTextView_autoSizeTextType=5;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fontFamily}
-     * attribute's value can be found in the {@link #AppCompatTextView} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.superpowered.hoerklavierschule:fontFamily
-     */
-    public static final int AppCompatTextView_fontFamily=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5820,9 +5300,9 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:textAllCaps
+     * @attr name com.superpowered.crossexample:textAllCaps
      */
-    public static final int AppCompatTextView_textAllCaps=7;
+    public static final int AppCompatTextView_textAllCaps=1;
     /**
      * Attributes that can be used with a AppCompatTheme.
      * <p>Includes the following attributes:</p>
@@ -5832,124 +5312,119 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.superpowered.hoerklavierschule:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.superpowered.hoerklavierschule:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.superpowered.hoerklavierschule:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.superpowered.hoerklavierschule:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.superpowered.hoerklavierschule:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.superpowered.hoerklavierschule:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.superpowered.hoerklavierschule:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.superpowered.hoerklavierschule:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.superpowered.hoerklavierschule:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.superpowered.hoerklavierschule:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.superpowered.hoerklavierschule:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.superpowered.hoerklavierschule:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.superpowered.hoerklavierschule:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.superpowered.hoerklavierschule:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.superpowered.hoerklavierschule:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.superpowered.hoerklavierschule:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.superpowered.hoerklavierschule:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.superpowered.hoerklavierschule:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.superpowered.hoerklavierschule:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.superpowered.hoerklavierschule:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.superpowered.hoerklavierschule:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.superpowered.hoerklavierschule:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.superpowered.hoerklavierschule:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.superpowered.hoerklavierschule:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.superpowered.hoerklavierschule:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.superpowered.hoerklavierschule:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.superpowered.hoerklavierschule:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.superpowered.hoerklavierschule:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.superpowered.hoerklavierschule:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.superpowered.hoerklavierschule:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.superpowered.hoerklavierschule:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.superpowered.hoerklavierschule:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.superpowered.hoerklavierschule:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.superpowered.hoerklavierschule:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.superpowered.hoerklavierschule:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.superpowered.hoerklavierschule:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.superpowered.hoerklavierschule:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.superpowered.hoerklavierschule:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.superpowered.hoerklavierschule:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.superpowered.hoerklavierschule:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.superpowered.hoerklavierschule:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.superpowered.hoerklavierschule:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.superpowered.hoerklavierschule:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.superpowered.hoerklavierschule:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.superpowered.hoerklavierschule:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.superpowered.hoerklavierschule:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.superpowered.hoerklavierschule:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.superpowered.hoerklavierschule:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.superpowered.hoerklavierschule:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.superpowered.hoerklavierschule:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.superpowered.hoerklavierschule:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.superpowered.hoerklavierschule:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.superpowered.hoerklavierschule:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.superpowered.hoerklavierschule:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.superpowered.hoerklavierschule:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.superpowered.hoerklavierschule:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.superpowered.hoerklavierschule:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.superpowered.hoerklavierschule:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.superpowered.hoerklavierschule:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.superpowered.hoerklavierschule:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.superpowered.hoerklavierschule:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.superpowered.hoerklavierschule:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.superpowered.hoerklavierschule:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.superpowered.hoerklavierschule:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.superpowered.hoerklavierschule:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.superpowered.hoerklavierschule:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.superpowered.hoerklavierschule:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.superpowered.hoerklavierschule:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.superpowered.hoerklavierschule:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.superpowered.hoerklavierschule:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.superpowered.hoerklavierschule:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.superpowered.hoerklavierschule:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.superpowered.hoerklavierschule:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.superpowered.hoerklavierschule:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.superpowered.hoerklavierschule:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.superpowered.hoerklavierschule:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.superpowered.hoerklavierschule:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.superpowered.hoerklavierschule:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.superpowered.hoerklavierschule:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.superpowered.hoerklavierschule:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.superpowered.hoerklavierschule:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.superpowered.hoerklavierschule:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.superpowered.hoerklavierschule:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.superpowered.hoerklavierschule:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.superpowered.hoerklavierschule:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.superpowered.hoerklavierschule:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.superpowered.hoerklavierschule:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.superpowered.hoerklavierschule:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.superpowered.hoerklavierschule:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.superpowered.hoerklavierschule:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.superpowered.hoerklavierschule:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.superpowered.hoerklavierschule:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.superpowered.hoerklavierschule:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.superpowered.hoerklavierschule:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.superpowered.hoerklavierschule:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.superpowered.hoerklavierschule:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.superpowered.hoerklavierschule:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.superpowered.hoerklavierschule:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.superpowered.hoerklavierschule:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.superpowered.hoerklavierschule:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.superpowered.hoerklavierschule:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.superpowered.hoerklavierschule:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.superpowered.hoerklavierschule:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.superpowered.hoerklavierschule:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.superpowered.hoerklavierschule:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.superpowered.hoerklavierschule:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.superpowered.hoerklavierschule:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.superpowered.hoerklavierschule:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.superpowered.hoerklavierschule:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.superpowered.hoerklavierschule:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.superpowered.hoerklavierschule:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.superpowered.hoerklavierschule:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.superpowered.hoerklavierschule:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.superpowered.hoerklavierschule:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.superpowered.hoerklavierschule:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.superpowered.hoerklavierschule:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.superpowered.hoerklavierschule:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.superpowered.hoerklavierschule:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.superpowered.crossexample:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.superpowered.crossexample:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.superpowered.crossexample:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.superpowered.crossexample:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.superpowered.crossexample:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.superpowered.crossexample:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.superpowered.crossexample:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.superpowered.crossexample:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.superpowered.crossexample:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.superpowered.crossexample:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.superpowered.crossexample:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.superpowered.crossexample:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.superpowered.crossexample:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.superpowered.crossexample:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.superpowered.crossexample:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.superpowered.crossexample:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.superpowered.crossexample:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.superpowered.crossexample:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.superpowered.crossexample:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.superpowered.crossexample:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.superpowered.crossexample:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.superpowered.crossexample:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.superpowered.crossexample:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.superpowered.crossexample:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.superpowered.crossexample:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.superpowered.crossexample:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.superpowered.crossexample:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.superpowered.crossexample:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.superpowered.crossexample:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.superpowered.crossexample:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.superpowered.crossexample:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.superpowered.crossexample:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.superpowered.crossexample:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.superpowered.crossexample:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.superpowered.crossexample:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.superpowered.crossexample:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.superpowered.crossexample:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.superpowered.crossexample:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.superpowered.crossexample:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.superpowered.crossexample:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.superpowered.crossexample:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.superpowered.crossexample:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.superpowered.crossexample:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.superpowered.crossexample:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.superpowered.crossexample:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.superpowered.crossexample:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.superpowered.crossexample:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.superpowered.crossexample:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.superpowered.crossexample:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.superpowered.crossexample:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.superpowered.crossexample:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.superpowered.crossexample:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.superpowered.crossexample:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.superpowered.crossexample:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.superpowered.crossexample:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.superpowered.crossexample:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.superpowered.crossexample:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.superpowered.crossexample:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.superpowered.crossexample:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.superpowered.crossexample:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.superpowered.crossexample:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.superpowered.crossexample:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.superpowered.crossexample:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.superpowered.crossexample:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.superpowered.crossexample:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.superpowered.crossexample:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.superpowered.crossexample:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.superpowered.crossexample:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.superpowered.crossexample:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.superpowered.crossexample:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.superpowered.crossexample:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.superpowered.crossexample:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.superpowered.crossexample:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.superpowered.crossexample:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.superpowered.crossexample:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.superpowered.crossexample:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.superpowered.crossexample:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.superpowered.crossexample:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.superpowered.crossexample:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.superpowered.crossexample:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.superpowered.crossexample:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.superpowered.crossexample:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.superpowered.crossexample:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.superpowered.crossexample:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.superpowered.crossexample:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.superpowered.crossexample:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.superpowered.crossexample:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.superpowered.crossexample:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.superpowered.crossexample:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.superpowered.crossexample:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.superpowered.crossexample:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.superpowered.crossexample:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.superpowered.crossexample:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.superpowered.crossexample:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.superpowered.crossexample:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.superpowered.crossexample:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.superpowered.crossexample:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.superpowered.crossexample:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.superpowered.crossexample:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.superpowered.crossexample:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.superpowered.crossexample:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.superpowered.crossexample:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.superpowered.crossexample:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.superpowered.crossexample:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.superpowered.crossexample:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.superpowered.crossexample:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.superpowered.crossexample:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.superpowered.crossexample:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.superpowered.crossexample:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.superpowered.crossexample:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.superpowered.crossexample:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.superpowered.crossexample:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.superpowered.crossexample:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -6005,7 +5480,6 @@ public final class R {
      * @see #AppCompatTheme_colorControlActivated
      * @see #AppCompatTheme_colorControlHighlight
      * @see #AppCompatTheme_colorControlNormal
-     * @see #AppCompatTheme_colorError
      * @see #AppCompatTheme_colorPrimary
      * @see #AppCompatTheme_colorPrimaryDark
      * @see #AppCompatTheme_colorSwitchThumbNormal
@@ -6048,7 +5522,6 @@ public final class R {
      * @see #AppCompatTheme_switchStyle
      * @see #AppCompatTheme_textAppearanceLargePopupMenu
      * @see #AppCompatTheme_textAppearanceListItem
-     * @see #AppCompatTheme_textAppearanceListItemSecondary
      * @see #AppCompatTheme_textAppearanceListItemSmall
      * @see #AppCompatTheme_textAppearancePopupMenuHeader
      * @see #AppCompatTheme_textAppearanceSearchResultSubtitle
@@ -6058,9 +5531,6 @@ public final class R {
      * @see #AppCompatTheme_textColorSearchUrl
      * @see #AppCompatTheme_toolbarNavigationButtonStyle
      * @see #AppCompatTheme_toolbarStyle
-     * @see #AppCompatTheme_tooltipForegroundColor
-     * @see #AppCompatTheme_tooltipFrameBackground
-     * @see #AppCompatTheme_viewInflaterClass
      * @see #AppCompatTheme_windowActionBar
      * @see #AppCompatTheme_windowActionBarOverlay
      * @see #AppCompatTheme_windowActionModeOverlay
@@ -6073,36 +5543,35 @@ public final class R {
      * @see #AppCompatTheme_windowNoTitle
      */
     public static final int[] AppCompatTheme={
-      0x01010057, 0x010100ae, 0x7f030000, 0x7f030001, 
-      0x7f030002, 0x7f030003, 0x7f030004, 0x7f030005, 
-      0x7f030006, 0x7f030007, 0x7f030008, 0x7f030009, 
-      0x7f03000a, 0x7f03000b, 0x7f03000c, 0x7f03000e, 
-      0x7f03000f, 0x7f030010, 0x7f030011, 0x7f030012, 
-      0x7f030013, 0x7f030014, 0x7f030015, 0x7f030016, 
-      0x7f030017, 0x7f030018, 0x7f030019, 0x7f03001a, 
-      0x7f03001b, 0x7f03001c, 0x7f03001d, 0x7f03001e, 
-      0x7f030021, 0x7f030022, 0x7f030023, 0x7f030024, 
-      0x7f030025, 0x7f03002b, 0x7f03003f, 0x7f030042, 
-      0x7f030043, 0x7f030044, 0x7f030045, 0x7f030046, 
-      0x7f03004a, 0x7f03004b, 0x7f03004f, 0x7f030050, 
-      0x7f030058, 0x7f030059, 0x7f03005a, 0x7f03005b, 
-      0x7f03005c, 0x7f03005d, 0x7f03005e, 0x7f03005f, 
-      0x7f030060, 0x7f030061, 0x7f03006e, 0x7f030076, 
-      0x7f030077, 0x7f03007a, 0x7f03007c, 0x7f03007f, 
-      0x7f030080, 0x7f030081, 0x7f030082, 0x7f030083, 
-      0x7f0300ab, 0x7f0300b1, 0x7f0300fa, 0x7f0300fb, 
-      0x7f0300fe, 0x7f0300ff, 0x7f030100, 0x7f030101, 
-      0x7f030102, 0x7f030103, 0x7f030104, 0x7f030115, 
-      0x7f030116, 0x7f030117, 0x7f03011d, 0x7f03011f, 
-      0x7f030126, 0x7f030127, 0x7f030128, 0x7f030129, 
-      0x7f030130, 0x7f030131, 0x7f030132, 0x7f030133, 
-      0x7f03013b, 0x7f03013c, 0x7f03014e, 0x7f030161, 
-      0x7f030162, 0x7f030163, 0x7f030164, 0x7f030165, 
-      0x7f030166, 0x7f030167, 0x7f030168, 0x7f030169, 
-      0x7f03016b, 0x7f030182, 0x7f030183, 0x7f030184, 
-      0x7f030185, 0x7f03018b, 0x7f03018d, 0x7f03018e, 
-      0x7f03018f, 0x7f030190, 0x7f030191, 0x7f030192, 
-      0x7f030193, 0x7f030194, 0x7f030195, 0x7f030196
+      0x01010057, 0x010100ae, 0x7f020000, 0x7f020001, 
+      0x7f020002, 0x7f020003, 0x7f020004, 0x7f020005, 
+      0x7f020006, 0x7f020007, 0x7f020008, 0x7f020009, 
+      0x7f02000a, 0x7f02000b, 0x7f02000c, 0x7f02000e, 
+      0x7f02000f, 0x7f020010, 0x7f020011, 0x7f020012, 
+      0x7f020013, 0x7f020014, 0x7f020015, 0x7f020016, 
+      0x7f020017, 0x7f020018, 0x7f020019, 0x7f02001a, 
+      0x7f02001b, 0x7f02001c, 0x7f02001d, 0x7f02001e, 
+      0x7f020021, 0x7f020022, 0x7f020023, 0x7f020024, 
+      0x7f020025, 0x7f02002a, 0x7f020039, 0x7f02003c, 
+      0x7f02003d, 0x7f02003e, 0x7f02003f, 0x7f020040, 
+      0x7f020043, 0x7f020044, 0x7f020048, 0x7f020049, 
+      0x7f020051, 0x7f020052, 0x7f020053, 0x7f020054, 
+      0x7f020055, 0x7f020056, 0x7f020057, 0x7f020058, 
+      0x7f020059, 0x7f020065, 0x7f02006c, 0x7f02006d, 
+      0x7f020070, 0x7f020072, 0x7f020075, 0x7f020076, 
+      0x7f020077, 0x7f020078, 0x7f020079, 0x7f02009a, 
+      0x7f02009e, 0x7f0200e7, 0x7f0200e8, 0x7f0200eb, 
+      0x7f0200ec, 0x7f0200ed, 0x7f0200ee, 0x7f0200ef, 
+      0x7f0200f0, 0x7f0200f1, 0x7f0200ff, 0x7f020100, 
+      0x7f020101, 0x7f020107, 0x7f020109, 0x7f020110, 
+      0x7f020111, 0x7f020112, 0x7f020113, 0x7f02011a, 
+      0x7f02011b, 0x7f02011c, 0x7f02011d, 0x7f020124, 
+      0x7f020125, 0x7f020137, 0x7f02014a, 0x7f02014b, 
+      0x7f02014c, 0x7f02014d, 0x7f02014e, 0x7f02014f, 
+      0x7f020150, 0x7f020151, 0x7f020153, 0x7f020168, 
+      0x7f020169, 0x7f02016f, 0x7f020170, 0x7f020171, 
+      0x7f020172, 0x7f020173, 0x7f020174, 0x7f020175, 
+      0x7f020176, 0x7f020177, 0x7f020178
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -6127,7 +5596,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6135,11 +5604,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionBarDivider
+     * @attr name com.superpowered.crossexample:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6147,11 +5616,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionBarItemBackground
+     * @attr name com.superpowered.crossexample:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6159,11 +5628,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionBarPopupTheme
+     * @attr name com.superpowered.crossexample:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6180,11 +5649,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:actionBarSize
+     * @attr name com.superpowered.crossexample:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6192,11 +5661,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionBarSplitStyle
+     * @attr name com.superpowered.crossexample:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6204,11 +5673,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionBarStyle
+     * @attr name com.superpowered.crossexample:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6216,11 +5685,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionBarTabBarStyle
+     * @attr name com.superpowered.crossexample:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6228,11 +5697,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionBarTabStyle
+     * @attr name com.superpowered.crossexample:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6240,11 +5709,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionBarTabTextStyle
+     * @attr name com.superpowered.crossexample:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6252,11 +5721,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionBarTheme
+     * @attr name com.superpowered.crossexample:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6264,11 +5733,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionBarWidgetTheme
+     * @attr name com.superpowered.crossexample:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6276,11 +5745,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionButtonStyle
+     * @attr name com.superpowered.crossexample:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6288,11 +5757,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionDropDownStyle
+     * @attr name com.superpowered.crossexample:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6300,11 +5769,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionMenuTextAppearance
+     * @attr name com.superpowered.crossexample:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6315,11 +5784,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionMenuTextColor
+     * @attr name com.superpowered.crossexample:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6327,11 +5796,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionModeBackground
+     * @attr name com.superpowered.crossexample:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6339,11 +5808,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionModeCloseButtonStyle
+     * @attr name com.superpowered.crossexample:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6351,11 +5820,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionModeCloseDrawable
+     * @attr name com.superpowered.crossexample:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6363,11 +5832,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionModeCopyDrawable
+     * @attr name com.superpowered.crossexample:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6375,11 +5844,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionModeCutDrawable
+     * @attr name com.superpowered.crossexample:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6387,11 +5856,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionModeFindDrawable
+     * @attr name com.superpowered.crossexample:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6399,11 +5868,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionModePasteDrawable
+     * @attr name com.superpowered.crossexample:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6411,11 +5880,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionModePopupWindowStyle
+     * @attr name com.superpowered.crossexample:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6423,11 +5892,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionModeSelectAllDrawable
+     * @attr name com.superpowered.crossexample:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6435,11 +5904,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionModeShareDrawable
+     * @attr name com.superpowered.crossexample:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6447,11 +5916,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionModeSplitBackground
+     * @attr name com.superpowered.crossexample:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6459,11 +5928,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionModeStyle
+     * @attr name com.superpowered.crossexample:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6471,11 +5940,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionModeWebSearchDrawable
+     * @attr name com.superpowered.crossexample:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6483,11 +5952,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionOverflowButtonStyle
+     * @attr name com.superpowered.crossexample:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6495,11 +5964,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionOverflowMenuStyle
+     * @attr name com.superpowered.crossexample:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6507,11 +5976,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:activityChooserViewStyle
+     * @attr name com.superpowered.crossexample:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6519,21 +5988,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:alertDialogButtonGroupStyle
+     * @attr name com.superpowered.crossexample:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:alertDialogCenterButtons
+     * @attr name com.superpowered.crossexample:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6541,11 +6010,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:alertDialogStyle
+     * @attr name com.superpowered.crossexample:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6553,11 +6022,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:alertDialogTheme
+     * @attr name com.superpowered.crossexample:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6565,11 +6034,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:autoCompleteTextViewStyle
+     * @attr name com.superpowered.crossexample:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6577,11 +6046,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:borderlessButtonStyle
+     * @attr name com.superpowered.crossexample:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6589,11 +6058,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:buttonBarButtonStyle
+     * @attr name com.superpowered.crossexample:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6601,11 +6070,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:buttonBarNegativeButtonStyle
+     * @attr name com.superpowered.crossexample:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6613,11 +6082,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:buttonBarNeutralButtonStyle
+     * @attr name com.superpowered.crossexample:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6625,11 +6094,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:buttonBarPositiveButtonStyle
+     * @attr name com.superpowered.crossexample:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6637,11 +6106,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:buttonBarStyle
+     * @attr name com.superpowered.crossexample:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6649,11 +6118,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:buttonStyle
+     * @attr name com.superpowered.crossexample:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6661,11 +6130,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:buttonStyleSmall
+     * @attr name com.superpowered.crossexample:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6673,11 +6142,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:checkboxStyle
+     * @attr name com.superpowered.crossexample:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6685,77 +6154,208 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:checkedTextViewStyle
+     * @attr name com.superpowered.crossexample:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:colorAccent
+     * @attr name com.superpowered.crossexample:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:colorBackgroundFloating
+     * @attr name com.superpowered.crossexample:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:colorButtonNormal
+     * @attr name com.superpowered.crossexample:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:colorControlActivated
+     * @attr name com.superpowered.crossexample:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:colorControlHighlight
+     * @attr name com.superpowered.crossexample:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:colorControlNormal
+     * @attr name com.superpowered.crossexample:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#colorPrimary}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:colorPrimary
+     */
+    public static final int AppCompatTheme_colorPrimary=54;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#colorPrimaryDark}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:colorPrimaryDark
+     */
+    public static final int AppCompatTheme_colorPrimaryDark=55;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#colorSwitchThumbNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:colorSwitchThumbNormal
+     */
+    public static final int AppCompatTheme_colorSwitchThumbNormal=56;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#controlBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:controlBackground
+     */
+    public static final int AppCompatTheme_controlBackground=57;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#dialogPreferredPadding}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.superpowered.crossexample:dialogPreferredPadding
+     */
+    public static final int AppCompatTheme_dialogPreferredPadding=58;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#dialogTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:dialogTheme
+     */
+    public static final int AppCompatTheme_dialogTheme=59;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#dividerHorizontal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:dividerHorizontal
+     */
+    public static final int AppCompatTheme_dividerHorizontal=60;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#dividerVertical}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:dividerVertical
+     */
+    public static final int AppCompatTheme_dividerVertical=61;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#dropDownListViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:dropDownListViewStyle
+     */
+    public static final int AppCompatTheme_dropDownListViewStyle=62;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#dropdownListPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.superpowered.crossexample:dropdownListPreferredItemHeight
+     */
+    public static final int AppCompatTheme_dropdownListPreferredItemHeight=63;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#editTextBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:editTextBackground
+     */
+    public static final int AppCompatTheme_editTextBackground=64;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6766,44 +6366,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:colorError
+     * @attr name com.superpowered.crossexample:editTextColor
      */
-    public static final int AppCompatTheme_colorError=54;
+    public static final int AppCompatTheme_editTextColor=65;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#colorPrimary}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:colorPrimary
-     */
-    public static final int AppCompatTheme_colorPrimary=55;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#colorPrimaryDark}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:colorPrimaryDark
-     */
-    public static final int AppCompatTheme_colorPrimaryDark=56;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#colorSwitchThumbNormal}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:colorSwitchThumbNormal
-     */
-    public static final int AppCompatTheme_colorSwitchThumbNormal=57;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6811,11 +6378,83 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:controlBackground
+     * @attr name com.superpowered.crossexample:editTextStyle
      */
-    public static final int AppCompatTheme_controlBackground=58;
+    public static final int AppCompatTheme_editTextStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:homeAsUpIndicator
+     */
+    public static final int AppCompatTheme_homeAsUpIndicator=67;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#imageButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:imageButtonStyle
+     */
+    public static final int AppCompatTheme_imageButtonStyle=68;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#listChoiceBackgroundIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:listChoiceBackgroundIndicator
+     */
+    public static final int AppCompatTheme_listChoiceBackgroundIndicator=69;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#listDividerAlertDialog}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:listDividerAlertDialog
+     */
+    public static final int AppCompatTheme_listDividerAlertDialog=70;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#listMenuViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:listMenuViewStyle
+     */
+    public static final int AppCompatTheme_listMenuViewStyle=71;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#listPopupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:listPopupWindowStyle
+     */
+    public static final int AppCompatTheme_listPopupWindowStyle=72;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6824,59 +6463,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:dialogPreferredPadding
+     * @attr name com.superpowered.crossexample:listPreferredItemHeight
      */
-    public static final int AppCompatTheme_dialogPreferredPadding=59;
+    public static final int AppCompatTheme_listPreferredItemHeight=73;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#dialogTheme}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:dialogTheme
-     */
-    public static final int AppCompatTheme_dialogTheme=60;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#dividerHorizontal}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:dividerHorizontal
-     */
-    public static final int AppCompatTheme_dividerHorizontal=61;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#dividerVertical}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:dividerVertical
-     */
-    public static final int AppCompatTheme_dividerVertical=62;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#dropDownListViewStyle}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:dropDownListViewStyle
-     */
-    public static final int AppCompatTheme_dropDownListViewStyle=63;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6885,122 +6476,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:dropdownListPreferredItemHeight
+     * @attr name com.superpowered.crossexample:listPreferredItemHeightLarge
      */
-    public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
+    public static final int AppCompatTheme_listPreferredItemHeightLarge=74;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#editTextBackground}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:editTextBackground
-     */
-    public static final int AppCompatTheme_editTextBackground=65;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#editTextColor}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:editTextColor
-     */
-    public static final int AppCompatTheme_editTextColor=66;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#editTextStyle}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:editTextStyle
-     */
-    public static final int AppCompatTheme_editTextStyle=67;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#homeAsUpIndicator}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:homeAsUpIndicator
-     */
-    public static final int AppCompatTheme_homeAsUpIndicator=68;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#imageButtonStyle}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:imageButtonStyle
-     */
-    public static final int AppCompatTheme_imageButtonStyle=69;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#listChoiceBackgroundIndicator}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:listChoiceBackgroundIndicator
-     */
-    public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#listDividerAlertDialog}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:listDividerAlertDialog
-     */
-    public static final int AppCompatTheme_listDividerAlertDialog=71;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#listMenuViewStyle}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:listMenuViewStyle
-     */
-    public static final int AppCompatTheme_listMenuViewStyle=72;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#listPopupWindowStyle}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:listPopupWindowStyle
-     */
-    public static final int AppCompatTheme_listPopupWindowStyle=73;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7009,11 +6489,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:listPreferredItemHeight
+     * @attr name com.superpowered.crossexample:listPreferredItemHeightSmall
      */
-    public static final int AppCompatTheme_listPreferredItemHeight=74;
+    public static final int AppCompatTheme_listPreferredItemHeightSmall=75;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7022,11 +6502,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:listPreferredItemHeightLarge
+     * @attr name com.superpowered.crossexample:listPreferredItemPaddingLeft
      */
-    public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
+    public static final int AppCompatTheme_listPreferredItemPaddingLeft=76;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7035,11 +6515,35 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:listPreferredItemHeightSmall
+     * @attr name com.superpowered.crossexample:listPreferredItemPaddingRight
      */
-    public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
+    public static final int AppCompatTheme_listPreferredItemPaddingRight=77;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#panelBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:panelBackground
+     */
+    public static final int AppCompatTheme_panelBackground=78;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#panelMenuListTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:panelMenuListTheme
+     */
+    public static final int AppCompatTheme_panelMenuListTheme=79;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7048,24 +6552,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:listPreferredItemPaddingLeft
+     * @attr name com.superpowered.crossexample:panelMenuListWidth
      */
-    public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
+    public static final int AppCompatTheme_panelMenuListWidth=80;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#listPreferredItemPaddingRight}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.superpowered.hoerklavierschule:listPreferredItemPaddingRight
-     */
-    public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7073,11 +6564,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:panelBackground
+     * @attr name com.superpowered.crossexample:popupMenuStyle
      */
-    public static final int AppCompatTheme_panelBackground=79;
+    public static final int AppCompatTheme_popupMenuStyle=81;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7085,24 +6576,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:panelMenuListTheme
+     * @attr name com.superpowered.crossexample:popupWindowStyle
      */
-    public static final int AppCompatTheme_panelMenuListTheme=80;
+    public static final int AppCompatTheme_popupWindowStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#panelMenuListWidth}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.superpowered.hoerklavierschule:panelMenuListWidth
-     */
-    public static final int AppCompatTheme_panelMenuListWidth=81;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7110,11 +6588,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:popupMenuStyle
+     * @attr name com.superpowered.crossexample:radioButtonStyle
      */
-    public static final int AppCompatTheme_popupMenuStyle=82;
+    public static final int AppCompatTheme_radioButtonStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7122,11 +6600,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:popupWindowStyle
+     * @attr name com.superpowered.crossexample:ratingBarStyle
      */
-    public static final int AppCompatTheme_popupWindowStyle=83;
+    public static final int AppCompatTheme_ratingBarStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7134,11 +6612,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:radioButtonStyle
+     * @attr name com.superpowered.crossexample:ratingBarStyleIndicator
      */
-    public static final int AppCompatTheme_radioButtonStyle=84;
+    public static final int AppCompatTheme_ratingBarStyleIndicator=85;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7146,11 +6624,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:ratingBarStyle
+     * @attr name com.superpowered.crossexample:ratingBarStyleSmall
      */
-    public static final int AppCompatTheme_ratingBarStyle=85;
+    public static final int AppCompatTheme_ratingBarStyleSmall=86;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7158,11 +6636,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:ratingBarStyleIndicator
+     * @attr name com.superpowered.crossexample:searchViewStyle
      */
-    public static final int AppCompatTheme_ratingBarStyleIndicator=86;
+    public static final int AppCompatTheme_searchViewStyle=87;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7170,11 +6648,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:ratingBarStyleSmall
+     * @attr name com.superpowered.crossexample:seekBarStyle
      */
-    public static final int AppCompatTheme_ratingBarStyleSmall=87;
+    public static final int AppCompatTheme_seekBarStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7182,11 +6660,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:searchViewStyle
+     * @attr name com.superpowered.crossexample:selectableItemBackground
      */
-    public static final int AppCompatTheme_searchViewStyle=88;
+    public static final int AppCompatTheme_selectableItemBackground=89;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7194,11 +6672,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:seekBarStyle
+     * @attr name com.superpowered.crossexample:selectableItemBackgroundBorderless
      */
-    public static final int AppCompatTheme_seekBarStyle=89;
+    public static final int AppCompatTheme_selectableItemBackgroundBorderless=90;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7206,11 +6684,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:selectableItemBackground
+     * @attr name com.superpowered.crossexample:spinnerDropDownItemStyle
      */
-    public static final int AppCompatTheme_selectableItemBackground=90;
+    public static final int AppCompatTheme_spinnerDropDownItemStyle=91;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7218,11 +6696,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:selectableItemBackgroundBorderless
+     * @attr name com.superpowered.crossexample:spinnerStyle
      */
-    public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
+    public static final int AppCompatTheme_spinnerStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7230,11 +6708,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:spinnerDropDownItemStyle
+     * @attr name com.superpowered.crossexample:switchStyle
      */
-    public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
+    public static final int AppCompatTheme_switchStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7242,11 +6720,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:spinnerStyle
+     * @attr name com.superpowered.crossexample:textAppearanceLargePopupMenu
      */
-    public static final int AppCompatTheme_spinnerStyle=93;
+    public static final int AppCompatTheme_textAppearanceLargePopupMenu=94;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7254,11 +6732,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:switchStyle
+     * @attr name com.superpowered.crossexample:textAppearanceListItem
      */
-    public static final int AppCompatTheme_switchStyle=94;
+    public static final int AppCompatTheme_textAppearanceListItem=95;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7266,11 +6744,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:textAppearanceLargePopupMenu
+     * @attr name com.superpowered.crossexample:textAppearanceListItemSmall
      */
-    public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
+    public static final int AppCompatTheme_textAppearanceListItemSmall=96;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7278,11 +6756,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:textAppearanceListItem
+     * @attr name com.superpowered.crossexample:textAppearancePopupMenuHeader
      */
-    public static final int AppCompatTheme_textAppearanceListItem=96;
+    public static final int AppCompatTheme_textAppearancePopupMenuHeader=97;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7290,11 +6768,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:textAppearanceListItemSecondary
+     * @attr name com.superpowered.crossexample:textAppearanceSearchResultSubtitle
      */
-    public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
+    public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=98;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7302,11 +6780,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:textAppearanceListItemSmall
+     * @attr name com.superpowered.crossexample:textAppearanceSearchResultTitle
      */
-    public static final int AppCompatTheme_textAppearanceListItemSmall=98;
+    public static final int AppCompatTheme_textAppearanceSearchResultTitle=99;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7314,47 +6792,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:textAppearancePopupMenuHeader
+     * @attr name com.superpowered.crossexample:textAppearanceSmallPopupMenu
      */
-    public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
+    public static final int AppCompatTheme_textAppearanceSmallPopupMenu=100;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#textAppearanceSearchResultSubtitle}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:textAppearanceSearchResultSubtitle
-     */
-    public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#textAppearanceSearchResultTitle}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:textAppearanceSearchResultTitle
-     */
-    public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#textAppearanceSmallPopupMenu}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:textAppearanceSmallPopupMenu
-     */
-    public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7365,11 +6807,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:textColorAlertDialogListItem
+     * @attr name com.superpowered.crossexample:textColorAlertDialogListItem
      */
-    public static final int AppCompatTheme_textColorAlertDialogListItem=103;
+    public static final int AppCompatTheme_textColorAlertDialogListItem=101;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7380,11 +6822,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:textColorSearchUrl
+     * @attr name com.superpowered.crossexample:textColorSearchUrl
      */
-    public static final int AppCompatTheme_textColorSearchUrl=104;
+    public static final int AppCompatTheme_textColorSearchUrl=102;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7392,11 +6834,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:toolbarNavigationButtonStyle
+     * @attr name com.superpowered.crossexample:toolbarNavigationButtonStyle
      */
-    public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
+    public static final int AppCompatTheme_toolbarNavigationButtonStyle=103;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7404,78 +6846,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:toolbarStyle
+     * @attr name com.superpowered.crossexample:toolbarStyle
      */
-    public static final int AppCompatTheme_toolbarStyle=106;
+    public static final int AppCompatTheme_toolbarStyle=104;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tooltipForegroundColor}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:tooltipForegroundColor
-     */
-    public static final int AppCompatTheme_tooltipForegroundColor=107;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tooltipFrameBackground}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:tooltipFrameBackground
-     */
-    public static final int AppCompatTheme_tooltipFrameBackground=108;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#viewInflaterClass}
-     * attribute's value can be found in the {@link #AppCompatTheme} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.superpowered.hoerklavierschule:viewInflaterClass
-     */
-    public static final int AppCompatTheme_viewInflaterClass=109;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:windowActionBar
+     * @attr name com.superpowered.crossexample:windowActionBar
      */
-    public static final int AppCompatTheme_windowActionBar=110;
+    public static final int AppCompatTheme_windowActionBar=105;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:windowActionBarOverlay
+     * @attr name com.superpowered.crossexample:windowActionBarOverlay
      */
-    public static final int AppCompatTheme_windowActionBarOverlay=111;
+    public static final int AppCompatTheme_windowActionBarOverlay=106;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:windowActionModeOverlay
+     * @attr name com.superpowered.crossexample:windowActionModeOverlay
      */
-    public static final int AppCompatTheme_windowActionModeOverlay=112;
+    public static final int AppCompatTheme_windowActionModeOverlay=107;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7488,11 +6893,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.superpowered.hoerklavierschule:windowFixedHeightMajor
+     * @attr name com.superpowered.crossexample:windowFixedHeightMajor
      */
-    public static final int AppCompatTheme_windowFixedHeightMajor=113;
+    public static final int AppCompatTheme_windowFixedHeightMajor=108;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7505,11 +6910,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.superpowered.hoerklavierschule:windowFixedHeightMinor
+     * @attr name com.superpowered.crossexample:windowFixedHeightMinor
      */
-    public static final int AppCompatTheme_windowFixedHeightMinor=114;
+    public static final int AppCompatTheme_windowFixedHeightMinor=109;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7522,11 +6927,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.superpowered.hoerklavierschule:windowFixedWidthMajor
+     * @attr name com.superpowered.crossexample:windowFixedWidthMajor
      */
-    public static final int AppCompatTheme_windowFixedWidthMajor=115;
+    public static final int AppCompatTheme_windowFixedWidthMajor=110;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7539,11 +6944,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.superpowered.hoerklavierschule:windowFixedWidthMinor
+     * @attr name com.superpowered.crossexample:windowFixedWidthMinor
      */
-    public static final int AppCompatTheme_windowFixedWidthMinor=116;
+    public static final int AppCompatTheme_windowFixedWidthMinor=111;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7556,11 +6961,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.superpowered.hoerklavierschule:windowMinWidthMajor
+     * @attr name com.superpowered.crossexample:windowMinWidthMajor
      */
-    public static final int AppCompatTheme_windowMinWidthMajor=117;
+    public static final int AppCompatTheme_windowMinWidthMajor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7573,101 +6978,19 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.superpowered.hoerklavierschule:windowMinWidthMinor
+     * @attr name com.superpowered.crossexample:windowMinWidthMinor
      */
-    public static final int AppCompatTheme_windowMinWidthMinor=118;
+    public static final int AppCompatTheme_windowMinWidthMinor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:windowNoTitle
+     * @attr name com.superpowered.crossexample:windowNoTitle
      */
-    public static final int AppCompatTheme_windowNoTitle=119;
-    /**
-     * Attributes that can be used with a BottomNavigationView.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation com.superpowered.hoerklavierschule:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.superpowered.hoerklavierschule:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.superpowered.hoerklavierschule:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.superpowered.hoerklavierschule:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu com.superpowered.hoerklavierschule:menu}</code></td><td></td></tr>
-     * </table>
-     * @see #BottomNavigationView_elevation
-     * @see #BottomNavigationView_itemBackground
-     * @see #BottomNavigationView_itemIconTint
-     * @see #BottomNavigationView_itemTextColor
-     * @see #BottomNavigationView_menu
-     */
-    public static final int[] BottomNavigationView={
-      0x7f030084, 0x7f0300b6, 0x7f0300b7, 0x7f0300ba, 
-      0x7f03010a
-    };
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#elevation}
-     * attribute's value can be found in the {@link #BottomNavigationView} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.superpowered.hoerklavierschule:elevation
-     */
-    public static final int BottomNavigationView_elevation=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#itemBackground}
-     * attribute's value can be found in the {@link #BottomNavigationView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:itemBackground
-     */
-    public static final int BottomNavigationView_itemBackground=1;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#itemIconTint}
-     * attribute's value can be found in the {@link #BottomNavigationView} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:itemIconTint
-     */
-    public static final int BottomNavigationView_itemIconTint=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#itemTextColor}
-     * attribute's value can be found in the {@link #BottomNavigationView} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:itemTextColor
-     */
-    public static final int BottomNavigationView_itemTextColor=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#menu}
-     * attribute's value can be found in the {@link #BottomNavigationView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:menu
-     */
-    public static final int BottomNavigationView_menu=4;
+    public static final int AppCompatTheme_windowNoTitle=114;
     /**
      * Attributes that can be used with a BottomSheetBehavior_Layout.
      * <p>Includes the following attributes:</p>
@@ -7675,29 +6998,29 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.superpowered.hoerklavierschule:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.superpowered.hoerklavierschule:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.superpowered.hoerklavierschule:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.superpowered.crossexample:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.superpowered.crossexample:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.superpowered.crossexample:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_hideable
      * @see #BottomSheetBehavior_Layout_behavior_peekHeight
      * @see #BottomSheetBehavior_Layout_behavior_skipCollapsed
      */
     public static final int[] BottomSheetBehavior_Layout={
-      0x7f03003a, 0x7f03003c, 0x7f03003d
+      0x7f020034, 0x7f020036, 0x7f020037
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:behavior_hideable
+     * @attr name com.superpowered.crossexample:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7714,17 +7037,17 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:behavior_peekHeight
+     * @attr name com.superpowered.crossexample:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:behavior_skipCollapsed
+     * @attr name com.superpowered.crossexample:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=2;
     /**
@@ -7734,21 +7057,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.superpowered.hoerklavierschule:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.superpowered.crossexample:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
     public static final int[] ButtonBarLayout={
-      0x7f030026
+      0x7f020026
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:allowStacking
+     * @attr name com.superpowered.crossexample:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -7758,22 +7081,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.superpowered.hoerklavierschule:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.superpowered.hoerklavierschule:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.superpowered.hoerklavierschule:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.superpowered.hoerklavierschule:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.superpowered.hoerklavierschule:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.superpowered.hoerklavierschule:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.superpowered.hoerklavierschule:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.superpowered.hoerklavierschule:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.superpowered.hoerklavierschule:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.superpowered.hoerklavierschule:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.superpowered.hoerklavierschule:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.superpowered.hoerklavierschule:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.superpowered.hoerklavierschule:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.superpowered.hoerklavierschule:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.superpowered.hoerklavierschule:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.superpowered.hoerklavierschule:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.superpowered.crossexample:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.superpowered.crossexample:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.superpowered.crossexample:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.superpowered.crossexample:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.superpowered.crossexample:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.superpowered.crossexample:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.superpowered.crossexample:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.superpowered.crossexample:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.superpowered.crossexample:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.superpowered.crossexample:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.superpowered.crossexample:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.superpowered.crossexample:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.superpowered.crossexample:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.superpowered.crossexample:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.superpowered.crossexample:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.superpowered.crossexample:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -7793,13 +7116,13 @@ public final class R {
      * @see #CollapsingToolbarLayout_toolbarId
      */
     public static final int[] CollapsingToolbarLayout={
-      0x7f030055, 0x7f030056, 0x7f03006d, 0x7f03008a, 
-      0x7f03008b, 0x7f03008c, 0x7f03008d, 0x7f03008e, 
-      0x7f03008f, 0x7f030090, 0x7f03012c, 0x7f03012d, 
-      0x7f030144, 0x7f030176, 0x7f030177, 0x7f030181
+      0x7f02004e, 0x7f02004f, 0x7f020064, 0x7f020080, 
+      0x7f020081, 0x7f020082, 0x7f020083, 0x7f020084, 
+      0x7f020085, 0x7f020086, 0x7f020116, 0x7f020117, 
+      0x7f02012d, 0x7f02015c, 0x7f02015d, 0x7f020167
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#collapsedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7820,11 +7143,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:collapsedTitleGravity
+     * @attr name com.superpowered.crossexample:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7832,22 +7155,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:collapsedTitleTextAppearance
+     * @attr name com.superpowered.crossexample:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:contentScrim
+     * @attr name com.superpowered.crossexample:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7868,11 +7191,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:expandedTitleGravity
+     * @attr name com.superpowered.crossexample:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7881,11 +7204,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:expandedTitleMargin
+     * @attr name com.superpowered.crossexample:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7894,11 +7217,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:expandedTitleMarginBottom
+     * @attr name com.superpowered.crossexample:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7907,11 +7230,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:expandedTitleMarginEnd
+     * @attr name com.superpowered.crossexample:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7920,11 +7243,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:expandedTitleMarginStart
+     * @attr name com.superpowered.crossexample:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7933,11 +7256,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:expandedTitleMarginTop
+     * @attr name com.superpowered.crossexample:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7945,20 +7268,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:expandedTitleTextAppearance
+     * @attr name com.superpowered.crossexample:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:scrimAnimationDuration
+     * @attr name com.superpowered.crossexample:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7967,42 +7290,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:scrimVisibleHeightTrigger
+     * @attr name com.superpowered.crossexample:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:statusBarScrim
+     * @attr name com.superpowered.crossexample:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:title
+     * @attr name com.superpowered.crossexample:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:titleEnabled
+     * @attr name com.superpowered.crossexample:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8010,7 +7333,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:toolbarId
+     * @attr name com.superpowered.crossexample:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -8020,17 +7343,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.superpowered.hoerklavierschule:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.superpowered.hoerklavierschule:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.superpowered.crossexample:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.superpowered.crossexample:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
      */
     public static final int[] CollapsingToolbarLayout_Layout={
-      0x7f0300c1, 0x7f0300c2
+      0x7f0200ae, 0x7f0200af
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_collapseMode}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_collapseMode}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8044,16 +7367,16 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_collapseMode
+     * @attr name com.superpowered.crossexample:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_collapseParallaxMultiplier}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_collapseParallaxMultiplier}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_collapseParallaxMultiplier
+     * @attr name com.superpowered.crossexample:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
@@ -8065,14 +7388,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.superpowered.hoerklavierschule:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.superpowered.crossexample:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
      * @see #ColorStateListItem_alpha
      */
     public static final int[] ColorStateListItem={
-      0x010101a5, 0x0101031f, 0x7f030027
+      0x010101a5, 0x0101031f, 0x7f020027
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#color}
@@ -8095,12 +7418,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:alpha
+     * @attr name com.superpowered.crossexample:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -8111,15 +7434,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.superpowered.hoerklavierschule:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.superpowered.hoerklavierschule:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.superpowered.crossexample:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.superpowered.crossexample:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
      * @see #CompoundButton_buttonTintMode
      */
     public static final int[] CompoundButton={
-      0x01010107, 0x7f03004c, 0x7f03004d
+      0x01010107, 0x7f020045, 0x7f020046
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -8134,18 +7457,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:buttonTint
+     * @attr name com.superpowered.crossexample:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8154,7 +7477,6 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td></td></tr>
      * <tr><td>multiply</td><td>e</td><td></td></tr>
      * <tr><td>screen</td><td>f</td><td></td></tr>
      * <tr><td>src_atop</td><td>9</td><td></td></tr>
@@ -8162,7 +7484,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:buttonTintMode
+     * @attr name com.superpowered.crossexample:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -8177,61 +7499,61 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.superpowered.hoerklavierschule:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.superpowered.hoerklavierschule:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.superpowered.hoerklavierschule:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.superpowered.hoerklavierschule:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.superpowered.hoerklavierschule:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.superpowered.hoerklavierschule:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.superpowered.hoerklavierschule:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.superpowered.hoerklavierschule:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.superpowered.hoerklavierschule:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.superpowered.hoerklavierschule:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.superpowered.hoerklavierschule:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.superpowered.hoerklavierschule:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.superpowered.hoerklavierschule:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.superpowered.hoerklavierschule:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.superpowered.hoerklavierschule:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.superpowered.hoerklavierschule:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.superpowered.hoerklavierschule:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.superpowered.hoerklavierschule:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.superpowered.hoerklavierschule:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.superpowered.hoerklavierschule:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.superpowered.hoerklavierschule:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.superpowered.hoerklavierschule:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.superpowered.hoerklavierschule:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.superpowered.hoerklavierschule:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.superpowered.hoerklavierschule:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.superpowered.hoerklavierschule:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.superpowered.hoerklavierschule:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.superpowered.hoerklavierschule:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.superpowered.hoerklavierschule:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.superpowered.hoerklavierschule:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.superpowered.hoerklavierschule:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.superpowered.hoerklavierschule:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.superpowered.hoerklavierschule:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.superpowered.hoerklavierschule:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.superpowered.hoerklavierschule:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.superpowered.hoerklavierschule:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.superpowered.hoerklavierschule:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.superpowered.hoerklavierschule:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.superpowered.hoerklavierschule:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.superpowered.hoerklavierschule:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.superpowered.hoerklavierschule:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.superpowered.hoerklavierschule:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.superpowered.hoerklavierschule:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.superpowered.hoerklavierschule:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.superpowered.hoerklavierschule:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.superpowered.hoerklavierschule:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.superpowered.hoerklavierschule:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.superpowered.hoerklavierschule:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.superpowered.hoerklavierschule:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.superpowered.hoerklavierschule:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.superpowered.hoerklavierschule:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.superpowered.hoerklavierschule:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.superpowered.hoerklavierschule:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.superpowered.hoerklavierschule:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.superpowered.hoerklavierschule:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.superpowered.crossexample:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.superpowered.crossexample:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.superpowered.crossexample:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.superpowered.crossexample:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.superpowered.crossexample:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.superpowered.crossexample:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.superpowered.crossexample:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.superpowered.crossexample:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.superpowered.crossexample:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.superpowered.crossexample:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.superpowered.crossexample:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.superpowered.crossexample:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.superpowered.crossexample:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.superpowered.crossexample:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.superpowered.crossexample:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.superpowered.crossexample:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.superpowered.crossexample:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.superpowered.crossexample:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.superpowered.crossexample:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.superpowered.crossexample:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.superpowered.crossexample:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.superpowered.crossexample:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.superpowered.crossexample:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.superpowered.crossexample:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.superpowered.crossexample:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.superpowered.crossexample:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.superpowered.crossexample:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.superpowered.crossexample:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.superpowered.crossexample:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.superpowered.crossexample:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.superpowered.crossexample:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.superpowered.crossexample:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.superpowered.crossexample:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.superpowered.crossexample:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.superpowered.crossexample:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.superpowered.crossexample:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.superpowered.crossexample:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.superpowered.crossexample:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.superpowered.crossexample:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.superpowered.crossexample:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.superpowered.crossexample:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.superpowered.crossexample:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.superpowered.crossexample:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.superpowered.crossexample:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.superpowered.crossexample:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.superpowered.crossexample:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.superpowered.crossexample:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.superpowered.crossexample:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.superpowered.crossexample:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.superpowered.crossexample:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.superpowered.crossexample:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.superpowered.crossexample:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.superpowered.crossexample:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.superpowered.crossexample:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.superpowered.crossexample:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -8296,20 +7618,20 @@ public final class R {
      */
     public static final int[] ConstraintLayout_Layout={
       0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 
-      0x01010140, 0x7f030037, 0x7f030038, 0x7f03004e, 
-      0x7f030063, 0x7f030064, 0x7f0300c3, 0x7f0300c4, 
-      0x7f0300c5, 0x7f0300c6, 0x7f0300c7, 0x7f0300c8, 
-      0x7f0300c9, 0x7f0300ca, 0x7f0300cb, 0x7f0300cc, 
-      0x7f0300cd, 0x7f0300ce, 0x7f0300cf, 0x7f0300d0, 
-      0x7f0300d1, 0x7f0300d2, 0x7f0300d3, 0x7f0300d4, 
-      0x7f0300d5, 0x7f0300d6, 0x7f0300d7, 0x7f0300d8, 
-      0x7f0300d9, 0x7f0300da, 0x7f0300db, 0x7f0300dc, 
-      0x7f0300dd, 0x7f0300de, 0x7f0300df, 0x7f0300e0, 
-      0x7f0300e1, 0x7f0300e2, 0x7f0300e3, 0x7f0300e4, 
-      0x7f0300e5, 0x7f0300e6, 0x7f0300e7, 0x7f0300e8, 
-      0x7f0300e9, 0x7f0300ea, 0x7f0300eb, 0x7f0300ed, 
-      0x7f0300ee, 0x7f0300ef, 0x7f0300f0, 0x7f0300f1, 
-      0x7f0300f2, 0x7f0300f3, 0x7f0300f4, 0x7f0300f7
+      0x01010140, 0x7f020031, 0x7f020032, 0x7f020047, 
+      0x7f02005b, 0x7f02005c, 0x7f0200b0, 0x7f0200b1, 
+      0x7f0200b2, 0x7f0200b3, 0x7f0200b4, 0x7f0200b5, 
+      0x7f0200b6, 0x7f0200b7, 0x7f0200b8, 0x7f0200b9, 
+      0x7f0200ba, 0x7f0200bb, 0x7f0200bc, 0x7f0200bd, 
+      0x7f0200be, 0x7f0200bf, 0x7f0200c0, 0x7f0200c1, 
+      0x7f0200c2, 0x7f0200c3, 0x7f0200c4, 0x7f0200c5, 
+      0x7f0200c6, 0x7f0200c7, 0x7f0200c8, 0x7f0200c9, 
+      0x7f0200ca, 0x7f0200cb, 0x7f0200cc, 0x7f0200cd, 
+      0x7f0200ce, 0x7f0200cf, 0x7f0200d0, 0x7f0200d1, 
+      0x7f0200d2, 0x7f0200d3, 0x7f0200d4, 0x7f0200d5, 
+      0x7f0200d6, 0x7f0200d7, 0x7f0200d8, 0x7f0200da, 
+      0x7f0200db, 0x7f0200dc, 0x7f0200dd, 0x7f0200de, 
+      0x7f0200df, 0x7f0200e0, 0x7f0200e1, 0x7f0200e4
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -8381,17 +7703,17 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:barrierAllowsGoneWidgets
+     * @attr name com.superpowered.crossexample:barrierAllowsGoneWidgets
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8408,21 +7730,21 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:barrierDirection
+     * @attr name com.superpowered.crossexample:barrierDirection
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:chainUseRtl
+     * @attr name com.superpowered.crossexample:chainUseRtl
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8430,50 +7752,50 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:constraintSet
+     * @attr name com.superpowered.crossexample:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:constraint_referenced_ids
+     * @attr name com.superpowered.crossexample:constraint_referenced_ids
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constrainedHeight
+     * @attr name com.superpowered.crossexample:layout_constrainedHeight
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constrainedWidth
+     * @attr name com.superpowered.crossexample:layout_constrainedWidth
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintBaseline_creator
+     * @attr name com.superpowered.crossexample:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8489,20 +7811,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintBaseline_toBaselineOf
+     * @attr name com.superpowered.crossexample:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintBottom_creator
+     * @attr name com.superpowered.crossexample:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8518,11 +7840,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintBottom_toBottomOf
+     * @attr name com.superpowered.crossexample:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8538,11 +7860,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintBottom_toTopOf
+     * @attr name com.superpowered.crossexample:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8550,20 +7872,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintCircle
+     * @attr name com.superpowered.crossexample:layout_constraintCircle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintCircleAngle
+     * @attr name com.superpowered.crossexample:layout_constraintCircleAngle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8572,21 +7894,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintCircleRadius
+     * @attr name com.superpowered.crossexample:layout_constraintCircleRadius
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintDimensionRatio
+     * @attr name com.superpowered.crossexample:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8602,11 +7924,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintEnd_toEndOf
+     * @attr name com.superpowered.crossexample:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8622,11 +7944,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintEnd_toStartOf
+     * @attr name com.superpowered.crossexample:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8635,11 +7957,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintGuide_begin
+     * @attr name com.superpowered.crossexample:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8648,20 +7970,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintGuide_end
+     * @attr name com.superpowered.crossexample:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintGuide_percent
+     * @attr name com.superpowered.crossexample:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8675,11 +7997,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHeight_default
+     * @attr name com.superpowered.crossexample:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8696,11 +8018,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHeight_max
+     * @attr name com.superpowered.crossexample:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8717,29 +8039,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHeight_min
+     * @attr name com.superpowered.crossexample:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHeight_percent
+     * @attr name com.superpowered.crossexample:layout_constraintHeight_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHorizontal_bias
+     * @attr name com.superpowered.crossexample:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8753,29 +8075,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHorizontal_chainStyle
+     * @attr name com.superpowered.crossexample:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHorizontal_weight
+     * @attr name com.superpowered.crossexample:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintLeft_creator
+     * @attr name com.superpowered.crossexample:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8791,11 +8113,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintLeft_toLeftOf
+     * @attr name com.superpowered.crossexample:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8811,20 +8133,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintLeft_toRightOf
+     * @attr name com.superpowered.crossexample:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintRight_creator
+     * @attr name com.superpowered.crossexample:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8840,11 +8162,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintRight_toLeftOf
+     * @attr name com.superpowered.crossexample:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8860,11 +8182,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintRight_toRightOf
+     * @attr name com.superpowered.crossexample:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8880,11 +8202,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintStart_toEndOf
+     * @attr name com.superpowered.crossexample:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8900,20 +8222,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintStart_toStartOf
+     * @attr name com.superpowered.crossexample:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintTop_creator
+     * @attr name com.superpowered.crossexample:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8929,11 +8251,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintTop_toBottomOf
+     * @attr name com.superpowered.crossexample:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8949,20 +8271,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintTop_toTopOf
+     * @attr name com.superpowered.crossexample:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintVertical_bias
+     * @attr name com.superpowered.crossexample:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8976,20 +8298,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintVertical_chainStyle
+     * @attr name com.superpowered.crossexample:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintVertical_weight
+     * @attr name com.superpowered.crossexample:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9003,11 +8325,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintWidth_default
+     * @attr name com.superpowered.crossexample:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9024,11 +8346,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintWidth_max
+     * @attr name com.superpowered.crossexample:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9045,20 +8367,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintWidth_min
+     * @attr name com.superpowered.crossexample:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintWidth_percent
+     * @attr name com.superpowered.crossexample:layout_constraintWidth_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9067,11 +8389,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_editor_absoluteX
+     * @attr name com.superpowered.crossexample:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9080,11 +8402,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_editor_absoluteY
+     * @attr name com.superpowered.crossexample:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9093,11 +8415,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_goneMarginBottom
+     * @attr name com.superpowered.crossexample:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9106,11 +8428,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_goneMarginEnd
+     * @attr name com.superpowered.crossexample:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9119,11 +8441,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_goneMarginLeft
+     * @attr name com.superpowered.crossexample:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9132,11 +8454,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_goneMarginRight
+     * @attr name com.superpowered.crossexample:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9145,11 +8467,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_goneMarginStart
+     * @attr name com.superpowered.crossexample:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9158,11 +8480,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_goneMarginTop
+     * @attr name com.superpowered.crossexample:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9174,12 +8496,13 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>standard</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_optimizationLevel
+     * @attr name com.superpowered.crossexample:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
     /**
@@ -9189,17 +8512,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.superpowered.hoerklavierschule:content}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.superpowered.hoerklavierschule:emptyVisibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.superpowered.crossexample:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.superpowered.crossexample:emptyVisibility}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_placeholder_content
      * @see #ConstraintLayout_placeholder_emptyVisibility
      */
     public static final int[] ConstraintLayout_placeholder={
-      0x7f030065, 0x7f030085
+      0x7f02005d, 0x7f02007b
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#content}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9207,11 +8530,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:content
+     * @attr name com.superpowered.crossexample:content
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#emptyVisibility}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9224,7 +8547,7 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:emptyVisibility
+     * @attr name com.superpowered.crossexample:emptyVisibility
      */
     public static final int ConstraintLayout_placeholder_emptyVisibility=1;
     /**
@@ -9243,6 +8566,10 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginTop android:layout_marginTop}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginRight android:layout_marginRight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_maxHeight android:maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_minWidth android:minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_minHeight android:minHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_alpha android:alpha}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_transformPivotX android:transformPivotX}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_transformPivotY android:transformPivotY}</code></td><td></td></tr>
@@ -9257,55 +8584,59 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.superpowered.hoerklavierschule:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.superpowered.hoerklavierschule:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.superpowered.hoerklavierschule:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.superpowered.hoerklavierschule:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.superpowered.hoerklavierschule:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.superpowered.hoerklavierschule:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.superpowered.hoerklavierschule:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.superpowered.hoerklavierschule:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.superpowered.hoerklavierschule:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.superpowered.hoerklavierschule:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.superpowered.hoerklavierschule:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.superpowered.hoerklavierschule:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.superpowered.hoerklavierschule:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.superpowered.hoerklavierschule:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.superpowered.hoerklavierschule:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.superpowered.hoerklavierschule:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.superpowered.hoerklavierschule:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.superpowered.hoerklavierschule:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.superpowered.hoerklavierschule:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.superpowered.hoerklavierschule:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.superpowered.hoerklavierschule:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.superpowered.hoerklavierschule:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.superpowered.hoerklavierschule:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.superpowered.hoerklavierschule:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.superpowered.hoerklavierschule:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.superpowered.hoerklavierschule:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.superpowered.hoerklavierschule:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.superpowered.hoerklavierschule:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.superpowered.hoerklavierschule:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.superpowered.hoerklavierschule:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.superpowered.hoerklavierschule:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.superpowered.hoerklavierschule:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.superpowered.hoerklavierschule:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.superpowered.hoerklavierschule:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.superpowered.hoerklavierschule:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.superpowered.hoerklavierschule:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.superpowered.hoerklavierschule:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.superpowered.hoerklavierschule:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.superpowered.hoerklavierschule:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.superpowered.hoerklavierschule:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.superpowered.hoerklavierschule:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.superpowered.hoerklavierschule:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.superpowered.hoerklavierschule:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.superpowered.hoerklavierschule:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.superpowered.hoerklavierschule:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.superpowered.hoerklavierschule:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.superpowered.hoerklavierschule:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.superpowered.hoerklavierschule:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.superpowered.hoerklavierschule:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.superpowered.crossexample:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.superpowered.crossexample:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.superpowered.crossexample:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.superpowered.crossexample:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.superpowered.crossexample:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.superpowered.crossexample:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.superpowered.crossexample:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.superpowered.crossexample:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.superpowered.crossexample:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.superpowered.crossexample:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.superpowered.crossexample:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.superpowered.crossexample:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.superpowered.crossexample:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.superpowered.crossexample:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.superpowered.crossexample:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.superpowered.crossexample:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.superpowered.crossexample:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.superpowered.crossexample:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.superpowered.crossexample:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.superpowered.crossexample:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.superpowered.crossexample:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.superpowered.crossexample:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.superpowered.crossexample:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.superpowered.crossexample:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.superpowered.crossexample:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.superpowered.crossexample:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.superpowered.crossexample:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.superpowered.crossexample:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.superpowered.crossexample:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.superpowered.crossexample:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.superpowered.crossexample:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.superpowered.crossexample:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.superpowered.crossexample:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.superpowered.crossexample:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.superpowered.crossexample:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.superpowered.crossexample:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.superpowered.crossexample:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.superpowered.crossexample:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.superpowered.crossexample:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.superpowered.crossexample:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.superpowered.crossexample:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.superpowered.crossexample:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.superpowered.crossexample:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.superpowered.crossexample:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.superpowered.crossexample:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.superpowered.crossexample:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.superpowered.crossexample:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.superpowered.crossexample:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.superpowered.crossexample:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.superpowered.crossexample:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.superpowered.crossexample:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.superpowered.crossexample:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.superpowered.crossexample:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -9316,6 +8647,10 @@ public final class R {
      * @see #ConstraintSet_android_layout_marginTop
      * @see #ConstraintSet_android_layout_marginRight
      * @see #ConstraintSet_android_layout_marginBottom
+     * @see #ConstraintSet_android_maxWidth
+     * @see #ConstraintSet_android_maxHeight
+     * @see #ConstraintSet_android_minWidth
+     * @see #ConstraintSet_android_minHeight
      * @see #ConstraintSet_android_alpha
      * @see #ConstraintSet_android_transformPivotX
      * @see #ConstraintSet_android_transformPivotY
@@ -9330,6 +8665,10 @@ public final class R {
      * @see #ConstraintSet_android_layout_marginEnd
      * @see #ConstraintSet_android_translationZ
      * @see #ConstraintSet_android_elevation
+     * @see #ConstraintSet_barrierAllowsGoneWidgets
+     * @see #ConstraintSet_barrierDirection
+     * @see #ConstraintSet_chainUseRtl
+     * @see #ConstraintSet_constraint_referenced_ids
      * @see #ConstraintSet_layout_constrainedHeight
      * @see #ConstraintSet_layout_constrainedWidth
      * @see #ConstraintSet_layout_constraintBaseline_creator
@@ -9383,22 +8722,24 @@ public final class R {
     public static final int[] ConstraintSet={
       0x010100c4, 0x010100d0, 0x010100dc, 0x010100f4, 
       0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9, 
-      0x010100fa, 0x0101031f, 0x01010320, 0x01010321, 
+      0x010100fa, 0x0101011f, 0x01010120, 0x0101013f, 
+      0x01010140, 0x0101031f, 0x01010320, 0x01010321, 
       0x01010322, 0x01010323, 0x01010324, 0x01010325, 
       0x01010326, 0x01010327, 0x01010328, 0x010103b5, 
-      0x010103b6, 0x010103fa, 0x01010440, 0x7f0300c3, 
-      0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 0x7f0300c7, 
-      0x7f0300c8, 0x7f0300c9, 0x7f0300ca, 0x7f0300cb, 
-      0x7f0300cc, 0x7f0300cd, 0x7f0300ce, 0x7f0300cf, 
-      0x7f0300d0, 0x7f0300d1, 0x7f0300d2, 0x7f0300d3, 
-      0x7f0300d4, 0x7f0300d5, 0x7f0300d6, 0x7f0300d7, 
-      0x7f0300d8, 0x7f0300d9, 0x7f0300da, 0x7f0300db, 
-      0x7f0300dc, 0x7f0300dd, 0x7f0300de, 0x7f0300df, 
-      0x7f0300e0, 0x7f0300e1, 0x7f0300e2, 0x7f0300e3, 
-      0x7f0300e4, 0x7f0300e5, 0x7f0300e6, 0x7f0300e7, 
-      0x7f0300e8, 0x7f0300e9, 0x7f0300ea, 0x7f0300eb, 
-      0x7f0300ed, 0x7f0300ee, 0x7f0300ef, 0x7f0300f0, 
-      0x7f0300f1, 0x7f0300f2, 0x7f0300f3, 0x7f0300f4
+      0x010103b6, 0x010103fa, 0x01010440, 0x7f020031, 
+      0x7f020032, 0x7f020047, 0x7f02005c, 0x7f0200b0, 
+      0x7f0200b1, 0x7f0200b2, 0x7f0200b3, 0x7f0200b4, 
+      0x7f0200b5, 0x7f0200b6, 0x7f0200b7, 0x7f0200b8, 
+      0x7f0200b9, 0x7f0200ba, 0x7f0200bb, 0x7f0200bc, 
+      0x7f0200bd, 0x7f0200be, 0x7f0200bf, 0x7f0200c0, 
+      0x7f0200c1, 0x7f0200c2, 0x7f0200c3, 0x7f0200c4, 
+      0x7f0200c5, 0x7f0200c6, 0x7f0200c7, 0x7f0200c8, 
+      0x7f0200c9, 0x7f0200ca, 0x7f0200cb, 0x7f0200cc, 
+      0x7f0200cd, 0x7f0200ce, 0x7f0200cf, 0x7f0200d0, 
+      0x7f0200d1, 0x7f0200d2, 0x7f0200d3, 0x7f0200d4, 
+      0x7f0200d5, 0x7f0200d6, 0x7f0200d7, 0x7f0200d8, 
+      0x7f0200da, 0x7f0200db, 0x7f0200dc, 0x7f0200dd, 
+      0x7f0200de, 0x7f0200df, 0x7f0200e0, 0x7f0200e1
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -9462,9 +8803,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
      * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
      * @attr name android:layout_width
@@ -9485,9 +8826,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
      * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
      * @attr name android:layout_height
@@ -9546,6 +8887,58 @@ public final class R {
      */
     public static final int ConstraintSet_android_layout_marginBottom=8;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxWidth
+     */
+    public static final int ConstraintSet_android_maxWidth=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxHeight
+     */
+    public static final int ConstraintSet_android_maxHeight=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int ConstraintSet_android_minWidth=11;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int ConstraintSet_android_minHeight=12;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#alpha}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
@@ -9553,7 +8946,7 @@ public final class R {
      *
      * @attr name android:alpha
      */
-    public static final int ConstraintSet_android_alpha=9;
+    public static final int ConstraintSet_android_alpha=13;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9566,7 +8959,7 @@ public final class R {
      *
      * @attr name android:transformPivotX
      */
-    public static final int ConstraintSet_android_transformPivotX=10;
+    public static final int ConstraintSet_android_transformPivotX=14;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9579,7 +8972,7 @@ public final class R {
      *
      * @attr name android:transformPivotY
      */
-    public static final int ConstraintSet_android_transformPivotY=11;
+    public static final int ConstraintSet_android_transformPivotY=15;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9592,7 +8985,7 @@ public final class R {
      *
      * @attr name android:translationX
      */
-    public static final int ConstraintSet_android_translationX=12;
+    public static final int ConstraintSet_android_translationX=16;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9605,7 +8998,7 @@ public final class R {
      *
      * @attr name android:translationY
      */
-    public static final int ConstraintSet_android_translationY=13;
+    public static final int ConstraintSet_android_translationY=17;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9614,7 +9007,7 @@ public final class R {
      *
      * @attr name android:scaleX
      */
-    public static final int ConstraintSet_android_scaleX=14;
+    public static final int ConstraintSet_android_scaleX=18;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9623,7 +9016,7 @@ public final class R {
      *
      * @attr name android:scaleY
      */
-    public static final int ConstraintSet_android_scaleY=15;
+    public static final int ConstraintSet_android_scaleY=19;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotation}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9632,7 +9025,7 @@ public final class R {
      *
      * @attr name android:rotation
      */
-    public static final int ConstraintSet_android_rotation=16;
+    public static final int ConstraintSet_android_rotation=20;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9641,7 +9034,7 @@ public final class R {
      *
      * @attr name android:rotationX
      */
-    public static final int ConstraintSet_android_rotationX=17;
+    public static final int ConstraintSet_android_rotationX=21;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9650,7 +9043,7 @@ public final class R {
      *
      * @attr name android:rotationY
      */
-    public static final int ConstraintSet_android_rotationY=18;
+    public static final int ConstraintSet_android_rotationY=22;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9663,7 +9056,7 @@ public final class R {
      *
      * @attr name android:layout_marginStart
      */
-    public static final int ConstraintSet_android_layout_marginStart=19;
+    public static final int ConstraintSet_android_layout_marginStart=23;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9676,7 +9069,7 @@ public final class R {
      *
      * @attr name android:layout_marginEnd
      */
-    public static final int ConstraintSet_android_layout_marginEnd=20;
+    public static final int ConstraintSet_android_layout_marginEnd=24;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9689,7 +9082,7 @@ public final class R {
      *
      * @attr name android:translationZ
      */
-    public static final int ConstraintSet_android_translationZ=21;
+    public static final int ConstraintSet_android_translationZ=25;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#elevation}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9702,151 +9095,89 @@ public final class R {
      *
      * @attr name android:elevation
      */
-    public static final int ConstraintSet_android_elevation=22;
+    public static final int ConstraintSet_android_elevation=26;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constrainedHeight
+     * @attr name com.superpowered.crossexample:barrierAllowsGoneWidgets
      */
-    public static final int ConstraintSet_layout_constrainedHeight=23;
+    public static final int ConstraintSet_barrierAllowsGoneWidgets=27;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#barrierDirection}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.superpowered.crossexample:barrierDirection
+     */
+    public static final int ConstraintSet_barrierDirection=28;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constrainedWidth
+     * @attr name com.superpowered.crossexample:chainUseRtl
      */
-    public static final int ConstraintSet_layout_constrainedWidth=24;
+    public static final int ConstraintSet_chainUseRtl=29;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintBaseline_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintBaseline_creator
-     */
-    public static final int ConstraintSet_layout_constraintBaseline_creator=25;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintBaseline_toBaselineOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintBaseline_toBaselineOf
-     */
-    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=26;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintBottom_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintBottom_creator
-     */
-    public static final int ConstraintSet_layout_constraintBottom_creator=27;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintBottom_toBottomOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintBottom_toBottomOf
-     */
-    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=28;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintBottom_toTopOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintBottom_toTopOf
-     */
-    public static final int ConstraintSet_layout_constraintBottom_toTopOf=29;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintCircle}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintCircle
-     */
-    public static final int ConstraintSet_layout_constraintCircle=30;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintCircleAngle}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintCircleAngle
-     */
-    public static final int ConstraintSet_layout_constraintCircleAngle=31;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintCircleRadius}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintCircleRadius
-     */
-    public static final int ConstraintSet_layout_constraintCircleRadius=32;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintDimensionRatio
+     * @attr name com.superpowered.crossexample:constraint_referenced_ids
      */
-    public static final int ConstraintSet_layout_constraintDimensionRatio=33;
+    public static final int ConstraintSet_constraint_referenced_ids=30;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constrainedHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.superpowered.crossexample:layout_constrainedHeight
+     */
+    public static final int ConstraintSet_layout_constrainedHeight=31;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constrainedWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.superpowered.crossexample:layout_constrainedWidth
+     */
+    public static final int ConstraintSet_layout_constrainedWidth=32;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintBaseline_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.superpowered.crossexample:layout_constraintBaseline_creator
+     */
+    public static final int ConstraintSet_layout_constraintBaseline_creator=33;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9862,11 +9193,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintEnd_toEndOf
+     * @attr name com.superpowered.crossexample:layout_constraintBaseline_toBaselineOf
      */
-    public static final int ConstraintSet_layout_constraintEnd_toEndOf=34;
+    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintBottom_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.superpowered.crossexample:layout_constraintBottom_creator
+     */
+    public static final int ConstraintSet_layout_constraintBottom_creator=35;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9882,11 +9222,52 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintEnd_toStartOf
+     * @attr name com.superpowered.crossexample:layout_constraintBottom_toBottomOf
      */
-    public static final int ConstraintSet_layout_constraintEnd_toStartOf=35;
+    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=36;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintBottom_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.superpowered.crossexample:layout_constraintBottom_toTopOf
+     */
+    public static final int ConstraintSet_layout_constraintBottom_toTopOf=37;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintCircle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.superpowered.crossexample:layout_constraintCircle
+     */
+    public static final int ConstraintSet_layout_constraintCircle=38;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintCircleAngle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.superpowered.crossexample:layout_constraintCircleAngle
+     */
+    public static final int ConstraintSet_layout_constraintCircleAngle=39;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9895,11 +9276,61 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintGuide_begin
+     * @attr name com.superpowered.crossexample:layout_constraintCircleRadius
      */
-    public static final int ConstraintSet_layout_constraintGuide_begin=36;
+    public static final int ConstraintSet_layout_constraintCircleRadius=40;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintDimensionRatio}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.superpowered.crossexample:layout_constraintDimensionRatio
+     */
+    public static final int ConstraintSet_layout_constraintDimensionRatio=41;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintEnd_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.superpowered.crossexample:layout_constraintEnd_toEndOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toEndOf=42;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintEnd_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.superpowered.crossexample:layout_constraintEnd_toStartOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toStartOf=43;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9908,20 +9339,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintGuide_end
+     * @attr name com.superpowered.crossexample:layout_constraintGuide_begin
      */
-    public static final int ConstraintSet_layout_constraintGuide_end=37;
+    public static final int ConstraintSet_layout_constraintGuide_begin=44;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintGuide_end}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.superpowered.crossexample:layout_constraintGuide_end
+     */
+    public static final int ConstraintSet_layout_constraintGuide_end=45;
+    /**
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintGuide_percent
+     * @attr name com.superpowered.crossexample:layout_constraintGuide_percent
      */
-    public static final int ConstraintSet_layout_constraintGuide_percent=38;
+    public static final int ConstraintSet_layout_constraintGuide_percent=46;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9935,11 +9379,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHeight_default
+     * @attr name com.superpowered.crossexample:layout_constraintHeight_default
      */
-    public static final int ConstraintSet_layout_constraintHeight_default=39;
+    public static final int ConstraintSet_layout_constraintHeight_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9956,11 +9400,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHeight_max
+     * @attr name com.superpowered.crossexample:layout_constraintHeight_max
      */
-    public static final int ConstraintSet_layout_constraintHeight_max=40;
+    public static final int ConstraintSet_layout_constraintHeight_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9977,29 +9421,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHeight_min
+     * @attr name com.superpowered.crossexample:layout_constraintHeight_min
      */
-    public static final int ConstraintSet_layout_constraintHeight_min=41;
+    public static final int ConstraintSet_layout_constraintHeight_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHeight_percent
+     * @attr name com.superpowered.crossexample:layout_constraintHeight_percent
      */
-    public static final int ConstraintSet_layout_constraintHeight_percent=42;
+    public static final int ConstraintSet_layout_constraintHeight_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHorizontal_bias
+     * @attr name com.superpowered.crossexample:layout_constraintHorizontal_bias
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_bias=43;
+    public static final int ConstraintSet_layout_constraintHorizontal_bias=51;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10013,29 +9457,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHorizontal_chainStyle
+     * @attr name com.superpowered.crossexample:layout_constraintHorizontal_chainStyle
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=44;
+    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=52;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintHorizontal_weight
+     * @attr name com.superpowered.crossexample:layout_constraintHorizontal_weight
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_weight=45;
+    public static final int ConstraintSet_layout_constraintHorizontal_weight=53;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintLeft_creator
+     * @attr name com.superpowered.crossexample:layout_constraintLeft_creator
      */
-    public static final int ConstraintSet_layout_constraintLeft_creator=46;
+    public static final int ConstraintSet_layout_constraintLeft_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10051,11 +9495,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintLeft_toLeftOf
+     * @attr name com.superpowered.crossexample:layout_constraintLeft_toLeftOf
      */
-    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=47;
+    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=55;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10071,20 +9515,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintLeft_toRightOf
+     * @attr name com.superpowered.crossexample:layout_constraintLeft_toRightOf
      */
-    public static final int ConstraintSet_layout_constraintLeft_toRightOf=48;
+    public static final int ConstraintSet_layout_constraintLeft_toRightOf=56;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintRight_creator
+     * @attr name com.superpowered.crossexample:layout_constraintRight_creator
      */
-    public static final int ConstraintSet_layout_constraintRight_creator=49;
+    public static final int ConstraintSet_layout_constraintRight_creator=57;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10100,11 +9544,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintRight_toLeftOf
+     * @attr name com.superpowered.crossexample:layout_constraintRight_toLeftOf
      */
-    public static final int ConstraintSet_layout_constraintRight_toLeftOf=50;
+    public static final int ConstraintSet_layout_constraintRight_toLeftOf=58;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10120,11 +9564,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintRight_toRightOf
+     * @attr name com.superpowered.crossexample:layout_constraintRight_toRightOf
      */
-    public static final int ConstraintSet_layout_constraintRight_toRightOf=51;
+    public static final int ConstraintSet_layout_constraintRight_toRightOf=59;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10140,11 +9584,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintStart_toEndOf
+     * @attr name com.superpowered.crossexample:layout_constraintStart_toEndOf
      */
-    public static final int ConstraintSet_layout_constraintStart_toEndOf=52;
+    public static final int ConstraintSet_layout_constraintStart_toEndOf=60;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10160,20 +9604,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintStart_toStartOf
+     * @attr name com.superpowered.crossexample:layout_constraintStart_toStartOf
      */
-    public static final int ConstraintSet_layout_constraintStart_toStartOf=53;
+    public static final int ConstraintSet_layout_constraintStart_toStartOf=61;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintTop_creator
+     * @attr name com.superpowered.crossexample:layout_constraintTop_creator
      */
-    public static final int ConstraintSet_layout_constraintTop_creator=54;
+    public static final int ConstraintSet_layout_constraintTop_creator=62;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10189,11 +9633,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintTop_toBottomOf
+     * @attr name com.superpowered.crossexample:layout_constraintTop_toBottomOf
      */
-    public static final int ConstraintSet_layout_constraintTop_toBottomOf=55;
+    public static final int ConstraintSet_layout_constraintTop_toBottomOf=63;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10209,20 +9653,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintTop_toTopOf
+     * @attr name com.superpowered.crossexample:layout_constraintTop_toTopOf
      */
-    public static final int ConstraintSet_layout_constraintTop_toTopOf=56;
+    public static final int ConstraintSet_layout_constraintTop_toTopOf=64;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintVertical_bias
+     * @attr name com.superpowered.crossexample:layout_constraintVertical_bias
      */
-    public static final int ConstraintSet_layout_constraintVertical_bias=57;
+    public static final int ConstraintSet_layout_constraintVertical_bias=65;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10236,20 +9680,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintVertical_chainStyle
+     * @attr name com.superpowered.crossexample:layout_constraintVertical_chainStyle
      */
-    public static final int ConstraintSet_layout_constraintVertical_chainStyle=58;
+    public static final int ConstraintSet_layout_constraintVertical_chainStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintVertical_weight
+     * @attr name com.superpowered.crossexample:layout_constraintVertical_weight
      */
-    public static final int ConstraintSet_layout_constraintVertical_weight=59;
+    public static final int ConstraintSet_layout_constraintVertical_weight=67;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10263,11 +9707,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintWidth_default
+     * @attr name com.superpowered.crossexample:layout_constraintWidth_default
      */
-    public static final int ConstraintSet_layout_constraintWidth_default=60;
+    public static final int ConstraintSet_layout_constraintWidth_default=68;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10284,11 +9728,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintWidth_max
+     * @attr name com.superpowered.crossexample:layout_constraintWidth_max
      */
-    public static final int ConstraintSet_layout_constraintWidth_max=61;
+    public static final int ConstraintSet_layout_constraintWidth_max=69;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10305,20 +9749,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintWidth_min
+     * @attr name com.superpowered.crossexample:layout_constraintWidth_min
      */
-    public static final int ConstraintSet_layout_constraintWidth_min=62;
+    public static final int ConstraintSet_layout_constraintWidth_min=70;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_constraintWidth_percent
+     * @attr name com.superpowered.crossexample:layout_constraintWidth_percent
      */
-    public static final int ConstraintSet_layout_constraintWidth_percent=63;
+    public static final int ConstraintSet_layout_constraintWidth_percent=71;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10327,11 +9771,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_editor_absoluteX
+     * @attr name com.superpowered.crossexample:layout_editor_absoluteX
      */
-    public static final int ConstraintSet_layout_editor_absoluteX=64;
+    public static final int ConstraintSet_layout_editor_absoluteX=72;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10340,11 +9784,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_editor_absoluteY
+     * @attr name com.superpowered.crossexample:layout_editor_absoluteY
      */
-    public static final int ConstraintSet_layout_editor_absoluteY=65;
+    public static final int ConstraintSet_layout_editor_absoluteY=73;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10353,11 +9797,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_goneMarginBottom
+     * @attr name com.superpowered.crossexample:layout_goneMarginBottom
      */
-    public static final int ConstraintSet_layout_goneMarginBottom=66;
+    public static final int ConstraintSet_layout_goneMarginBottom=74;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10366,11 +9810,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_goneMarginEnd
+     * @attr name com.superpowered.crossexample:layout_goneMarginEnd
      */
-    public static final int ConstraintSet_layout_goneMarginEnd=67;
+    public static final int ConstraintSet_layout_goneMarginEnd=75;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10379,11 +9823,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_goneMarginLeft
+     * @attr name com.superpowered.crossexample:layout_goneMarginLeft
      */
-    public static final int ConstraintSet_layout_goneMarginLeft=68;
+    public static final int ConstraintSet_layout_goneMarginLeft=76;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10392,11 +9836,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_goneMarginRight
+     * @attr name com.superpowered.crossexample:layout_goneMarginRight
      */
-    public static final int ConstraintSet_layout_goneMarginRight=69;
+    public static final int ConstraintSet_layout_goneMarginRight=77;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10405,11 +9849,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_goneMarginStart
+     * @attr name com.superpowered.crossexample:layout_goneMarginStart
      */
-    public static final int ConstraintSet_layout_goneMarginStart=70;
+    public static final int ConstraintSet_layout_goneMarginStart=78;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10418,9 +9862,9 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_goneMarginTop
+     * @attr name com.superpowered.crossexample:layout_goneMarginTop
      */
-    public static final int ConstraintSet_layout_goneMarginTop=71;
+    public static final int ConstraintSet_layout_goneMarginTop=79;
     /**
      * Attributes that can be used with a CoordinatorLayout.
      * <p>Includes the following attributes:</p>
@@ -10428,17 +9872,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.superpowered.hoerklavierschule:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.superpowered.hoerklavierschule:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.superpowered.crossexample:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.superpowered.crossexample:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-      0x7f0300bb, 0x7f030143
+      0x7f0200a8, 0x7f02012c
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10446,22 +9890,19 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:keylines
+     * @attr name com.superpowered.crossexample:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:statusBarBackground
+     * @attr name com.superpowered.crossexample:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -10472,12 +9913,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.superpowered.hoerklavierschule:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.superpowered.hoerklavierschule:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.superpowered.hoerklavierschule:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.superpowered.hoerklavierschule:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.superpowered.hoerklavierschule:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.superpowered.hoerklavierschule:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.superpowered.crossexample:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.superpowered.crossexample:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.superpowered.crossexample:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.superpowered.crossexample:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.superpowered.crossexample:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.superpowered.crossexample:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -10488,8 +9929,8 @@ public final class R {
      * @see #CoordinatorLayout_Layout_layout_keyline
      */
     public static final int[] CoordinatorLayout_Layout={
-      0x010100b3, 0x7f0300be, 0x7f0300bf, 0x7f0300c0, 
-      0x7f0300ec, 0x7f0300f5, 0x7f0300f6
+      0x010100b3, 0x7f0200ab, 0x7f0200ac, 0x7f0200ad, 
+      0x7f0200d9, 0x7f0200e2, 0x7f0200e3
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -10501,19 +9942,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>bottom</td><td>50</td><td></td></tr>
      * <tr><td>center</td><td>11</td><td></td></tr>
      * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
      * <tr><td>center_vertical</td><td>10</td><td></td></tr>
      * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
      * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
      * <tr><td>fill</td><td>77</td><td></td></tr>
      * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
      * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
      * <tr><td>left</td><td>3</td><td></td></tr>
      * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
@@ -10521,7 +9962,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10529,11 +9970,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_anchor
+     * @attr name com.superpowered.crossexample:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10558,21 +9999,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_anchorGravity
+     * @attr name com.superpowered.crossexample:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_behavior
+     * @attr name com.superpowered.crossexample:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10586,16 +10027,16 @@ public final class R {
      * <tr><td>end</td><td>800005</td><td></td></tr>
      * <tr><td>left</td><td>3</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>right</td><td>3</td><td></td></tr>
      * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_dodgeInsetEdges
+     * @attr name com.superpowered.crossexample:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10608,21 +10049,21 @@ public final class R {
      * <tr><td>end</td><td>800005</td><td></td></tr>
      * <tr><td>left</td><td>3</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>right</td><td>3</td><td></td></tr>
      * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_insetEdge
+     * @attr name com.superpowered.crossexample:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout_keyline
+     * @attr name com.superpowered.crossexample:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -10632,19 +10073,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.superpowered.hoerklavierschule:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.superpowered.hoerklavierschule:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_textColorError com.superpowered.hoerklavierschule:textColorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.superpowered.crossexample:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.superpowered.crossexample:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_textColorError com.superpowered.crossexample:textColorError}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
      * @see #DesignTheme_textColorError
      */
     public static final int[] DesignTheme={
-      0x7f030040, 0x7f030041, 0x7f03016a
+      0x7f02003a, 0x7f02003b, 0x7f020152
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10652,11 +10093,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:bottomSheetDialogTheme
+     * @attr name com.superpowered.crossexample:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10664,22 +10105,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:bottomSheetStyle
+     * @attr name com.superpowered.crossexample:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#textColorError}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#textColorError}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:textColorError
+     * @attr name com.superpowered.crossexample:textColorError
      */
     public static final int DesignTheme_textColorError=2;
     /**
@@ -10689,14 +10126,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.superpowered.hoerklavierschule:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.superpowered.hoerklavierschule:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.superpowered.hoerklavierschule:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.superpowered.hoerklavierschule:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.superpowered.hoerklavierschule:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.superpowered.hoerklavierschule:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.superpowered.hoerklavierschule:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.superpowered.hoerklavierschule:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.superpowered.crossexample:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.superpowered.crossexample:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.superpowered.crossexample:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.superpowered.crossexample:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.superpowered.crossexample:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.superpowered.crossexample:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.superpowered.crossexample:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.superpowered.crossexample:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -10708,11 +10145,11 @@ public final class R {
      * @see #DrawerArrowToggle_thickness
      */
     public static final int[] DrawerArrowToggle={
-      0x7f030029, 0x7f03002a, 0x7f030036, 0x7f030057, 
-      0x7f03007d, 0x7f0300a3, 0x7f03013a, 0x7f03016d
+      0x7f020028, 0x7f020029, 0x7f020030, 0x7f020050, 
+      0x7f020073, 0x7f020092, 0x7f020123, 0x7f020155
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10721,11 +10158,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:arrowHeadLength
+     * @attr name com.superpowered.crossexample:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10734,11 +10171,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:arrowShaftLength
+     * @attr name com.superpowered.crossexample:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10747,22 +10184,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:barLength
+     * @attr name com.superpowered.crossexample:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:color
+     * @attr name com.superpowered.crossexample:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10771,11 +10208,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:drawableSize
+     * @attr name com.superpowered.crossexample:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10784,21 +10221,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:gapBetweenBars
+     * @attr name com.superpowered.crossexample:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:spinBars
+     * @attr name com.superpowered.crossexample:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10807,7 +10244,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:thickness
+     * @attr name com.superpowered.crossexample:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -10817,44 +10254,41 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.superpowered.hoerklavierschule:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.superpowered.hoerklavierschule:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.superpowered.hoerklavierschule:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.superpowered.hoerklavierschule:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.superpowered.hoerklavierschule:fabCustomSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize com.superpowered.hoerklavierschule:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.superpowered.hoerklavierschule:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.superpowered.hoerklavierschule:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.superpowered.hoerklavierschule:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.superpowered.crossexample:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.superpowered.crossexample:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.superpowered.crossexample:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation com.superpowered.crossexample:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize com.superpowered.crossexample:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.superpowered.crossexample:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.superpowered.crossexample:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.superpowered.crossexample:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
      * @see #FloatingActionButton_borderWidth
      * @see #FloatingActionButton_elevation
-     * @see #FloatingActionButton_fabCustomSize
      * @see #FloatingActionButton_fabSize
      * @see #FloatingActionButton_pressedTranslationZ
      * @see #FloatingActionButton_rippleColor
      * @see #FloatingActionButton_useCompatPadding
      */
     public static final int[] FloatingActionButton={
-      0x7f030034, 0x7f030035, 0x7f03003e, 0x7f030084, 
-      0x7f030091, 0x7f030092, 0x7f030121, 0x7f03012b, 
-      0x7f03018a
+      0x7f02002e, 0x7f02002f, 0x7f020038, 0x7f02007a, 
+      0x7f020087, 0x7f02010b, 0x7f020115, 0x7f02016d
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:backgroundTint
+     * @attr name com.superpowered.crossexample:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10863,7 +10297,6 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td></td></tr>
      * <tr><td>multiply</td><td>e</td><td></td></tr>
      * <tr><td>screen</td><td>f</td><td></td></tr>
      * <tr><td>src_atop</td><td>9</td><td></td></tr>
@@ -10871,11 +10304,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:backgroundTintMode
+     * @attr name com.superpowered.crossexample:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10884,11 +10317,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:borderWidth
+     * @attr name com.superpowered.crossexample:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#elevation}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10897,24 +10330,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:elevation
+     * @attr name com.superpowered.crossexample:elevation
      */
     public static final int FloatingActionButton_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fabCustomSize}
-     * attribute's value can be found in the {@link #FloatingActionButton} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.superpowered.hoerklavierschule:fabCustomSize
-     */
-    public static final int FloatingActionButton_fabCustomSize=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10928,11 +10348,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:fabSize
+     * @attr name com.superpowered.crossexample:fabSize
      */
-    public static final int FloatingActionButton_fabSize=5;
+    public static final int FloatingActionButton_fabSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10941,30 +10361,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:pressedTranslationZ
+     * @attr name com.superpowered.crossexample:pressedTranslationZ
      */
-    public static final int FloatingActionButton_pressedTranslationZ=6;
+    public static final int FloatingActionButton_pressedTranslationZ=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:rippleColor
+     * @attr name com.superpowered.crossexample:rippleColor
      */
-    public static final int FloatingActionButton_rippleColor=7;
+    public static final int FloatingActionButton_rippleColor=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:useCompatPadding
+     * @attr name com.superpowered.crossexample:useCompatPadding
      */
-    public static final int FloatingActionButton_useCompatPadding=8;
+    public static final int FloatingActionButton_useCompatPadding=7;
     /**
      * Attributes that can be used with a FloatingActionButton_Behavior_Layout.
      * <p>Includes the following attributes:</p>
@@ -10972,21 +10392,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.superpowered.hoerklavierschule:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.superpowered.crossexample:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
     public static final int[] FloatingActionButton_Behavior_Layout={
-      0x7f030039
+      0x7f020033
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#behavior_autoHide}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#behavior_autoHide}
      * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:behavior_autoHide
+     * @attr name com.superpowered.crossexample:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
@@ -10996,12 +10416,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.superpowered.hoerklavierschule:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.superpowered.hoerklavierschule:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.superpowered.hoerklavierschule:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.superpowered.hoerklavierschule:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.superpowered.hoerklavierschule:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.superpowered.hoerklavierschule:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.superpowered.crossexample:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.superpowered.crossexample:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.superpowered.crossexample:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.superpowered.crossexample:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.superpowered.crossexample:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.superpowered.crossexample:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -11011,21 +10431,21 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-      0x7f03009a, 0x7f03009b, 0x7f03009c, 0x7f03009d, 
-      0x7f03009e, 0x7f03009f
+      0x7f020089, 0x7f02008a, 0x7f02008b, 0x7f02008c, 
+      0x7f02008d, 0x7f02008e
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:fontProviderAuthority
+     * @attr name com.superpowered.crossexample:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11033,11 +10453,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:fontProviderCerts
+     * @attr name com.superpowered.crossexample:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11050,11 +10470,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:fontProviderFetchStrategy
+     * @attr name com.superpowered.crossexample:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -11067,27 +10487,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:fontProviderFetchTimeout
+     * @attr name com.superpowered.crossexample:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:fontProviderPackage
+     * @attr name com.superpowered.crossexample:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:fontProviderQuery
+     * @attr name com.superpowered.crossexample:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -11097,26 +10517,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.superpowered.hoerklavierschule:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.superpowered.hoerklavierschule:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.superpowered.hoerklavierschule:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.superpowered.crossexample:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.superpowered.crossexample:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.superpowered.crossexample:fontWeight}</code></td><td></td></tr>
      * </table>
-     * @see #FontFamilyFont_android_font
-     * @see #FontFamilyFont_android_fontWeight
-     * @see #FontFamilyFont_android_fontStyle
      * @see #FontFamilyFont_font
      * @see #FontFamilyFont_fontStyle
      * @see #FontFamilyFont_fontWeight
      */
     public static final int[] FontFamilyFont={
-      0x01010532, 0x01010533, 0x0101053f, 0x7f030098, 
-      0x7f0300a0, 0x7f0300a1
+      0x7f020088, 0x7f02008f, 0x7f020090
     };
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11124,20 +10537,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name android:font
+     * @attr name com.superpowered.crossexample:font
      */
-    public static final int FontFamilyFont_android_font=0;
+    public static final int FontFamilyFont_font=0;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#fontWeight}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name android:fontWeight
-     */
-    public static final int FontFamilyFont_android_fontWeight=1;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11150,47 +10554,18 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name android:fontStyle
+     * @attr name com.superpowered.crossexample:fontStyle
      */
-    public static final int FontFamilyFont_android_fontStyle=2;
+    public static final int FontFamilyFont_fontStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#font}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:font
-     */
-    public static final int FontFamilyFont_font=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fontStyle}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>italic</td><td>1</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.superpowered.hoerklavierschule:fontStyle
-     */
-    public static final int FontFamilyFont_fontStyle=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:fontWeight
+     * @attr name com.superpowered.crossexample:fontWeight
      */
-    public static final int FontFamilyFont_fontWeight=5;
+    public static final int FontFamilyFont_fontWeight=2;
     /**
      * Attributes that can be used with a ForegroundLinearLayout.
      * <p>Includes the following attributes:</p>
@@ -11200,14 +10575,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.superpowered.hoerklavierschule:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.superpowered.crossexample:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
      * @see #ForegroundLinearLayout_foregroundInsidePadding
      */
     public static final int[] ForegroundLinearLayout={
-      0x01010109, 0x01010200, 0x7f0300a2
+      0x01010109, 0x01010200, 0x7f020091
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#foreground}
@@ -11252,13 +10627,13 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:foregroundInsidePadding
+     * @attr name com.superpowered.crossexample:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
     /**
@@ -11304,10 +10679,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.superpowered.hoerklavierschule:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.superpowered.hoerklavierschule:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.superpowered.hoerklavierschule:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.superpowered.hoerklavierschule:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.superpowered.crossexample:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.superpowered.crossexample:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.superpowered.crossexample:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.superpowered.crossexample:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -11321,8 +10696,8 @@ public final class R {
      */
     public static final int[] LinearLayoutCompat={
       0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
-      0x01010128, 0x7f030079, 0x7f03007b, 0x7f030109, 
-      0x7f030135
+      0x01010128, 0x7f02006f, 0x7f020071, 0x7f0200f6, 
+      0x7f02011f
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -11334,19 +10709,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>bottom</td><td>50</td><td></td></tr>
      * <tr><td>center</td><td>11</td><td></td></tr>
      * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
      * <tr><td>center_vertical</td><td>10</td><td></td></tr>
      * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
      * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
      * <tr><td>fill</td><td>77</td><td></td></tr>
      * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
      * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
      * <tr><td>left</td><td>3</td><td></td></tr>
      * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
@@ -11399,7 +10774,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11407,11 +10782,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:divider
+     * @attr name com.superpowered.crossexample:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11420,21 +10795,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:dividerPadding
+     * @attr name com.superpowered.crossexample:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:measureWithLargestChild
+     * @attr name com.superpowered.crossexample:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11449,7 +10824,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:showDividers
+     * @attr name com.superpowered.crossexample:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -11482,19 +10857,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>bottom</td><td>50</td><td></td></tr>
      * <tr><td>center</td><td>11</td><td></td></tr>
      * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
      * <tr><td>center_vertical</td><td>10</td><td></td></tr>
      * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
      * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
      * <tr><td>fill</td><td>77</td><td></td></tr>
      * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
      * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
      * <tr><td>left</td><td>3</td><td></td></tr>
      * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
@@ -11516,9 +10891,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
      * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
      * @attr name android:layout_width
@@ -11539,9 +10914,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
      * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
      * @attr name android:layout_height
@@ -11693,8 +11068,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>1</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>all</td><td>1</td><td></td></tr>
      * <tr><td>single</td><td>2</td><td></td></tr>
      * </table>
      *
@@ -11721,16 +11096,10 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.superpowered.hoerklavierschule:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.superpowered.hoerklavierschule:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.superpowered.hoerklavierschule:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.superpowered.hoerklavierschule:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.superpowered.hoerklavierschule:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.superpowered.hoerklavierschule:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.superpowered.hoerklavierschule:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.superpowered.hoerklavierschule:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.superpowered.hoerklavierschule:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.superpowered.hoerklavierschule:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.superpowered.crossexample:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.superpowered.crossexample:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.superpowered.crossexample:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.superpowered.crossexample:showAsAction}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -11748,21 +11117,14 @@ public final class R {
      * @see #MenuItem_actionLayout
      * @see #MenuItem_actionProviderClass
      * @see #MenuItem_actionViewClass
-     * @see #MenuItem_alphabeticModifiers
-     * @see #MenuItem_contentDescription
-     * @see #MenuItem_iconTint
-     * @see #MenuItem_iconTintMode
-     * @see #MenuItem_numericModifiers
      * @see #MenuItem_showAsAction
-     * @see #MenuItem_tooltipText
      */
     public static final int[] MenuItem={
       0x01010002, 0x0101000e, 0x010100d0, 0x01010106, 
       0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
       0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
-      0x0101026f, 0x7f03000d, 0x7f03001f, 0x7f030020, 
-      0x7f030028, 0x7f030066, 0x7f0300ae, 0x7f0300af, 
-      0x7f03010f, 0x7f030134, 0x7f030186
+      0x0101026f, 0x7f02000d, 0x7f02001f, 0x7f020020, 
+      0x7f02011e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -11907,7 +11269,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11915,115 +11277,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:actionLayout
+     * @attr name com.superpowered.crossexample:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:actionProviderClass
+     * @attr name com.superpowered.crossexample:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:actionViewClass
+     * @attr name com.superpowered.crossexample:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#alphabeticModifiers}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>ALT</td><td>2</td><td></td></tr>
-     * <tr><td>CTRL</td><td>1000</td><td></td></tr>
-     * <tr><td>FUNCTION</td><td>8</td><td></td></tr>
-     * <tr><td>META</td><td>10000</td><td></td></tr>
-     * <tr><td>SHIFT</td><td>1</td><td></td></tr>
-     * <tr><td>SYM</td><td>4</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.superpowered.hoerklavierschule:alphabeticModifiers
-     */
-    public static final int MenuItem_alphabeticModifiers=16;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentDescription}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.superpowered.hoerklavierschule:contentDescription
-     */
-    public static final int MenuItem_contentDescription=17;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#iconTint}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:iconTint
-     */
-    public static final int MenuItem_iconTint=18;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#iconTintMode}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td></td></tr>
-     * <tr><td>multiply</td><td>e</td><td></td></tr>
-     * <tr><td>screen</td><td>f</td><td></td></tr>
-     * <tr><td>src_atop</td><td>9</td><td></td></tr>
-     * <tr><td>src_in</td><td>5</td><td></td></tr>
-     * <tr><td>src_over</td><td>3</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.superpowered.hoerklavierschule:iconTintMode
-     */
-    public static final int MenuItem_iconTintMode=19;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#numericModifiers}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>ALT</td><td>2</td><td></td></tr>
-     * <tr><td>CTRL</td><td>1000</td><td></td></tr>
-     * <tr><td>FUNCTION</td><td>8</td><td></td></tr>
-     * <tr><td>META</td><td>10000</td><td></td></tr>
-     * <tr><td>SHIFT</td><td>1</td><td></td></tr>
-     * <tr><td>SYM</td><td>4</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.superpowered.hoerklavierschule:numericModifiers
-     */
-    public static final int MenuItem_numericModifiers=20;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12039,19 +11317,9 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:showAsAction
+     * @attr name com.superpowered.crossexample:showAsAction
      */
-    public static final int MenuItem_showAsAction=21;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tooltipText}
-     * attribute's value can be found in the {@link #MenuItem} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.superpowered.hoerklavierschule:tooltipText
-     */
-    public static final int MenuItem_tooltipText=22;
+    public static final int MenuItem_showAsAction=16;
     /**
      * Attributes that can be used with a MenuView.
      * <p>Includes the following attributes:</p>
@@ -12066,8 +11334,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.superpowered.hoerklavierschule:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.superpowered.hoerklavierschule:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.superpowered.crossexample:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.superpowered.crossexample:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -12081,8 +11349,8 @@ public final class R {
      */
     public static final int[] MenuView={
       0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-      0x0101012f, 0x01010130, 0x01010131, 0x7f030120, 
-      0x7f030145
+      0x0101012f, 0x01010130, 0x01010131, 0x7f02010a, 
+      0x7f02012e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
@@ -12172,17 +11440,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:preserveIconSpacing
+     * @attr name com.superpowered.crossexample:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12190,7 +11458,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:subMenuArrow
+     * @attr name com.superpowered.crossexample:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -12203,13 +11471,13 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.superpowered.hoerklavierschule:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout com.superpowered.hoerklavierschule:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground com.superpowered.hoerklavierschule:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint com.superpowered.hoerklavierschule:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.superpowered.hoerklavierschule:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor com.superpowered.hoerklavierschule:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu com.superpowered.hoerklavierschule:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation com.superpowered.crossexample:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout com.superpowered.crossexample:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground com.superpowered.crossexample:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint com.superpowered.crossexample:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.superpowered.crossexample:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor com.superpowered.crossexample:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu com.superpowered.crossexample:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -12223,9 +11491,9 @@ public final class R {
      * @see #NavigationView_menu
      */
     public static final int[] NavigationView={
-      0x010100d4, 0x010100dd, 0x0101011f, 0x7f030084, 
-      0x7f0300a5, 0x7f0300b6, 0x7f0300b7, 0x7f0300b9, 
-      0x7f0300ba, 0x7f03010a
+      0x010100d4, 0x010100dd, 0x0101011f, 0x7f02007a, 
+      0x7f020094, 0x7f0200a3, 0x7f0200a4, 0x7f0200a6, 
+      0x7f0200a7, 0x7f0200f7
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -12266,7 +11534,7 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#elevation}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12275,11 +11543,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:elevation
+     * @attr name com.superpowered.crossexample:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12287,11 +11555,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:headerLayout
+     * @attr name com.superpowered.crossexample:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12299,22 +11567,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:itemBackground
+     * @attr name com.superpowered.crossexample:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:itemIconTint
+     * @attr name com.superpowered.crossexample:itemIconTint
      */
     public static final int NavigationView_itemIconTint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12322,22 +11590,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:itemTextAppearance
+     * @attr name com.superpowered.crossexample:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:itemTextColor
+     * @attr name com.superpowered.crossexample:itemTextColor
      */
     public static final int NavigationView_itemTextColor=8;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12345,7 +11613,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:menu
+     * @attr name com.superpowered.crossexample:menu
      */
     public static final int NavigationView_menu=9;
     /**
@@ -12357,14 +11625,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.superpowered.hoerklavierschule:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.superpowered.crossexample:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
      * @see #PopupWindow_overlapAnchor
      */
     public static final int[] PopupWindow={
-      0x01010176, 0x010102c9, 0x7f030110
+      0x01010176, 0x010102c9, 0x7f0200fc
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -12394,13 +11662,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:overlapAnchor
+     * @attr name com.superpowered.crossexample:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -12410,65 +11678,23 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.superpowered.hoerklavierschule:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.superpowered.crossexample:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-      0x7f030140
+      0x7f020129
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:state_above_anchor
+     * @attr name com.superpowered.crossexample:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
-    /**
-     * Attributes that can be used with a RecycleListView.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.superpowered.hoerklavierschule:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.superpowered.hoerklavierschule:paddingTopNoTitle}</code></td><td></td></tr>
-     * </table>
-     * @see #RecycleListView_paddingBottomNoButtons
-     * @see #RecycleListView_paddingTopNoTitle
-     */
-    public static final int[] RecycleListView={
-      0x7f030111, 0x7f030114
-    };
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#paddingBottomNoButtons}
-     * attribute's value can be found in the {@link #RecycleListView} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.superpowered.hoerklavierschule:paddingBottomNoButtons
-     */
-    public static final int RecycleListView_paddingBottomNoButtons=0;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#paddingTopNoTitle}
-     * attribute's value can be found in the {@link #RecycleListView} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.superpowered.hoerklavierschule:paddingTopNoTitle
-     */
-    public static final int RecycleListView_paddingTopNoTitle=1;
     /**
      * Attributes that can be used with a RecyclerView.
      * <p>Includes the following attributes:</p>
@@ -12478,32 +11704,21 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.superpowered.hoerklavierschule:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.superpowered.hoerklavierschule:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.superpowered.hoerklavierschule:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.superpowered.hoerklavierschule:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.superpowered.hoerklavierschule:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.superpowered.hoerklavierschule:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.superpowered.hoerklavierschule:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.superpowered.hoerklavierschule:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.superpowered.hoerklavierschule:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.superpowered.crossexample:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.superpowered.crossexample:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.superpowered.crossexample:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.superpowered.crossexample:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
-     * @see #RecyclerView_fastScrollEnabled
-     * @see #RecyclerView_fastScrollHorizontalThumbDrawable
-     * @see #RecyclerView_fastScrollHorizontalTrackDrawable
-     * @see #RecyclerView_fastScrollVerticalThumbDrawable
-     * @see #RecyclerView_fastScrollVerticalTrackDrawable
      * @see #RecyclerView_layoutManager
      * @see #RecyclerView_reverseLayout
      * @see #RecyclerView_spanCount
      * @see #RecyclerView_stackFromEnd
      */
     public static final int[] RecyclerView={
-      0x010100c4, 0x010100f1, 0x7f030093, 0x7f030094, 
-      0x7f030095, 0x7f030096, 0x7f030097, 0x7f0300bd, 
-      0x7f03012a, 0x7f030139, 0x7f03013f
+      0x010100c4, 0x010100f1, 0x7f0200aa, 0x7f020114, 
+      0x7f020122, 0x7f020128
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -12541,102 +11756,44 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fastScrollEnabled}
-     * attribute's value can be found in the {@link #RecyclerView} array.
-     *
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:fastScrollEnabled
-     */
-    public static final int RecyclerView_fastScrollEnabled=2;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fastScrollHorizontalThumbDrawable}
-     * attribute's value can be found in the {@link #RecyclerView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:fastScrollHorizontalThumbDrawable
-     */
-    public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fastScrollHorizontalTrackDrawable}
-     * attribute's value can be found in the {@link #RecyclerView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:fastScrollHorizontalTrackDrawable
-     */
-    public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fastScrollVerticalThumbDrawable}
-     * attribute's value can be found in the {@link #RecyclerView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:fastScrollVerticalThumbDrawable
-     */
-    public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fastScrollVerticalTrackDrawable}
-     * attribute's value can be found in the {@link #RecyclerView} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.superpowered.hoerklavierschule:fastScrollVerticalTrackDrawable
-     */
-    public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:layoutManager
+     * @attr name com.superpowered.crossexample:layoutManager
      */
-    public static final int RecyclerView_layoutManager=7;
+    public static final int RecyclerView_layoutManager=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:reverseLayout
+     * @attr name com.superpowered.crossexample:reverseLayout
      */
-    public static final int RecyclerView_reverseLayout=8;
+    public static final int RecyclerView_reverseLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:spanCount
+     * @attr name com.superpowered.crossexample:spanCount
      */
-    public static final int RecyclerView_spanCount=9;
+    public static final int RecyclerView_spanCount=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:stackFromEnd
+     * @attr name com.superpowered.crossexample:stackFromEnd
      */
-    public static final int RecyclerView_stackFromEnd=10;
+    public static final int RecyclerView_stackFromEnd=5;
     /**
      * Attributes that can be used with a ScrimInsetsFrameLayout.
      * <p>Includes the following attributes:</p>
@@ -12644,15 +11801,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.superpowered.hoerklavierschule:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.superpowered.crossexample:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
     public static final int[] ScrimInsetsFrameLayout={
-      0x7f0300b4
+      0x7f0200a1
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12663,7 +11820,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:insetForeground
+     * @attr name com.superpowered.crossexample:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -12673,15 +11830,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.superpowered.hoerklavierschule:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.superpowered.crossexample:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
     public static final int[] ScrollingViewBehavior_Layout={
-      0x7f03003b
+      0x7f020035
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12690,7 +11847,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:behavior_overlapTop
+     * @attr name com.superpowered.crossexample:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -12704,19 +11861,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.superpowered.hoerklavierschule:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.superpowered.hoerklavierschule:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.superpowered.hoerklavierschule:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.superpowered.hoerklavierschule:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.superpowered.hoerklavierschule:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.superpowered.hoerklavierschule:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.superpowered.hoerklavierschule:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.superpowered.hoerklavierschule:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.superpowered.hoerklavierschule:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.superpowered.hoerklavierschule:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.superpowered.hoerklavierschule:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.superpowered.hoerklavierschule:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.superpowered.hoerklavierschule:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.superpowered.crossexample:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.superpowered.crossexample:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.superpowered.crossexample:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.superpowered.crossexample:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.superpowered.crossexample:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.superpowered.crossexample:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.superpowered.crossexample:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.superpowered.crossexample:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.superpowered.crossexample:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.superpowered.crossexample:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.superpowered.crossexample:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.superpowered.crossexample:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.superpowered.crossexample:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -12738,10 +11895,10 @@ public final class R {
      */
     public static final int[] SearchView={
       0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
-      0x7f030051, 0x7f030062, 0x7f030075, 0x7f0300a4, 
-      0x7f0300b0, 0x7f0300bc, 0x7f030124, 0x7f030125, 
-      0x7f03012e, 0x7f03012f, 0x7f030146, 0x7f03014b, 
-      0x7f03018c
+      0x7f02004a, 0x7f02005a, 0x7f02006b, 0x7f020093, 
+      0x7f02009d, 0x7f0200a9, 0x7f02010e, 0x7f02010f, 
+      0x7f020118, 0x7f020119, 0x7f02012f, 0x7f020134, 
+      0x7f02016e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -12749,14 +11906,6 @@ public final class R {
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>auto</td><td>10</td><td></td></tr>
-     * </table>
      *
      * @attr name android:focusable
      */
@@ -12784,9 +11933,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>date</td><td>14</td><td></td></tr>
      * <tr><td>datetime</td><td>4</td><td></td></tr>
-     * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>number</td><td>2</td><td></td></tr>
      * <tr><td>numberDecimal</td><td>2002</td><td></td></tr>
      * <tr><td>numberPassword</td><td>12</td><td></td></tr>
@@ -12831,6 +11980,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
      * <tr><td>actionDone</td><td>6</td><td></td></tr>
      * <tr><td>actionGo</td><td>2</td><td></td></tr>
      * <tr><td>actionNext</td><td>5</td><td></td></tr>
@@ -12846,15 +11996,13 @@ public final class R {
      * <tr><td>flagNoEnterAction</td><td>40000000</td><td></td></tr>
      * <tr><td>flagNoExtractUi</td><td>10000000</td><td></td></tr>
      * <tr><td>flagNoFullscreen</td><td>2000000</td><td></td></tr>
-     * <tr><td>flagNoPersonalizedLearning</td><td>1000000</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
      * @attr name android:imeOptions
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12862,11 +12010,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:closeIcon
+     * @attr name com.superpowered.crossexample:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12874,21 +12022,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:commitIcon
+     * @attr name com.superpowered.crossexample:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:defaultQueryHint
+     * @attr name com.superpowered.crossexample:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12896,21 +12044,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:goIcon
+     * @attr name com.superpowered.crossexample:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:iconifiedByDefault
+     * @attr name com.superpowered.crossexample:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12918,11 +12066,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:layout
+     * @attr name com.superpowered.crossexample:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12930,21 +12078,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:queryBackground
+     * @attr name com.superpowered.crossexample:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:queryHint
+     * @attr name com.superpowered.crossexample:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12952,11 +12100,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:searchHintIcon
+     * @attr name com.superpowered.crossexample:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12964,11 +12112,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:searchIcon
+     * @attr name com.superpowered.crossexample:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12976,11 +12124,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:submitBackground
+     * @attr name com.superpowered.crossexample:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12988,11 +12136,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:suggestionRowLayout
+     * @attr name com.superpowered.crossexample:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13000,7 +12148,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:voiceIcon
+     * @attr name com.superpowered.crossexample:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -13011,15 +12159,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.superpowered.hoerklavierschule:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.superpowered.hoerklavierschule:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation com.superpowered.crossexample:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.superpowered.crossexample:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
      * @see #SnackbarLayout_maxActionInlineWidth
      */
     public static final int[] SnackbarLayout={
-      0x0101011f, 0x7f030084, 0x7f030107
+      0x0101011f, 0x7f02007a, 0x7f0200f4
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -13035,7 +12183,7 @@ public final class R {
      */
     public static final int SnackbarLayout_android_maxWidth=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#elevation}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13044,11 +12192,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:elevation
+     * @attr name com.superpowered.crossexample:elevation
      */
     public static final int SnackbarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#maxActionInlineWidth}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13057,7 +12205,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:maxActionInlineWidth
+     * @attr name com.superpowered.crossexample:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -13071,7 +12219,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.superpowered.hoerklavierschule:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.superpowered.crossexample:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -13081,7 +12229,7 @@ public final class R {
      */
     public static final int[] Spinner={
       0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-      0x7f03011e
+      0x7f020108
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -13137,16 +12285,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
      * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
-     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
      * @attr name android:dropDownWidth
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13154,7 +12302,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:popupTheme
+     * @attr name com.superpowered.crossexample:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -13167,17 +12315,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.superpowered.hoerklavierschule:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.superpowered.hoerklavierschule:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.superpowered.hoerklavierschule:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.superpowered.hoerklavierschule:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.superpowered.hoerklavierschule:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.superpowered.hoerklavierschule:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.superpowered.hoerklavierschule:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.superpowered.hoerklavierschule:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.superpowered.hoerklavierschule:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.superpowered.hoerklavierschule:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.superpowered.hoerklavierschule:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.superpowered.crossexample:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.superpowered.crossexample:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.superpowered.crossexample:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.superpowered.crossexample:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.superpowered.crossexample:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.superpowered.crossexample:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.superpowered.crossexample:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.superpowered.crossexample:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.superpowered.crossexample:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.superpowered.crossexample:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.superpowered.crossexample:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -13195,10 +12343,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-      0x01010124, 0x01010125, 0x01010142, 0x7f030136, 
-      0x7f03013d, 0x7f03014c, 0x7f03014d, 0x7f03014f, 
-      0x7f03016e, 0x7f03016f, 0x7f030170, 0x7f030187, 
-      0x7f030188, 0x7f030189
+      0x01010124, 0x01010125, 0x01010142, 0x7f020120, 
+      0x7f020126, 0x7f020135, 0x7f020136, 0x7f020138, 
+      0x7f020156, 0x7f020157, 0x7f020158, 0x7f02016a, 
+      0x7f02016b, 0x7f02016c
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOn}
@@ -13233,27 +12381,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:showText
+     * @attr name com.superpowered.crossexample:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:splitTrack
+     * @attr name com.superpowered.crossexample:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13262,11 +12410,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:switchMinWidth
+     * @attr name com.superpowered.crossexample:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13275,11 +12423,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:switchPadding
+     * @attr name com.superpowered.crossexample:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13287,11 +12435,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:switchTextAppearance
+     * @attr name com.superpowered.crossexample:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13300,22 +12448,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:thumbTextPadding
+     * @attr name com.superpowered.crossexample:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:thumbTint
+     * @attr name com.superpowered.crossexample:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13332,11 +12480,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:thumbTintMode
+     * @attr name com.superpowered.crossexample:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13344,22 +12492,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:track
+     * @attr name com.superpowered.crossexample:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:trackTint
+     * @attr name com.superpowered.crossexample:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13376,7 +12524,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:trackTintMode
+     * @attr name com.superpowered.crossexample:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -13438,22 +12586,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground com.superpowered.hoerklavierschule:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart com.superpowered.hoerklavierschule:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity com.superpowered.hoerklavierschule:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.superpowered.hoerklavierschule:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.superpowered.hoerklavierschule:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.superpowered.hoerklavierschule:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth com.superpowered.hoerklavierschule:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode com.superpowered.hoerklavierschule:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding com.superpowered.hoerklavierschule:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.superpowered.hoerklavierschule:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.superpowered.hoerklavierschule:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.superpowered.hoerklavierschule:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.superpowered.hoerklavierschule:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.superpowered.hoerklavierschule:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.superpowered.hoerklavierschule:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor com.superpowered.hoerklavierschule:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground com.superpowered.crossexample:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart com.superpowered.crossexample:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity com.superpowered.crossexample:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.superpowered.crossexample:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.superpowered.crossexample:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.superpowered.crossexample:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth com.superpowered.crossexample:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode com.superpowered.crossexample:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding com.superpowered.crossexample:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.superpowered.crossexample:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.superpowered.crossexample:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.superpowered.crossexample:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.superpowered.crossexample:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.superpowered.crossexample:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.superpowered.crossexample:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor com.superpowered.crossexample:tabTextColor}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -13473,13 +12621,13 @@ public final class R {
      * @see #TabLayout_tabTextColor
      */
     public static final int[] TabLayout={
-      0x7f030150, 0x7f030151, 0x7f030152, 0x7f030153, 
-      0x7f030154, 0x7f030155, 0x7f030156, 0x7f030157, 
-      0x7f030158, 0x7f030159, 0x7f03015a, 0x7f03015b, 
-      0x7f03015c, 0x7f03015d, 0x7f03015e, 0x7f03015f
+      0x7f020139, 0x7f02013a, 0x7f02013b, 0x7f02013c, 
+      0x7f02013d, 0x7f02013e, 0x7f02013f, 0x7f020140, 
+      0x7f020141, 0x7f020142, 0x7f020143, 0x7f020144, 
+      0x7f020145, 0x7f020146, 0x7f020147, 0x7f020148
     };
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13487,11 +12635,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:tabBackground
+     * @attr name com.superpowered.crossexample:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13500,11 +12648,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:tabContentStart
+     * @attr name com.superpowered.crossexample:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13517,22 +12665,22 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:tabGravity
+     * @attr name com.superpowered.crossexample:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:tabIndicatorColor
+     * @attr name com.superpowered.crossexample:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13541,11 +12689,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:tabIndicatorHeight
+     * @attr name com.superpowered.crossexample:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13554,11 +12702,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:tabMaxWidth
+     * @attr name com.superpowered.crossexample:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13567,11 +12715,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:tabMinWidth
+     * @attr name com.superpowered.crossexample:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13584,11 +12732,11 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:tabMode
+     * @attr name com.superpowered.crossexample:tabMode
      */
     public static final int TabLayout_tabMode=7;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13597,11 +12745,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:tabPadding
+     * @attr name com.superpowered.crossexample:tabPadding
      */
     public static final int TabLayout_tabPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13610,11 +12758,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:tabPaddingBottom
+     * @attr name com.superpowered.crossexample:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13623,11 +12771,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:tabPaddingEnd
+     * @attr name com.superpowered.crossexample:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=10;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13636,11 +12784,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:tabPaddingStart
+     * @attr name com.superpowered.crossexample:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=11;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13649,22 +12797,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:tabPaddingTop
+     * @attr name com.superpowered.crossexample:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=12;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:tabSelectedTextColor
+     * @attr name com.superpowered.crossexample:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13672,18 +12820,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:tabTextAppearance
+     * @attr name com.superpowered.crossexample:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:tabTextColor
+     * @attr name com.superpowered.crossexample:tabTextColor
      */
     public static final int TabLayout_tabTextColor=15;
     /**
@@ -13697,35 +12845,26 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_textColor android:textColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_android_textColorLink android:textColorLink}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowColor android:shadowColor}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowDx android:shadowDx}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.superpowered.hoerklavierschule:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.superpowered.hoerklavierschule:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.superpowered.crossexample:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
      * @see #TextAppearance_android_textStyle
      * @see #TextAppearance_android_textColor
-     * @see #TextAppearance_android_textColorHint
-     * @see #TextAppearance_android_textColorLink
      * @see #TextAppearance_android_shadowColor
      * @see #TextAppearance_android_shadowDx
      * @see #TextAppearance_android_shadowDy
      * @see #TextAppearance_android_shadowRadius
-     * @see #TextAppearance_android_fontFamily
-     * @see #TextAppearance_fontFamily
      * @see #TextAppearance_textAllCaps
      */
     public static final int[] TextAppearance={
       0x01010095, 0x01010096, 0x01010097, 0x01010098, 
-      0x0101009a, 0x0101009b, 0x01010161, 0x01010162, 
-      0x01010163, 0x01010164, 0x010103ac, 0x7f030099, 
-      0x7f030160
+      0x01010161, 0x01010162, 0x01010163, 0x01010164, 
+      0x7f020149
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -13769,9 +12908,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
      * <tr><td>bold</td><td>1</td><td></td></tr>
      * <tr><td>italic</td><td>2</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
      * @attr name android:textStyle
@@ -13793,36 +12932,6 @@ public final class R {
      */
     public static final int TextAppearance_android_textColor=3;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
-     * attribute's value can be found in the {@link #TextAppearance} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name android:textColorHint
-     */
-    public static final int TextAppearance_android_textColorHint=4;
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#textColorLink}
-     * attribute's value can be found in the {@link #TextAppearance} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name android:textColorLink
-     */
-    public static final int TextAppearance_android_textColorLink=5;
-    /**
      * <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
@@ -13832,7 +12941,7 @@ public final class R {
      *
      * @attr name android:shadowColor
      */
-    public static final int TextAppearance_android_shadowColor=6;
+    public static final int TextAppearance_android_shadowColor=4;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#shadowDx}
      * attribute's value can be found in the {@link #TextAppearance} array.
@@ -13841,7 +12950,7 @@ public final class R {
      *
      * @attr name android:shadowDx
      */
-    public static final int TextAppearance_android_shadowDx=7;
+    public static final int TextAppearance_android_shadowDx=5;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#shadowDy}
      * attribute's value can be found in the {@link #TextAppearance} array.
@@ -13850,7 +12959,7 @@ public final class R {
      *
      * @attr name android:shadowDy
      */
-    public static final int TextAppearance_android_shadowDy=8;
+    public static final int TextAppearance_android_shadowDy=6;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#shadowRadius}
      * attribute's value can be found in the {@link #TextAppearance} array.
@@ -13859,29 +12968,9 @@ public final class R {
      *
      * @attr name android:shadowRadius
      */
-    public static final int TextAppearance_android_shadowRadius=9;
+    public static final int TextAppearance_android_shadowRadius=7;
     /**
-     * <p>This symbol is the offset where the {@link android.R.attr#fontFamily}
-     * attribute's value can be found in the {@link #TextAppearance} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name android:fontFamily
-     */
-    public static final int TextAppearance_android_fontFamily=10;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#fontFamily}
-     * attribute's value can be found in the {@link #TextAppearance} array.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name com.superpowered.hoerklavierschule:fontFamily
-     */
-    public static final int TextAppearance_fontFamily=11;
-    /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13891,9 +12980,9 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:textAllCaps
+     * @attr name com.superpowered.crossexample:textAllCaps
      */
-    public static final int TextAppearance_textAllCaps=12;
+    public static final int TextAppearance_textAllCaps=8;
     /**
      * Attributes that can be used with a TextInputLayout.
      * <p>Includes the following attributes:</p>
@@ -13903,20 +12992,20 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.superpowered.hoerklavierschule:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.superpowered.hoerklavierschule:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.superpowered.hoerklavierschule:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.superpowered.hoerklavierschule:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.superpowered.hoerklavierschule:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.superpowered.hoerklavierschule:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.superpowered.hoerklavierschule:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.superpowered.hoerklavierschule:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.superpowered.hoerklavierschule:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.superpowered.hoerklavierschule:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.superpowered.hoerklavierschule:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.superpowered.hoerklavierschule:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.superpowered.hoerklavierschule:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.superpowered.hoerklavierschule:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.superpowered.crossexample:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.superpowered.crossexample:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.superpowered.crossexample:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.superpowered.crossexample:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.superpowered.crossexample:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.superpowered.crossexample:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.superpowered.crossexample:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.superpowered.crossexample:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.superpowered.crossexample:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.superpowered.crossexample:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.superpowered.crossexample:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.superpowered.crossexample:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.superpowered.crossexample:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.superpowered.crossexample:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -13936,10 +13025,10 @@ public final class R {
      * @see #TextInputLayout_passwordToggleTintMode
      */
     public static final int[] TextInputLayout={
-      0x0101009a, 0x01010150, 0x7f030070, 0x7f030071, 
-      0x7f030072, 0x7f030073, 0x7f030086, 0x7f030087, 
-      0x7f0300a8, 0x7f0300a9, 0x7f0300aa, 0x7f030118, 
-      0x7f030119, 0x7f03011a, 0x7f03011b, 0x7f03011c
+      0x0101009a, 0x01010150, 0x7f020066, 0x7f020067, 
+      0x7f020068, 0x7f020069, 0x7f02007c, 0x7f02007d, 
+      0x7f020097, 0x7f020098, 0x7f020099, 0x7f020102, 
+      0x7f020103, 0x7f020104, 0x7f020105, 0x7f020106
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
@@ -13967,26 +13056,26 @@ public final class R {
      */
     public static final int TextInputLayout_android_hint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:counterEnabled
+     * @attr name com.superpowered.crossexample:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:counterMaxLength
+     * @attr name com.superpowered.crossexample:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13994,11 +13083,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:counterOverflowTextAppearance
+     * @attr name com.superpowered.crossexample:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14006,21 +13095,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:counterTextAppearance
+     * @attr name com.superpowered.crossexample:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:errorEnabled
+     * @attr name com.superpowered.crossexample:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14028,31 +13117,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:errorTextAppearance
+     * @attr name com.superpowered.crossexample:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:hintAnimationEnabled
+     * @attr name com.superpowered.crossexample:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=8;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:hintEnabled
+     * @attr name com.superpowered.crossexample:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=9;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14060,21 +13149,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:hintTextAppearance
+     * @attr name com.superpowered.crossexample:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=10;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:passwordToggleContentDescription
+     * @attr name com.superpowered.crossexample:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=11;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14082,32 +13171,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:passwordToggleDrawable
+     * @attr name com.superpowered.crossexample:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=12;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:passwordToggleEnabled
+     * @attr name com.superpowered.crossexample:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=13;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:passwordToggleTint
+     * @attr name com.superpowered.crossexample:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=14;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14123,7 +13212,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:passwordToggleTintMode
+     * @attr name com.superpowered.crossexample:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=15;
     /**
@@ -14135,33 +13224,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.superpowered.hoerklavierschule:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.superpowered.hoerklavierschule:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.superpowered.hoerklavierschule:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.superpowered.hoerklavierschule:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.superpowered.hoerklavierschule:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.superpowered.hoerklavierschule:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.superpowered.hoerklavierschule:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.superpowered.hoerklavierschule:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.superpowered.hoerklavierschule:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.superpowered.hoerklavierschule:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.superpowered.hoerklavierschule:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.superpowered.hoerklavierschule:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.superpowered.hoerklavierschule:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.superpowered.hoerklavierschule:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.superpowered.hoerklavierschule:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.superpowered.hoerklavierschule:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.superpowered.hoerklavierschule:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.superpowered.hoerklavierschule:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.superpowered.hoerklavierschule:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.superpowered.hoerklavierschule:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.superpowered.hoerklavierschule:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.superpowered.hoerklavierschule:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.superpowered.hoerklavierschule:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.superpowered.hoerklavierschule:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.superpowered.hoerklavierschule:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.superpowered.hoerklavierschule:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.superpowered.hoerklavierschule:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.superpowered.crossexample:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.superpowered.crossexample:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.superpowered.crossexample:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.superpowered.crossexample:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.superpowered.crossexample:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.superpowered.crossexample:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.superpowered.crossexample:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.superpowered.crossexample:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.superpowered.crossexample:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.superpowered.crossexample:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.superpowered.crossexample:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.superpowered.crossexample:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.superpowered.crossexample:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.superpowered.crossexample:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.superpowered.crossexample:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.superpowered.crossexample:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.superpowered.crossexample:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.superpowered.crossexample:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.superpowered.crossexample:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.superpowered.crossexample:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.superpowered.crossexample:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.superpowered.crossexample:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.superpowered.crossexample:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.superpowered.crossexample:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.superpowered.crossexample:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.superpowered.crossexample:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.superpowered.crossexample:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -14194,14 +13283,14 @@ public final class R {
      * @see #Toolbar_titleTextColor
      */
     public static final int[] Toolbar={
-      0x010100af, 0x01010140, 0x7f030047, 0x7f030053, 
-      0x7f030054, 0x7f030067, 0x7f030068, 0x7f030069, 
-      0x7f03006a, 0x7f03006b, 0x7f03006c, 0x7f030105, 
-      0x7f030106, 0x7f030108, 0x7f03010c, 0x7f03010d, 
-      0x7f03011e, 0x7f030147, 0x7f030148, 0x7f030149, 
-      0x7f030176, 0x7f030178, 0x7f030179, 0x7f03017a, 
-      0x7f03017b, 0x7f03017c, 0x7f03017d, 0x7f03017e, 
-      0x7f03017f
+      0x010100af, 0x01010140, 0x7f020041, 0x7f02004c, 
+      0x7f02004d, 0x7f02005e, 0x7f02005f, 0x7f020060, 
+      0x7f020061, 0x7f020062, 0x7f020063, 0x7f0200f2, 
+      0x7f0200f3, 0x7f0200f5, 0x7f0200f9, 0x7f0200fa, 
+      0x7f020108, 0x7f020130, 0x7f020131, 0x7f020132, 
+      0x7f02015c, 0x7f02015e, 0x7f02015f, 0x7f020160, 
+      0x7f020161, 0x7f020162, 0x7f020163, 0x7f020164, 
+      0x7f020165
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -14213,19 +13302,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>bottom</td><td>50</td><td></td></tr>
      * <tr><td>center</td><td>11</td><td></td></tr>
      * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
      * <tr><td>center_vertical</td><td>10</td><td></td></tr>
      * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
      * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
      * <tr><td>fill</td><td>77</td><td></td></tr>
      * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
      * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
      * <tr><td>left</td><td>3</td><td></td></tr>
      * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
@@ -14246,7 +13335,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -14259,21 +13348,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:buttonGravity
+     * @attr name com.superpowered.crossexample:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:collapseContentDescription
+     * @attr name com.superpowered.crossexample:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14281,11 +13370,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:collapseIcon
+     * @attr name com.superpowered.crossexample:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14294,11 +13383,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:contentInsetEnd
+     * @attr name com.superpowered.crossexample:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14307,11 +13396,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:contentInsetEndWithActions
+     * @attr name com.superpowered.crossexample:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14320,11 +13409,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:contentInsetLeft
+     * @attr name com.superpowered.crossexample:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14333,11 +13422,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:contentInsetRight
+     * @attr name com.superpowered.crossexample:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14346,11 +13435,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:contentInsetStart
+     * @attr name com.superpowered.crossexample:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14359,11 +13448,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:contentInsetStartWithNavigation
+     * @attr name com.superpowered.crossexample:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14371,21 +13460,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:logo
+     * @attr name com.superpowered.crossexample:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:logoDescription
+     * @attr name com.superpowered.crossexample:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14394,21 +13483,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:maxButtonHeight
+     * @attr name com.superpowered.crossexample:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:navigationContentDescription
+     * @attr name com.superpowered.crossexample:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14416,11 +13505,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:navigationIcon
+     * @attr name com.superpowered.crossexample:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14428,21 +13517,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:popupTheme
+     * @attr name com.superpowered.crossexample:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:subtitle
+     * @attr name com.superpowered.crossexample:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14450,32 +13539,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:subtitleTextAppearance
+     * @attr name com.superpowered.crossexample:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:subtitleTextColor
+     * @attr name com.superpowered.crossexample:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.superpowered.hoerklavierschule:title
+     * @attr name com.superpowered.crossexample:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14484,11 +13573,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:titleMargin
+     * @attr name com.superpowered.crossexample:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14497,11 +13586,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:titleMarginBottom
+     * @attr name com.superpowered.crossexample:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14510,11 +13599,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:titleMarginEnd
+     * @attr name com.superpowered.crossexample:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14523,11 +13612,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:titleMarginStart
+     * @attr name com.superpowered.crossexample:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14536,11 +13625,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:titleMarginTop
+     * @attr name com.superpowered.crossexample:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14549,11 +13638,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:titleMargins
+     * @attr name com.superpowered.crossexample:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14561,18 +13650,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:titleTextAppearance
+     * @attr name com.superpowered.crossexample:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:titleTextColor
+     * @attr name com.superpowered.crossexample:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -14584,9 +13673,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.superpowered.hoerklavierschule:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.superpowered.hoerklavierschule:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.superpowered.hoerklavierschule:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.superpowered.crossexample:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.superpowered.crossexample:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.superpowered.crossexample:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -14595,8 +13684,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-      0x01010000, 0x010100da, 0x7f030112, 0x7f030113, 
-      0x7f03016c
+      0x01010000, 0x010100da, 0x7f0200fd, 0x7f0200fe, 
+      0x7f020154
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#theme}
@@ -14616,20 +13705,12 @@ public final class R {
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>auto</td><td>10</td><td></td></tr>
-     * </table>
      *
      * @attr name android:focusable
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14638,11 +13719,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:paddingEnd
+     * @attr name com.superpowered.crossexample:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14651,11 +13732,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.superpowered.hoerklavierschule:paddingStart
+     * @attr name com.superpowered.crossexample:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14663,7 +13744,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:theme
+     * @attr name com.superpowered.crossexample:theme
      */
     public static final int View_theme=4;
     /**
@@ -14674,15 +13755,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.superpowered.hoerklavierschule:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.superpowered.hoerklavierschule:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.superpowered.crossexample:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.superpowered.crossexample:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
      * @see #ViewBackgroundHelper_backgroundTintMode
      */
     public static final int[] ViewBackgroundHelper={
-      0x010100d4, 0x7f030034, 0x7f030035
+      0x010100d4, 0x7f02002e, 0x7f02002f
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -14700,18 +13781,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.superpowered.hoerklavierschule:backgroundTint
+     * @attr name com.superpowered.crossexample:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.superpowered.hoerklavierschule.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.superpowered.crossexample.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14720,7 +13801,6 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td></td></tr>
      * <tr><td>multiply</td><td>e</td><td></td></tr>
      * <tr><td>screen</td><td>f</td><td></td></tr>
      * <tr><td>src_atop</td><td>9</td><td></td></tr>
@@ -14728,7 +13808,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.superpowered.hoerklavierschule:backgroundTintMode
+     * @attr name com.superpowered.crossexample:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

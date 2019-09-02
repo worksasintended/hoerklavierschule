@@ -5,7 +5,7 @@ package com.superpowered.hoerklavierschule;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
-  public static final String APPLICATION_ID = "com.superpowered.hoerklavierschule";
+  public static final String APPLICATION_ID = "com.superpowered.crossexample";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "";
   public static final int VERSION_CODE = 1;
